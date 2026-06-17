@@ -19,7 +19,8 @@ function applySettings() {
   document.body.dataset.font = s.font;
   document.documentElement.style.setProperty("--font-size", `${s.fontSize}rem`);
   document.documentElement.style.setProperty("--line-height", s.lineHeight);
-  $("theme-color")?.setAttribute("content", s.theme === "dark" ? "#14151a" : "#faf8f4");
+  const tc = { light: "#f7f8f9", sepia: "#f3e9d6", dark: "#14151a" }[s.theme] || "#f7f8f9";
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", tc);
   // reflect active state in the popover segments
   document.querySelectorAll("#theme-seg button").forEach((b) =>
     b.classList.toggle("active", b.dataset.themeSet === s.theme));

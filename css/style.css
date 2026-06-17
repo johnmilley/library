@@ -17,9 +17,9 @@
 }
 
 :root[data-theme="light"] {
-  --bg: #faf8f4;  --bg-elev: #ffffff;  --bg-sunk: #f0ece4;
-  --text: #1d1b16; --text-dim: #6b6459; --border: #e3ddd1;
-  --accent: #8a5a2b; --shadow: rgba(40,30,15,.14);
+  --bg: #f7f8f9;  --bg-elev: #ffffff;  --bg-sunk: #edeff1;
+  --text: #1a1c1f; --text-dim: #646b73; --border: #e3e6e9;
+  --accent: #8a5a2b; --shadow: rgba(20,24,30,.12);
 }
 :root[data-theme="sepia"] {
   --bg: #f3e9d6;  --bg-elev: #f8f0e1;  --bg-sunk: #ebdcc2;
