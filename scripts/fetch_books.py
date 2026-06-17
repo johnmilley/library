@@ -47,7 +47,9 @@ def fetch_url(url: str) -> str | None:
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             return resp.read().decode("utf-8", errors="replace")
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError):
+    except Exception:
+        # network is flaky over a long run (timeouts, resets, dropped
+        # connections); treat any failure as "try the next URL / book".
         return None
 
 
@@ -119,21 +121,33 @@ def main() -> int:
     selected = [b for b in books if (not ids or b["id"] in ids)]
     print(f"Fetching {len(selected)} book(s) into {BOOKS_DIR}\n")
 
+    def save():
+        CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
+                           encoding="utf-8")
+
     changed = 0
-    for b in selected:
-        already = (BOOKS_DIR / b["file"]).exists() and b.get("downloaded")
-        if already and not force:
-            print(f"  = {b['id']}: already present, skipping")
+    for n, b in enumerate(selected, 1):
+        p = BOOKS_DIR / b["file"]
+        # Resume: a file already on disk counts as fetched even if the catalog
+        # flag wasn't written (e.g. a previous run crashed mid-way).
+        if p.exists() and p.stat().st_size > 1000 and not force:
+            if not b.get("downloaded"):
+                b["downloaded"] = True
+                b["words"] = len(p.read_text(encoding="utf-8", errors="replace").split())
+                changed += 1
+            else:
+                print(f"  = {b['id']}: already present, skipping")
             continue
         ok, words = fetch_book(b)
         b["downloaded"] = ok
         if ok:
             b["words"] = words
             changed += 1
+        if n % 25 == 0:
+            save()  # checkpoint so a crash never loses progress
         time.sleep(0.6)  # be polite to Gutenberg
 
-    CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
-                       encoding="utf-8")
+    save()
     print(f"\nDone. {changed} book(s) fetched. Catalog updated.")
     return 0
 

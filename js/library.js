@@ -20,7 +20,7 @@ function pct(book) {
   return p && p.percent ? Math.round(p.percent) : 0;
 }
 
-function cardHtml(book) {
+function cardHtml(book, { dismiss = false } = {}) {
   const off = !book.downloaded;
   const done = pct(book);
   const meta = [book.year, book.translator && `tr. ${book.translator}`].filter(Boolean).join(" · ");
@@ -29,8 +29,11 @@ function cardHtml(book) {
   const status = off
     ? `<span class="tag tag--off">not downloaded</span>`
     : (done ? `<span class="card__meta">${done}% read</span>` : "");
+  const del = dismiss
+    ? `<span class="card__del" data-clear="${book.id}" title="Remove from this shelf" aria-label="Remove from currently reading">✕</span>` : "";
   return `
     <button class="card ${off ? "card--off" : ""}" data-id="${book.id}" ${off ? "disabled" : ""}>
+      ${del}
       <span class="card__title">${book.title}</span>
       <span class="card__author">${book.author}</span>
       <span class="card__meta">${meta}</span>
@@ -79,7 +82,7 @@ export function renderLibrary(root, query = "") {
   const contWrap = document.getElementById("continue-wrap");
   const contList = document.getElementById("continue-list");
   if (reading.length && !q) {
-    contList.innerHTML = reading.slice(0, 4).map(cardHtml).join("");
+    contList.innerHTML = reading.slice(0, 6).map((b) => cardHtml(b, { dismiss: true })).join("");
     contWrap.hidden = false;
   } else {
     contWrap.hidden = true;

@@ -1,0 +1,554 @@
+THE ART
+                                   OF
+                                SCANSION
+
+                                   BY
+                       Elizabeth Barrett Browning
+
+                          WITH AN INTRODUCTION
+                                   BY
+                             ALICE MEYNELL
+
+                                 LONDON
+
+          Privately printed by Clement Shorter, December 1916
+
+                                PREFACE
+
+My friend Mrs. Meynell has obliged me with a few words of introduction
+to this letter by Elizabeth Barrett Browning, here printed for the first
+time in an edition of twenty-five copies. It was written when she was
+twenty-one years of age, and residing at her father’s house near Ledbury
+in Herefordshire. She did not meet Robert Browning until nineteen years
+later, but her girlish enthusiasm for poetry is reflected in this
+letter. Her correspondent, Sir Uvedale Price (1747–1829), did not live
+to see her recognition as a great poet, although her _Essay on Mind_ was
+published when she was nineteen and her _Battle of Marathon_, published
+in our day, was written at the age of fourteen. Price was a
+Herefordshire neighbour. He was a schoolfellow of Charles James Fox at
+Eton. He had great ideas on gardening, and developed them in his own
+grounds at Foxley and wrote an _Essay on the Picturesque_ in 1784,
+enlarged afterwards into a three-volume work. Sir Walter Scott utilised
+Price’s ideas when he laid out the gardens at Abbotsford. Price was
+created a baronet in 1828. Letters from him are to be found in Miss
+Berry’s _Journals_. Miss Barrett’s letter was doubtless inspired by
+Uvedale Price’s _An Essay on the Modern Pronunciation of Greek and
+Latin_, which he had had privately printed at Oxford in the year 1827. I
+have not seen the book, a copy of which he doubtless gave to his fair
+neighbour. Its perusal served, I am sure, to explain certain obscure
+allusions in the letter. It urged that “our system of pronouncing the
+ancient languages is at variance with the principles and established
+rules of ancient prosody and the practice of the best poets.”
+
+                                                        CLEMENT SHORTER.
+
+                              INTRODUCTION
+
+It is interesting to see Elizabeth Barrett eager over the dead
+languages. In her own living language she was modern in her day, more
+modern than any contemporary except the poet whom, nearly twenty years
+after this letter was written and the controversy closed, she married.
+It was modern to write poetry as she wrote, with an emphatic use of
+modern prose words; unlike Wordsworth’s, not at all childlike as were
+his. Robert Browning and Elizabeth have a peculiar tone of defiance in
+their nineteenth-century English; in the most gentle Elizabeth’s verse
+it is nearly swaggering, certainly swashing and martial. Nothing could
+be more sharply cut off from the eighteenth century, and the
+seventeenth, and the sixteenth than the vocabulary of _Aurora Leigh_,
+and, English apart, nothing could be more separated from Antiquity than
+the style that was most characteristically hers. In her quieter moments,
+when she is not marching, in doublet and hose, the march of her blank
+verse, but pacing softly in the strictest measure of the bonds that all
+true poets so love—the bonds of numbers, stress, quantity, rhyme, and
+final shape—the great beauty of her sonnets proves her delight in that
+order, and in these the diction is inconspicuous. It is in the romantic
+poems, those that deal with the lady and the knight, that the modernism
+is again evident. Where, in her language, is any trace of her reading of
+the older English? Where in her style is any sign of her Latin and
+Greek? In her most characteristic work she does not sow with her hand;
+she tosses out the basketful, with a gesture generous but wilful. In one
+respect—the point on which there was no question of deference to
+Antiquity—she shows none to her English masters. Thence her rhymes:
+“children” and “bewildering,” “islands” and “silence,” and the rest. She
+had the right to make these experiments, and it is as evident a sign of
+her resolute novelty as her husband’s different and less tolerable
+rhymes were of his. But we may take such rhymes not only as
+demonstrations of a new independence; they may have been in part due to
+her peculiar position as the most secluded of poets. Elizabeth Barrett
+saw and spoke to very few. She cannot have gathered much of the
+pronunciation of English that was then usual. The friend to whom as a
+girl she wrote this and other letters on the art of metre was so old as
+to be numbered among eighteenth-century authors; he was not of her time.
+If she had the habit of dropping her final g’s, for instance, there
+might be none to correct it. It is noticeable that she writes of the
+word “patriotism” as generally pronounced in five syllables. The
+accepted way is to sound it as only three—crowded ones, it is true, but
+only three, and any other way would seem to us provincial. Especially
+would an educated ear resent the pronouncing of the last three letters
+in “patriotism” in two syllables.
+
+Elizabeth Barrett’s comments on a few of Milton’s lines leave her reader
+at liberty to accept them or depart from them. No authority except that
+of Milton’s shade will ever decide a question as to one of his lines
+(page 10): whether we should begin it with two rather strained iambic
+feet (which would be my scansion) or with a strained long syllable
+followed by a dactyl (which is hers). It is remarkable, by the way, that
+she never uses the word “stress” in writing of English prosody. It seems
+to me to be the only safe word; “accent” being alien and ambiguous, and
+“quantity” a valuable but nearly lawless part of our metre—present in
+every poet’s intention in his line, but perhaps best unnamed.
+
+“Her glories shall never fade,” wrote Browning of his wedded poet (in
+regard, by the way, to a poem in which she rhymed “common” with
+“human”), and they never shall. She is within English literature for
+ever and ever. Coventry Patmore held poetry to be the gravest among the
+undertakings of man, and Elizabeth Barrett Browning—child, maid, and
+wife—took her vocation with gravity, passion, and delight. In this
+controversy on “accents” ancient and modern, she withstands her old
+friend, literally foot to foot. She might even, but that she was humbly
+obstinate and courteous and sweet, have lost her temper over a matter so
+exciting. And what is so exciting to poets as these questions of their
+technique? If I had ever had a fierce passage of arms with Francis
+Thompson (but I never had) it would have been on the question of
+trochaic endings, and whether one might pause on them before carrying on
+the weak syllable to the next line. The girl who so passionately cared
+for her Greek was, in time, the great woman who wrote memorable English
+passionately. The slightness of the connexion between two such beloved
+studies seems an incident in her life not easily understood; but she was
+for poetry first and last.
+
+                                                          ALICE MEYNELL.
+
+                          THE ART OF SCANSION
+ A Letter from ELIZABETH BARRETT, afterwards MRS. BROWNING, to UVEDALE
+               PRICE, afterwards SIR UVEDALE PRICE, Bart.
+
+                         To UVEDALE PRICE, Esq.
+
+                                                  Hope End. April, 1827.
+
+My dear Sir,—I shall not detain you for any unnecessary prologuizing
+purpose, but with your permission shall go en avant at once, and “tell
+you what I am going to say.” Pray have a great deal of indulgence ready
+for me, for I assure you I shall want all you can spare. Page 32. “There
+is a manifest absurdity in transferring the Latin mode of accentuation
+to the Greek, yet we certainly should not like to follow the Greek
+mode.” Here you give the general taste a great deal more credit than it
+deserves, and more than you would give if you were acquainted with a
+material circumstance which I certainly imagined I had mentioned to you,
+but which either you must have overlooked in one of my letters, or I
+omitted in the great hurry with which I wrote one of them. This is that
+they do at the Charterhouse precisely what you say we should not like to
+do: they read Greek by the Greek accents, and then dismiss their prisca
+fides for the sake of embracing a new kind of idolatry, which has not
+even the advantage of being sanctified (may I profane that word?) by old
+prejudices. In short they have left Belze_bub_ and taken to Beelze_bul_,
+and therefore I hope you will grant them, _par parenthèse_, the special
+licence of liking to do anything that we certainly should not like to
+do; and of being, at least in this instance, “uniformly and consistently
+absurd.”
+
+Page 34. There is a difference in the character of the anapæstic and
+dactylic rapidity, and one that has been very happily marked by
+Marmontel in a very few words, “le dactyl s’elance, et l’anapeste se
+précipite.” This, I am persuaded, is not, what it may perhaps appear at
+first sight, a fanciful distinction. I am very sure it is not and cannot
+help pausing here to say how much I have been struck with the whole of
+this forcible illustration of Marmontel’s position. Milton who often
+likes to fill English verse from the iambic and trochaic dynasties,—you
+_must_ let me think so still,—seems to have been quite aware of the
+distinction on which the position is founded: and has made admirable use
+of it in a line expressive of the lost Angels’ ‘ruining’ from Heaven—
+
+                                            Eternal wrath
+              Burnt āftĕr thĕm | tŏ thĕ bōttŏmlĕss pīt.
+
+where by the grand situation of the first long monosyllable we have
+revealed to us, first the Avenger with fixed foot on the battlement of
+Heaven,—and then the dactylic out-darting of the scorching
+thunderbolt—and then the headlong and precipitate descent of the
+condemned.
+
+The intermediate monosyllable which, as you observe, is necessary in an
+hexametral union of the two rhythms has been omitted by Milton, and
+perhaps with a view to the expression. For the pause by which we
+compensate the metre, adds, as I conceive, very singularly to the effect
+of this sublime line; by giving something unusual to the cadence that
+arrests the attention with the voice; as if one fear made us take breath
+a moment before we could turn from the contemplation of _power_ to its
+terrible effect. Reasoning as Paley’s savage did about the watch, it
+becomes clear to me that the remarkable construction of this line is not
+accidental, and what makes me still more satisfied that Milton really
+intended to express the distinction in question is the circumstance that
+during the whole of his description he has had so evidently in his head
+the sublime combat of the immortals in the _Theogony_, where Hesiod has
+made use of the very same cadence,—tho’ of course with an intermediate
+syllable,—to express the precipitation of the conquered.
+
+                        Ουρανοθεν κατιων δεκατη
+
+It is clear then to my mind that Milton considered his “_tŏ thĕ
+bōttŏmlĕss pīt_” as equivalent to Hesiod’s κατιων δεκατη; and that
+consequently he would have agreed with you in your pronunciation of the
+Greek, and have accepted your position. “Accent, in its modern sense,
+gives length—both the first syllable of _bot´tomless_ and the concluding
+word _pit´_ being accented,—and _long_, according to Hesiod’s
+analogy,—if that be admitted, tho’ _short_ according to the new heresy.
+Do not be ungrateful to Milton, and try to resolve his verse into iambi
+and trochees: which you will here find a much too difficult matter to
+accomplish. This is one instance out of the thousand he offers us:
+
+                    Of English cut on Greek and Latin.
+                  I know you will add, and justly;
+                    Like fustian heretofore on satin.
+
+“Page 36. In the second book of the Æneid, there is an instance of a
+mixture of the two rhythms, but where the _expression is chiefly in the
+anapæstic_.” I dare to contend upon your own principle founded on
+Marmontel’s distinction that in your simile quoted from Virgil, the
+expression neither lies _chiefly_ in the anapæstic cadence, or _chiefly_
+in the dactylic but _equally_ in both. I appeal to Philip against
+Philip,—and beg you to consider whether the dactylic impetus at the
+beginning of the line Fertur in arva furens cumulo does not bring to the
+mind the first out-bursting of the spumeus amnis, where it leaps forward
+from the stronghold of its banks,—as much as the anapæstic fall does its
+rushing descent upon the plains. You, who are so just and rigid in your
+‘division of property’ should really adjudge this case equitably.
+
+Page 37. “We have not many choriambi in English and of them none I
+believe are of Greek or Latin or perhaps of Saxon origin.” I like so
+much all you say about the choriambi, that I am the more sorry you
+should shut the door of English poetry in their face.
+
+                               If they were lame
+               Ugly and slanderous to our mother tongue
+               I would not care, I then might be content
+
+but it really seems to me a little hard that we should be denied their
+acquaintance the minute after you have proved it to be most desirable. I
+shall try to maintain that, neither we or the choriambi having a
+disinclination to each other’s company, you are very uncharitable to
+make such mischief between us; and I shall therefore put down one or two
+respectably sounding words derived from the Greek and Latin,—tho’ not
+from Greek and Latin choriambi,—as candidates for that rank in English.
+You will, I think, admit chārăctĕrīze—tēmpĕrămēnt—tēmpĕrăture,—if you
+can by any means get over their disallegiance to ancient quantity. You
+may, perhaps admit pātrĭŏtīsm: but I bring this example forward with no
+kind of triumph: for, in common discourse, we pronounce it much as five
+syllables; and find it rough and unmanageable on reducing it to _four_;
+which however, I believe, is undeviatingly done in poetry. The most
+inharmonious line Campbell ever wrote has no reason to be obliged to it—
+
+                   If the pātrĭŏtīsm ŏf yŏur fathers.
+
+You may not, _a fortiori_, refuse to admit rīghtĕousnēss—of Saxon
+extraction,—
+
+               “Just confidence and native rīghtĕoŭsnēss”
+
+and its connections _par la suite_;
+hīdĕoŭsnēss—glōrĭoŭsnēss—hōrrĭblĕnēss, &c.
+
+I think līnĕămēnt tho’ pleading guilty to the imperfections you find out
+in chārĭŏtēer, has no weak claim—
+
+                       “Six wings he wore to shade
+                     His līnĕămēnts divine.”
+
+And vīrtŭŏsēst,—rather a rusty word,—receives testimonials from Milton
+for itself and kindred—
+
+              Seems wisest, vīrtŭŏsēst, discreetest, best.
+
+It seems to me that you can only make one objection to my next
+candidate—
+
+               Oh ālĭĕnāte from God! oh spirit accursed—
+
+And that another is almost unexceptionable
+
+               Plēnĭpŏtēnt  on earth of matchless might,
+
+I feel so sure about this last word plēnĭpŏtēnt that I should not
+scruple to treat him as Atlas and make him bear the whole burden of my
+defence—without going on,—which I might do,—to such compound
+tetrasyllables as ōvĕrfătīgue—ōvĕr-dĕlīght—cōnquerŏr-like _sex_.
+Nēvĕrthĕlēss before dismissing the subject, it is quite proper for me to
+be candid, and confess that I am aware of the imperfection of most of
+our choriambi, and that, generally speaking, the foot is considerably
+_mutatus ab illo_ in the process of its naturalization into our
+language. But you do recognise our dactyls; for which they owe you no
+obligation; for you must do so on your principle, and the recognition is
+unattended with any complimentary or obliging expression on your
+part,—rather with Boileau’s pathetic remonstrance.
+
+                      Que vous ont fait nos oreilles
+                    Pour les traites si durement?
+
+Therefore I submit to you whether our choriambi do not deserve a similar
+recognition, tho’ possibly a similar remonstrance.
+
+Page 46. “If my mode of accenting Pope’s verse be thought the right one,
+it seems clear that a trochee at the beginning of an English verse, if
+followed by another trochee, tho’ it may give vigour, does not also
+produce grace.” I have so little intention of decrying the choriambus,
+in marking down the above passage, that I have merely been induced to do
+so by sympathizing very strongly with your delighted feelings respecting
+it,—and by a consequent regret that you should depreciate its propriety
+in the _second place_,—which you seem to do, with some reservation.
+There can I should think be no doubt as to the propriety of your
+reading, in Pope’s line,—
+
+            Jumping hīgh ŏ’er thĕ shrūbs ŏf thĕ rōugh grōund
+
+and there can be no doubt that, according to your reading, the line has
+much more vigour than grace. The ungracefulness, however, seems to me
+produced, not so much by the choriambus, as by that very rough
+termination of the whole—a spondee preceded by a pyrrhic; so that,
+according to my idea, ce n’est que le _dernier_ pas qui coute,—unless
+indeed we take into consideration the cacophonous assembage of harsh
+consonants and vowels which are “rather seen than heard.” As the line
+stands, however, it is extremely expressive, but perhaps hardly a fair
+specimen of the introduction of a choriambus into the second place.
+There is a considerable degree less roughness and more impetuous energy
+in the following example
+
+                Shoots ĭnvīsĭble vīrtue ē’en tŏ thĕ dēep
+
+where the _dernier pas_ is composed of another choriambus. I hope you do
+not disapprove of choriambi introduced into the internal part of the
+line, but as you only mention, approvingly, the incipient and final
+choriambus I am half afraid that you do.
+
+I shall not be satisfied if you profess to tolerate them sometimes “for
+the sake of expression,” a principle on which we admire many
+deformities, and among them those multiplied elisions that make Virgil’s
+line a “monstrum nonendum informe” in itself: The plea of _expression_
+in versification is something like the plea of _expediency_ in morals;
+and the internal choriambi do not seem to me reduced to such a last
+resource. When a dactyl, or amphibrach, begins the verse, the choriambus
+appears to follow it in a singularly pleasing manner, giving to the
+cadence of the line a swelling graceful movement which is quite
+delightful to my ear: as in Lord Byron’s
+
+         Thou wert a bēautĭfŭl thōught, and softly bodied forth
+
+or Shakespeare’s
+
+                  As zephyr blōwĭng bĕlōw the violet—
+
+which you can hardly find fault with; for you say (page 65) in your
+observations on a_mi_citi_am_ that “its cadence (that of a choriambus
+with a preceding short syllable) is of a very pleasing kind.” Also
+before the last iambus, as Chamberlayn has it,
+
+         His yielding spirits now prepare to meet
+         Death, clothed in thoughts whīte ăs hĭs wīnding sheet.
+
+I think with regard to these examples that they are both harmonious and
+expressive; tho’ in all of them we feel the “_fall_” which you
+mention,—in the case of the choriambus following the commencing
+trochee,—rather in a tone of regret as far as relates to the general
+harmony. To go to another part of the subject, I observe that you only
+notice two feet which follow the trochee commencing an English verse:
+viz. the iambus _usually_, and the trochee _casually_: whereas it is
+sometimes followed by a pyrrhic as in Milton’s—
+
+             “Mȳrĭăds, bĕtwēen two brazen mountains lodged”
+
+              “Embry̆ŏes and īdiots, eremites and friars—”
+
+and not unfrequently by a spondee with very good effect—
+
+             “Bōne ŏf mȳ bōne, thou art, and from thy state
+             Mine never shall be parted.”
+
+  “Strāins hĭs yōung nērves and puts himself in posture.”—_Cymbeline._
+
+           “Rāpture! bōld mān! who temp’st the wrath divine.”
+
+Page 47. I am glad you have marked “Hīgh _ŏvĕr-ārched_” as a choriambus.
+It gives me an opportunity of writing down an anapæstic line of
+Stevens’s—
+
+                     Fire artillery tīer ŏvĕr tīer
+
+and of submitting to you whether you are not forced by the metre; your
+suprema lex; to treat _over_, the distinct dissyllable,—exactly as you
+have treated _over_,—the compounded; by taking away the accent. And if
+you take away the accent, which seems to me a most evident necessity,
+you are immediately reduced to another necessity quite as evident, that
+of recognizing English pyrrhics. I believe that English pyrrhics exist
+much in the same word that Latin unaccented words may be said to exist
+by the doctrine of atonics: and I am struck with a singular analogy
+between the two cases. There is, I concede, no English dissyllable, a
+pyrrhic _per se_; and, in Latin, according to Quinctillian “non est
+aliqua vox sine acuta.” But in Latin, according to Quinctillian, some
+words by juxtaposition with others lose their own accent, ex. gr:
+_circum litora_ or ab óres and, in an analogous manner many English
+dissyllables either by incorporation with other words, as Hīgh
+ŏvĕr-ārched, or by juxtaposition with them, as tīer ōvĕr tīer, lose
+their own accent, in its modern sense. English pyrrhics made by these
+means seem to me sufficiently abundant: I shall put down a few exemplary
+lines: one from Anstey
+
+                 The ladies you sēe vĕry jūstly remark
+
+from Cowper
+
+              You spēak vĕry fīne and you lōok vĕry grāve.
+
+And again Anstey’s
+
+              O’erflow all my hay, may my dōgs nĕvĕr hūnt
+
+and Cowper
+
+                 But the sound of the Chūrch-gŏĭng bell
+                 These valleys and rōcks nĕvĕr hēard—
+                 Nĕvĕr sīghed at the sound of a knell.
+
+Page 50. “As far as I have observed the hexameter never begins with a
+dispondee.” There are several examples to militate against the
+“_never_”: one I shall take from Lucretius—
+
+                  Immōrtāli sunt natura proedita certe
+
+and a very expressive one from the _Theogony_—
+
+                Νικησαντες χερσιν ὑπερθυμους περ εοντας
+
+Page 54. By laying our accent wherever the Romans laid theirs, and
+nowhere else, we have left them but one dissyllabic foot in the
+language. Should we not, even by the misapplied accentual rule, give the
+Romans one or two iambi? It appears so; if there be any correctness in a
+note attached to my edition of Foster, where I find an extract from
+Ælius Donatus (supported by Victorinus) who makes some exceptions to the
+general rule of the accent falling on the _first_ of dissyllables “pro
+causa discretionis, ut in adverbio _pone_, ideo ne verbum putetur
+imperativi modi:—ut in ea particula quæ est _ergo_.” From which, it
+appears that our measure of absurdity is not yet filled up; that accent
+(or rather, as you would say, _quantity_, under its name) having turned
+so many iambi into trochees, has to do now; pro causa discretionis; the
+very different office of turning trochees into iambi; or else cry
+peccavi,—_pro causa discretionis_ indeed! This is a case analogous to
+that you mentioned to Mr. Commeline, of Θοαι and _diu_, and which he
+tried to get rid of by the adoption of a monosyllabic pronunciation. But
+such a measure, could it be admitted in that case, is no _panacea_,—as
+is obvious from the present case of _pone_ and _ergo_.
+
+Page 81. You observe relatively to the first lines of Virgil, first
+eclogue, that if an advocate for the system gave a length to _tu_ and
+_nos_ for the sake of expression “he would do wrong in respect to his
+system and its rules,—one of which is that all unaccented syllables
+should be quickly passed over to the next accented one.” I will submit
+to you with deference whether you do not rather _beg the question_ by
+calling _tu_ and _nos_ “unaccented syllables.” You are well aware of the
+old rule so simply and clearly stated by Franciscus Sanctius,—“accentum
+in se monosyllaba dictio ponit;” and tho’ the rule be, in practice,
+modified by the doctrine of atonics, yet I have some doubts,—and, _a
+fortiori_, an advocate of the system might possibly have,—whether such
+discriminating monosyllables should not in recitation be _separated_
+from the neighbouring words, on account of the expression; and so claim
+a _length_ even on accentual principles. This is an impression which
+perhaps I should not have felt but for want of better information, and
+which I certainly should not communicate to you but in desire of it.
+
+You have now the whole history of my doubts and difficulties; as I have
+reported them very faithfully in obedience to your desire. The obedience
+was at least a proof of my confidence in your kindness; and in that
+light I hope you will consider it; for I have run a great risk in
+passing such an _Ægæan_ in such a _scaphula_. My _general_ debt of
+information, to you, is put down among those singular debts which are
+pleasant to think of, and which the debtor can never be expected to
+repay, but I must be allowed to thank you in particular for that
+_percussion vers le fin_ you give the _Abbate Scopha_. It is extremely
+forcible and entertaining,—and presents an example of your peculiar
+manner of amusing your readers—by _convincing_ them. You have indeed
+made it abundantly clear that the Abbate for his system’s credit should
+have been _muet_ as his French _e_. But, tho’ I have put off making the
+charge so long, my poetical conscience wont let me rest till I accuse
+you of committing heinous profanation in page 48; first by quoting _Wīll
+ŏ thĕ Wīsp_ contemptuously as “a little phrase,” and secondly by
+introducing it to your readers in such company as _Jāck ĭn ă bōx´_ |
+_Mōuse ĭn ă chēese´_, Būg ĭn ă rūg´, &c. And should you really feel
+“some regret” if it became the fashion to say _Wĭll ō thĕ Wĭsp_—Bŭg īn ă
+rūg &c.? Our poets, from Milton upwards and downwards, who have
+sanctified the first of those “little phrases” in their melodious
+verses, would sympathize feelingly in your regret; and might beg you at
+the same time to disengage Will o’ the wisp from Bug in a rug forthwith.
+Could not rīddle mĕ rēe do your business as well, without sacrificing
+such an Iphigenia?
+
+I have done reading your correspondence with Mr. Commeline; and with all
+your adversary’s ingenuity, am considerably confirmed in my convictions
+on your side. I thought it odd that an article of the Edinburgh Review
+should be referred to, on a philological subject; and, on looking into
+the one which Mr. Commeline calls the ‘Manual of his heresy,’ I was
+surprised to find us accused there of subverting the true metrical
+structure of Latin hexameters, even according to the accentual system
+“by _not_ laying our accent on the _long_ syllable, and by laying it on
+the short ones.” The Reviewer seems confused in his speculations: but
+that passage is so decidedly in favour of your position that I think you
+can hardly have seen the article or would have retorted Mr. Commeline’s
+own _Manual_ on himself.
+
+Papa was very glad to see you at Hereford, and _I_ was very glad to hear
+from him, _nomine mutato_, exactly what you have since said of _his_
+good looks. We hope to have favorable accounts of you all; dear Miss
+Price in particular, and, with our best regards,
+
+                                               Believe me
+                                                   Your grateful
+                                                       E. B. BARRETT.[1]
+
+Footnote 1:
+
+  Mrs. Browning’s name was Elizabeth Barrett Barrett before her
+  marriage.
+
+                _Of this letter twenty-five copies only
+                have been privately printed by Clement
+                Shorter for distribution among his
+                friends._
+
+                                _London. December 1916._
+
+------------------------------------------------------------------------
+
+                          TRANSCRIBER’S NOTES
+
+ Page               Changed from                              Changed to
+
+    4 in English. You will, I think, admit     in English. You will, I think, admit
+      c̄harătĕrīze—tēmpĕrămēnt—tēmpĕrăture,—if chārăctĕrīze—tēmpĕrămēnt—tēmpĕrăture,—if
+
+    5 tetrasyllables as                        tetrasyllables as
+      ōvĕrfătīgue—ōvĕr-dĕlīght—cŏnquerŏr-like  ōvĕrfătīgue—ōvĕr-dĕlīght—cōnquerŏr-like
+      sex. Nēvĕrthĕlēss                        sex. Nēvĕrthĕlēss
+
+    6 Jumping hīgh aĭr thĕ shrūbs ŏf thĕ rōugh Jumping hīgh ŏ’er thĕ shrūbs ŏf thĕ
+      grōund                                   rōugh grōund
+
+    7 Shoots ĭnvīsĭble vīrtue ē’en tō thĕ dēep Shoots ĭnvīsĭble vīrtue ē’en tŏ thĕ dēep
+
+    9 Quinctillian “non est aliqua vox sine    Quinctillian “non est aliqua vox sine
+      acata.” But in Latin, according          acuta.” But in Latin, according
+
+    9 Immōrtāli sunt natura proedita cesti     Immōrtāli sunt natura proedita certe
+
+    9 Νικηὀαντες χερσιν ὑπερθυμους περ εοντας  Νικησαντες χερσιν ὑπερθυμους περ εοντας
+
+   10 verbum putelier imperativi modi:—ut in   verbum putetur imperativi modi:—ut in ea
+      ea particula quæ est ergo                particula quæ est ergo
+
+   10 analogous to that you mentioned to Mr.   analogous to that you mentioned to Mr.
+      Commeline, of θοαι and diu               Commeline, of Θοαι and diu
+
+   11 Wĭsp—Bŭg īn ă rŭg &c.? Our poets, from   Wĭsp—Bŭg īn ă rūg &c.? Our poets, from
+      Milton upwards and downwards             Milton upwards and downwards
+
+ ● Fixed typos; non-standard spelling and dialect retained.
+ ● Enclosed italics font in _underscores_.
+
+5

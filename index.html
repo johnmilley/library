@@ -31,7 +31,13 @@
     </div>
     <div id="sections"></div>
     <footer class="lib-foot">
-      <p>Texts are public domain, sourced from <a href="https://www.gutenberg.org" target="_blank" rel="noopener">Project&nbsp;Gutenberg</a>. Your notes &amp; highlights are stored only on this device.</p>
+      <div class="backup">
+        <button id="export-btn" class="btn btn--ghost">⤓ Export notes</button>
+        <button id="import-btn" class="btn btn--ghost">⤒ Import backup</button>
+        <input id="backup-file" type="file" accept="application/json,.json" hidden>
+        <span id="backup-msg" class="backup__msg" aria-live="polite"></span>
+      </div>
+      <p>Your notes, highlights, and reading position stay on this device. Use <strong>Export</strong> to back them up or move them to another device.</p>
     </footer>
   </main>
 
@@ -39,6 +45,7 @@
   <section id="reader" class="view" hidden>
     <header id="reader-bar" class="reader-bar">
       <button id="back-btn" class="icon-btn" title="Library" aria-label="Back to library">‹</button>
+      <button id="toc-btn" class="icon-btn" title="Contents" aria-label="Table of contents">☰</button>
       <div class="reader-bar__title">
         <span id="reader-title"></span>
         <small id="reader-author"></small>
@@ -51,6 +58,7 @@
       <article id="book" class="book"></article>
     </div>
 
+    <footer class="reading-status" id="reading-status"></footer>
     <div id="reader-progress" class="reader-progress"><span id="progress-fill"></span></div>
 
     <!-- Floating selection toolbar -->
@@ -86,6 +94,20 @@
         </div>
       </div>
       <div class="popover__row">
+        <span>Layout</span>
+        <div class="seg" id="mode-seg">
+          <button data-mode-set="scroll">Scroll</button>
+          <button data-mode-set="paged">Paged</button>
+        </div>
+      </div>
+      <div class="popover__row">
+        <span>Alignment</span>
+        <div class="seg" id="align-seg">
+          <button data-align-set="left">Ragged</button>
+          <button data-align-set="justify">Justified</button>
+        </div>
+      </div>
+      <div class="popover__row">
         <span>Theme</span>
         <div class="seg" id="theme-seg">
           <button data-theme-set="light">Light</button>
@@ -95,6 +117,15 @@
       </div>
     </div>
   </section>
+
+  <!-- Table of contents slide-over (left) -->
+  <aside id="toc-panel" class="notes-panel notes-panel--left" hidden>
+    <header class="notes-panel__head">
+      <h2>Contents</h2>
+      <button id="toc-close" class="icon-btn" aria-label="Close">✕</button>
+    </header>
+    <div id="toc-list" class="notes-list toc-list"></div>
+  </aside>
 
   <!-- Notes & highlights slide-over -->
   <aside id="notes-panel" class="notes-panel" hidden>
@@ -125,19 +156,20 @@
   <div id="import-dialog" class="note-dialog" hidden>
     <div class="note-dialog__card import-card">
       <h2 class="import-card__title">Add a book</h2>
-      <p class="import-card__hint">Open a plain-text file, or paste the text below. Stored privately in this browser.</p>
+      <p class="import-card__hint">Open an EPUB or text file, paste a link, or paste the text. Stored on this device.</p>
       <div class="import-card__grid">
         <input id="import-title" class="import-input" type="text" placeholder="Title">
         <input id="import-author" class="import-input" type="text" placeholder="Author">
       </div>
       <label class="import-file">
-        <input id="import-file" type="file" accept=".txt,text/plain" hidden>
-        <span id="import-file-label">Choose a .txt file…</span>
+        <input id="import-file" type="file" accept=".epub,.txt,text/plain,application/epub+zip" hidden>
+        <span id="import-file-label">Choose an EPUB or .txt file…</span>
       </label>
-      <textarea id="import-text" class="note-dialog__text" rows="6" placeholder="…or paste the full text here"></textarea>
+      <input id="import-url" class="import-input import-url" type="url" placeholder="…or paste a link to an .epub / .txt file">
+      <textarea id="import-text" class="note-dialog__text" rows="5" placeholder="…or paste the full text here"></textarea>
       <p id="import-error" class="import-card__error" hidden></p>
       <div class="note-dialog__actions">
-        <span class="import-card__note">Tip: Gutenberg URLs import via <code>scripts/add_book.py</code>.</span>
+        <span class="import-card__note">EPUB &amp; TXT supported. MOBI: convert to EPUB first.</span>
         <div>
           <button id="import-cancel" class="btn btn--ghost">Cancel</button>
           <button id="import-save" class="btn">Add to library</button>

@@ -23,15 +23,18 @@ js/
   app.js              Bootstrap, hash routing (#/ and #/read/<id>), settings
   store.js            localStorage layer (settings, progress, annotations)
   library.js          Catalog load, search, card grid, "continue reading"
-  reader.js           Book rendering, selection→highlight, notes, progress
+  reader.js           Rendering, scroll/paged modes, TOC, highlights, notes
   annotate.js         Highlight engine: offset math + paragraph rendering
   imports.js          In-browser book import stored in IndexedDB
 data/
   catalog.json        Source of truth: sections + books with metadata
   books/*.txt         Cleaned plain-text bodies (git-ignored; fetched locally)
 scripts/
-  fetch_books.py      Download catalog books from Gutenberg, update flags
+  fetch_books.py      Download catalog books from Gutenberg (resumable,
+                      checkpoints catalog every 25, loose title verification)
   add_book.py         One-command import of any Gutenberg id/URL
+  curate.py           Bulk-build the catalog from Gutenberg's pg_catalog.csv
+                      by curated per-section author lists (see below)
 ```
 
 ## Data model (localStorage, prefix `rr:`)
@@ -64,6 +67,33 @@ rendering, so the output is always a flat, non-nested run of `<mark>`s.
 Sections currently: `russian`, `english`, `shakespeare`, `western`
 (Classics of Western Civilisation), `bibles`. Note the RSVCE is copyrighted
 and cannot be offered — `bibles` uses the public-domain KJV and Douay-Rheims.
+
+## Reading features (reader.js)
+
+- **Two modes** (`settings.mode`): `scroll` (continuous) and `paged` (e-reader
+  page-turning via CSS multi-column + `translateX`; tap left/right thirds or
+  arrow keys to turn, center tap toggles chrome). Page count/anchor recompute
+  on resize and on font/spacing/alignment changes.
+- **Position is paragraph-anchored** (`progress = {para, percent}`), so it
+  survives mode switches, font changes, and reflow — not a raw scrollTop.
+- **Table of contents**: `detectChapters()` finds headings (Chapter/Part/Book/
+  Act/Scene/roman/number/ALL-CAPS lines); the ☰ panel lists them with the
+  current chapter highlighted and jumps on click.
+- **Reading-time estimate**: words remaining ÷ 230 wpm, shown in the status bar
+  with % (scroll) or page x/y (paged) and the current chapter.
+- **Alignment** (`settings.align`): `left` (ragged, default — easiest on small
+  screens) or `justify`.
+
+## Bulk curation (curate.py)
+
+`curate.py` reads Gutenberg's `pg_catalog.csv` and selects English-language
+Text works whose PRIMARY author matches curated per-section lists in `AUTHORS`.
+Bare-surname patterns anchor on the surname segment (so "Horace" can't match
+"Walpole, Horace"); "Surname, First" patterns substring-match for disambiguation.
+De-dupes by normalized title (lowest gid wins), caps per author (`CAP`), and
+merges new entries (downloaded=false) without touching existing ones. Bibles are
+matched by title and restricted to complete editions. Run with `--dry-run` first.
+The RSVCE is copyright and intentionally excluded.
 
 ## Imported books (IndexedDB)
 

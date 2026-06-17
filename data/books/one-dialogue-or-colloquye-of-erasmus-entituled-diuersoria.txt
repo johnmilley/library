@@ -1,0 +1,558 @@
+Produced by David Starner, Keith Edkins and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+In this version [~e] and so forth indicate scribal abbreviations over
+letters.
+
+  P. One dialogue, or Colloquye of Erasmus (entituled
+         Diuersoria) Translated oute of Latten
+           into Englyshe: And Imprinted, to
+            the ende that the Judgem[~e]t
+             of the Learned maye be hadde
+              before the Translator pro-
+                 cede in the reste.
+                         E. H.
+
+                    [Illustration]
+
+     P. Imprinted at London in Fleetstreete, at the
+         signe of the Faucon by William Griffyth,
+           and are to be solde at his shop
+               in S. Dunstons Churchyard
+                      in the west.
+                          1566
+
+       *       *       *       *       *
+
+P. The Translator to the indifferent reader.
+
+If I were throughlye perswaded (g[~e]tle reader) y^t mine attempt of the
+learned were in all points allowed and the order in my translation
+correspondent thereunto, I woulde at this present proceede in mine
+enterprise, with entent by gods helpe to finishe the translation of the
+whole boke: But because I am vnlearned & therfore must not be mine owne
+iudge therein, I geue the here a tast of my store for proofe of mine
+abilitie: desiring the at the least wise not to be offended at the same so
+boldly attemted and simplye perfourmed. For sithe mine entent is good, & my
+good wil not small I dare at this present yelde it to thy curtesye. Fare
+wel.
+
+P. Thine in will (though not in power) E.H.
+
+       *       *       *       *       *
+
+_Diuersoria._
+
+P. The speakers.
+
+_Bertulphe._ _William._
+
+Why haue men taken suche pleasure and felicity (I pray you) in tariynge ii.
+or iii. dayes at Lions together, when they trauaile through the contrey? if
+I fall to trauailinge once, be fore suche time as I be come vnto my
+iourneyes ende, me thinks I am neuer at quiet in my mind.
+
+William.
+
+P. Say ye so indeede? And I put you out of doubt, I wonder howe men can bee
+withdrawen thence againe after they be once come thether.
+
+Bertulphe.
+
+P. Yea doe? And how so I pray you?
+
+William.
+
+P. Mary sir because that is the verye place from whence Ulisses companions
+coulde in no wise be gotten by perswasion. There are the sweet Mermaides
+(that are spoken of) I warrant ye. Assuredlie, no man is better vsed at
+home at his own house then a guest is entertained there in a common Inne.
+
+Bertulphe.
+
+P. Why? What is their order and vsage there?
+
+William.
+
+P. Some woman or other did alwayes attende vpon the table to cheere the
+company with pleasaunt talke and prety conceites. And I tell you the women
+are meruailous bewtiful and wel fauoured there. Firste of all the good wife
+of the house came & welcomed vs, praying vs all there to bee merye, and to
+take well in woorthe suche poore cheere as shee hadde prouided: when shee
+was gone, in commeth her Daughter (beeinge a verye proper woman) and tooke
+her roome: also whose behauioure and tongue were so pleasaunt and
+delectable, that she was able to make euen the grimme Sire Cato to bee
+merye and laugh, and besyde that they doe not talke wyth theyr guestes as
+with men whome they neuer sawe before, but euen so famylyarlye and
+freendlye, as if they were menne that were of their olde acquaintaunce.
+
+Bertulphe.
+
+P. Yea, thys is the ciuilytye of Fraunce in deede.
+
+William.
+
+P. And because the Mother and the Daughter coulde not bee alwayes in the
+waye (for that they muste goe aboute theyr houssholde businesse, and
+welcome their other guestes in other places) a pretye little minion Girle
+stode forthe there by and by (hauinge learned her liripuppe and lesson
+alreadye in all pointes I warraunte you) to make all the pastime that
+mighte be possible, and to aunswere (at omnia quare) all such as shoulde be
+busye to talke and dally with her, So shee didde prolonge or vpholde the
+Enterlude, till the goodwifes Daughter came vnto vs againe. For as for the
+mother she was somewhat striken in yeres.
+
+Bertulphe.
+
+P. Yea but tell vs what good cheere yee had there (I praye you) for a manne
+cannot fill his bellye with pleasaunte talke you knowe well inoughe.
+
+William.
+
+P. I promise you faithfullye wee had notable good chere there, in so much
+that I wonder how they can entertaine their guestes so good cheape as they
+doe. And then when our table was tak[~e] vp, they fedde oure mindes wyth
+their merye deuises, leaste wee shoulde thinke the time werysome. Me
+thought I was euen at home at mine owne house, and not a trauayler abroade
+in a straunge co[~u]try.
+
+Bertulphe.
+
+P. And what was the facion in your bed chambers there?
+
+William.
+
+P. Why? some wenches went in euerye corner giggelinge there, playing the
+wantons, and dalying with vs, of their owne motion they would aske whether
+we had any foule gere to washe or no. That they washed and brought vs
+cleane againe, what should I make a longe proces or circumstance, we sawe
+nothinge els there but wenches and wemen sauinge in the stable. And yet
+many times they would fetche their vagaries in thether also. When the
+guestes be going awaye, they embrace them, and take their leaue sweetlye
+with suche kindnes and curtesye, as if they were all brethern, or (at
+least) nighe a kinne the one to the other.
+
+Bertulphe.
+
+P. This behauiour doth well beseme Frenchmen peraduenture, how be it the
+fashions of Duche lande[1] shall go for my monye when all is done, which
+are altogether manlike.
+
+William.
+
+P. Yt was neuer my chaunce to see the Contreye yet: and therfore I pray you
+take so muche paine as to tell in what sorte they entertaine a straunger
+with them.
+
+Bertulphe.
+
+P. I am not sure whether it be so in euerye place or no, but I will not
+sticke to reherse that whiche I haue sene with mine owne eyes. There no man
+biddeth him welcome that comes, lest they shuld seme to go about to procure
+a guest. And that of all sauces, they accompt a dishonest and beggarly
+thing, and vnmete for their demurenes & grauetie. After you haue stoode
+cryinge oute at the doore a good while, at the length some one or other
+pereth out his hed at the stoue[2] window like as a snaile should pepe out
+of his shell: for they liue ther in stoues, til the somer be almoste in the
+Tropick of Cancer. Then must you aske of him, whether you may haue a
+lodging there or no? yf he do not geue a contrary beck with his hed, you
+may perceiue, that you shall haue entertainment. To those whiche aske where
+aboutes the stable standes, he pointes vnto it with the wagging of his
+hand. There maye you vse youre horse after your own diet, for no seruaunt
+of the house shall once lay handes vnto it to help you. But if it bee an
+Inne some what occupied or haunted, th[~e] the seruaunt sheweth there which
+is the stable, & telleth you also a place where your horse shal stad, full
+vnhansomely for that purpose god knoweth for they reserue the better romes
+for the after commers, specially for the noble men, yf you finde any fault
+with any thinge, by an by they snub you with this: Sir, if mine Inne please
+you not, goe seeke an other elsewhere in the name of god in cities, it is
+longe ere they wil bring you hay forthe for your horse, and when they do
+bring it, it is after a niuer facion[3] I warraunt you, and yet will they
+aske asmuch mony of you for it (in a maner) as if it were Otes. After your
+horse is once dressed you come with all your cariage into the stoue with
+Bootes, Male, or Packe, and with Dirte, Bag and Baggage and all. Euery man
+is vsed to this generally.
+
+William.
+
+P. In Fraunce they haue certaine chaumbers for the nonce, where guests may
+put of their clothes may wipe or make clean th[~e] selues, may warme them
+selues: yea may take their ease to, if they bee so disposed.
+
+Bertulphe.
+
+P. Yea, but here is no suche facions I tel you. In the stoue, you pul of
+youre Bootes, you pull on youre Shooes, you chaunge youre Shirt if you bee
+so minded, you hange vp youre clothes all weate, with raine harde by the
+Chimney, and to make youre selfe drye doe stande by the same your selfe,
+you haue also water sette readye for your handes, which moste commonly is
+so clenlye, that you muste after seeke other water, to washe of that water
+againe.
+
+William.
+
+P. I commende them as menne not corrupted with to much finenesse or
+daintinesse.
+
+Bertulphe.
+
+P. Thoughe it be youre chaunce to come thether about iiii. of the clocke at
+afternoone, yet shall you not go to supper for all that vntill it be nine
+of the clocke at night, and sometime not before tenne.
+
+William.
+
+P. How so?
+
+Bertulphe.
+
+P. They make nothinge ready til they see all their guestes come in, that
+they may serue them all vnder one without more adoe.
+
+William.
+
+P. These men seeke the neerest way to woorke, I see wel.
+
+Bertulphe.
+
+P. You say true in deede: They doe so, and therfore often times there come
+all into one Stooue, lxxx. or xC. Footemen, Horsemen, Marchauntmen,
+Mariners, Carters, Plowemen, Children, Wemen, hole and sicke.
+
+William.
+
+P. Marye this is a communitye of lyfe in deede.
+
+Bertulphe.
+
+P. One kembes his head there. An other doth rubbe of his sweat there. An
+other maketh cleane his startops[4] or bootes there. An other belcks out
+hys Garlicke there. What needes manye wordes? There is as muche mingle
+mangle of parsons there, as was in the old time at the Towre of Babell. And
+if they chaunce to see a straunger amonge them, whiche in his apparell
+semeth somewhat braue, galaunt and gentlemanlike, they all stand prying
+vpon him with their eyes, gasing and gapinge as if some straunge beaste
+were brought them out of Aphrick, in so much as after they are once set,
+they be eye him stil an end and neuer looke of, as men forgetting th[~e]
+selues that they be now at supper.
+
+William.
+
+P. At Rome, at Parise, and at Venice, no ma maketh any such wonderment at
+all.
+
+Bertulphe.
+
+P. Nowe it is a sore matter I tell you to call for ought there al this
+while: when it is farre night and they looke for no more guestes at that
+time, then commeth forthe an olde stager of the house, with a gray beard, a
+polled hed, a frowning co[~u]tenaunce, clad in il fauored apparaile.
+
+William.
+
+P. Yea mary suche fellowes as these you speak of, should fill the Cardinals
+cups at Rome.
+
+Bertulphe.
+
+P. He casting his eyes about, reckeneth vnto him selfe howe manye therebe
+in the stoue at all, the moe he seeth there, the greater he maketh his
+fire, though the sonne beside doth greatly annoy with his perching heat.
+Among them, this is accoumpted the principallest pointe of good
+entertainment, if they all sweat like Bulles, that they doe euen drop
+again. But if one not vsed to this choking and smotheringe ayre, should
+chaunce to open but a chinke of the window to keepe him self from
+stifeling, he should by and by haue this saied vnto him: Shut it I pray
+you, if you aunswere that you canne not abide it, ye haue this in your nose
+for your labor, why? then go seeke you an other Inne, on gods name.
+
+William.
+
+P. But me thinkes there can be no greater daunger for health, then that so
+many should drawe in and out all one vapour: specially when the body is in
+a sweat, and in this same place to eat meate together, and to tarye
+together a great while in company, for now I wil not speak of belchinges
+that sauour of garlick, nor of fistinge, or fisseling[5] nor of stinking
+breths, many there be (I tel you) that haue priuy diseases, and euery
+desease hath his proper infection. And surely the moste of th[~e] haue the
+spanishe scabbe, or as some terme it the frenche pockes: thoughe now adaies
+one nation hathe it commonlye asmuche as an other. I suppose (I tel you)
+that there is as great ieobardye in companyinge with these as it is with
+lepers, and nowe gesse you howe muche difference is betwene this and the
+pestilence?
+
+Bertulphe.
+
+P. Tushe man they bee stoute fellowes: they doe scorne theise thinges, and
+make as it were no accompt of them.
+
+William.
+
+P. But yet they are stout with hazardinge of many a mannes helth I tell you
+plainely.
+
+Bertulphe.
+
+P. Why? What should a man do? They haue thus vsed them selues euermore, and
+it is a token of constancy and stabilitie neuer to varye or geue ouer that
+whiche they haue once taken in hand.
+
+William.
+
+P. But aboue twentye yeeres agone, there was nothinge more vsed amonge the
+Brabanders, then the common Bathes. And now adaies, the same are laied a
+side euery where: for this stra[~u]g scabbe (I speake of) hathe taught men
+to come no more thether.
+
+Bertulphe.
+
+P. But go toe? Harken to the rest of my tale that is behind. That grim
+bearded Ganimede coms to vs afterwardes againe, and layeth as many tables
+as he then thinkes will serue for the nomber of his guestes, But Lord, what
+baggage are the table clothes? if you saw them I dare say you would think
+them h[~e]pen cloths, that are taken from the sailes of ships: they be so
+course, for he hath apointed that viii. guests shall sit at one table at
+the least. Nowe those that are acquainted with the facion of the country,
+doe sit downe euery man, where he listeth him selfe, for there is no
+diuersitie or cursye I tell you there, betweene the poore man and the
+riche, betweene the Master and his seruaunt. They are all one. One as good
+as an other, there is heere (as they say) no difference betwene the
+shepherd and his dog.
+
+William.
+
+P. Yea marye: this is the olde facion when all is done, that Tiranny hath
+now abolished and put away from am[~o]g vs: I think Christ liued iump[6]
+after this maner on the earth when he was here conuersaunt with his
+Apostles.
+
+Bertulphe.
+
+P. After they be all set, in commeth the frowning minion againe, and once
+more falleth to recken what company he hathe there: by and by retourning he
+layeth euery one a trenchar, and a spone of the same siluer: and then after
+that, hee setteth downe a drinkinge glasse and within a while bringes in
+bread which euery manne (at leysure) chippeth and pareth for him selfe,
+whiles the potage is a sethinge. They sit mopinge after thys manner,
+otherwhiles a whole houre together, ere they can get any thinge to eate.
+
+William.
+
+P. Why? Doe none of the guestes call earnestlye vpon them to haue in the
+Supper all this while?
+
+Bertulphe.
+
+P. No, none of them all that knowes the Facion of the countrye. At the
+laste they are serued with Wyne: but youe woulde wonder to see what small
+geare it is, Scoolemen or Sophisters shoulde drinke none other by myne
+aduise, because it is so thinne and tarte: how bee it if a guest shoulde
+chaunce (beside his shotte) to offer Monye to one, and desyre him to gette
+some better Wyne thenne that some other where, because he lykes it not:
+they firste make as though they hearde him not: but yet they bee eye hym
+with suche a bigge an frowning countenaunce as if the Deuyl should loke
+ouer LINCOLN (as they doe saye) If you will not linne[7] callinge vppon
+them, thenne they make youe this aunswere. So many EARLES and MARQUESES,
+haue lodged here in our house, & yet the time is yet to come, that euer
+they founde any fault with our wine. And therefore if ye fancy it not, get
+ye packing in the name of God, and seeke an other Inne where ye liste. For
+they accompt great men and noble men for men onely in their contrye I tell
+you, setting their armes abroade in euery corner of their house for a
+shewe. Now by this time they are serued with a soupe, to alay and pacify
+their pore hongry and crookling stomackes, well nigh loste for meat, hard
+at the heeles of that comes forthe the dishes with greate ceremonie, pompe
+or solemnitie. For the firste course they haue soppes or slices of bread,
+soaked in fleshe brothe, or if it be a fishe day, in the broth of pulce.
+Then nexte they haue an other brothe: and after that they are serued wyth
+fleshe twise sod[8], or fishe twise het. And yet, after this, they haue
+potage once againe, immediatly after, they haue some stiffer meate til
+suche time as they world beinge well amended with them, they set roste on
+the table, or sodde[8] freshe fishe, whiche a man can not all together
+mislike. But when it comes to that once they make spare and whip it away at
+a sodaine I warraunt you, they facion out euery thinge in his dew time &
+place. And as the players of Enterludes or comedies, are wonte in their
+Scenes, to entermedle theyr Chories, so doe these Duche men serue forthe to
+their guests, Soppes and Potage entercha[~n]geably or by course. But they
+prouide that the latter inde of the feast be best furnished.
+
+William.
+
+P. And this (I tell you) is the poynte of a good Poet.
+
+Bertulphe.
+
+P. Besides this it were a sore offence for one all this while to say: Away
+with this dishe, no man doth eat of it, here you must sit out your time
+appointed, being so euen and iumpe, that I thinke they measure it oute by
+some water clockes. At l[~e]gth that bearded Grimson[9] comes forth againe
+or els the Inholder him selfe, litle or nothing differing from his
+seruauntes in his apparaile and brauery. He asketh what cheere is with vs:
+by & by some stronger wine is brought, and they caste a great loue to him
+that drinketh lustely: wheras he payes no more money that drinketh moste
+then he, that drinketh least.
+
+William.
+
+P. I put you out of doubt, it is a wonderful nature of the countrey.
+
+Bertulphe.
+
+P. Yea, this doe they in deede: whereas there bee sometime there, that
+drink two times somuche in wine, as they paye in all for the shot. But
+before I doe make an end of this Supper, it is a wonderful thing to tell
+what noise and iangeling of tongues there is, after they begin all to bee
+well whitled with wine. What shoulde I neede manye wordes? All things there
+haue lost their hearing and are becom deafe. And many times disguised
+patches or coxecomes doe come amonge them to make sporte: whiche kinde of
+men, althoughe of all other it be most to be abhorred, yet you wil scant
+beleue howe muche the Germaines are delighted with them. They keepe sike a
+coile with their singinge, theire chatting, their hoopinge and hallowinge,
+theire praunsinge, theire bounsinge, that the Stooue seemeth as if it
+woulde fall downe vpon their heds, and none can heare what an other saith.
+And yet all thys while they, perswade them selues, that they liue as well
+as hearte canne thinke, or, as the day is broad and longe to.
+
+William.
+
+P. Wel nowe make an ende of this Supper, I pray: for I am weary of so
+tedious a Supper my selfe to.
+
+Bertulphe.
+
+P. So I will. At the laste when the cheese is ones taken vp, whiche scantly
+pleaseth their aptite, onlesse it craule ful of magots, that old
+Siuicoxe[10] comes forth againe, bringinge with hym a meate Trenchoure in
+his hande, vppon the whiche with chalke he hath made certaine rundelles and
+halfe rundelles: that same he layeth downe vpon the table, loking very
+demurelye & sadlye all the while. They that are acquainted with those
+markes or skoares, doe laye downe their monye, after them an other, then
+another, vntill suche time as the trenchoure bee couered, then markinge
+those whiche layed downe anye thinge, he counteth or maketh reckening
+softely vnto him selfe: if he misse nothing of that which the reckening
+comes to, hee maketh a becke or dieugard with his hed.
+
+William.
+
+P. What if theer be any ouerplus there?
+
+Bertulphe.
+
+P. Peraduenture he woulde giue it them againe, and some whiles they doeso,
+if it strike in their braines.
+
+William.
+
+P. And is there none that speaketh againste this vnegall reckening?
+
+Bertulphe.
+
+P. No, none that hathe any witte in his head, for by and by they woulde
+saye thus vnto hym. What kinde of man arte thou? I tell thee thou shalt
+paye no more for thy Supper heere, then other men do.
+
+William.
+
+P. Marye this kinde of people is franke and free I see wel.
+
+Bertulphe.
+
+P. But if one (beeinge werye with trauaile) should desire to go to bed as
+soone as Supper is done, they will him tarye, till all the other go to bed
+to.
+
+William.
+
+P. Me thinkes I se Platoes common welth heere.
+
+Bertulphe.
+
+P. Then euerye mannes Cabin is shewed him, & in deede, nothinge elles but a
+bare chaumber for all that is there, is but beddes, and the Deuill a whit
+there is else beside there, eyther to occupye or els to steale.
+
+William.
+
+P. There is neatnesse or clenlinesse I warraunt you.
+
+Bertulphe.
+
+P. Yea by roode, euen suche as was at the Supper. The Sheetes peraduenture
+were washed halfe a yeere before.
+
+William.
+
+P. And how fayres your horses all this while.
+
+Bertulphe.
+
+P. They are vsed after the same rate that the m[~e] bee.
+
+William.
+
+P. But is this maner of entertainement in eueryplace there?
+
+Bertulphe.
+
+P. In some place it is more curteous, in some place againe, it is more
+currishe then I haue made rehersall, howbeit generallye it is euen after
+this order.
+
+William.
+
+P. What would you say if I should now tell you how stra[~n]gers are
+entreated in that part of Italy which they call L[~o]bardy, and again in
+spaine howe they be vsed, and how in Englande and in Wales for Englishe men
+in conditions are halfe Frenche, halfe Dutche as men indifferente betweene
+both. Of theise two contries, Welche men say that they are the right
+Brittaines first inhabiting the land.
+
+Bertulphe.
+
+P. Mary I pray thee hartely tell me, for it was neuer my fortune to
+trauaile into them.
+
+William.
+
+P. Nay, I haue no laysure nowe at this time, for the Mariner bad me bee
+with him at three of the clock, except I would be left behinde, and he hath
+a Packette of mine. Another time wee shall haue laysure enough to tell of
+these thinges our bellies full.
+
+[Illustration]
+
+       *       *       *       *       *
+
+Notes by Project Gutenberg Transcriber
+
+    _Explanations of some obsolete words, and in some cases the
+    transcriber's justification for over-riding the proofreaders'
+    readings._
+
+[1] _et passim_ "Duche lande": i.e. Deutschland = Germany.
+
+[2] _et passim_ "Stove:" _A sitting-room or bedroom heated with a furnace.
+Chiefly with reference to Germany, the Low Countries, Scandinavia, or
+Russia_. (OED). This is an older sense than the heating apparatus itself.
+
+[3] "after a niuer facion": if this is correctly read, the "niuer" does not
+seem to appear in the OED, unless it be a form of "never" used as an
+adjective. The Latin is _aegre et parce_ "reluctantly and sparingly".
+
+[4] "startops": Latin _perones_, thick leather boots.
+
+[5] "fistinge, or fisseling". "Fist": _To break wind_ (OED). The Latin is
+_flatum ventris_. "Fisseling" may be assumed to have a similar meaning,
+perhaps from Latin _fesiculatio_.
+
+[6] "iump" (i.e. "jump"): _exactly, precisely_ (OED). The Latin is _Sic_.
+
+[7] "linne": _To cease, leave off; desist from_ (OED).
+
+[8] "sod(de)": Past participle of _seethe_ to boil.
+
+[9] "Grimson": the Latin is merely _barbatus_ "bearded one". Perhaps
+connected with "grimsire": _austere, stern, morose or overbearing person_
+(OED).
+
+[10] "Siuicoxe": I cannot place this English word. Again the Latin is
+_barbatus_.

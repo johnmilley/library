@@ -10,11 +10,15 @@ Garnett, the Maudes, and their contemporaries.
 
 ## Features
 
-- 📖 Calm reading view with adjustable text size, spacing, serif/sans, and
+- 📖 Two reading modes — continuous **scroll** or e-reader **page-turning**
+- 🔤 Adjustable text size, spacing, serif/sans, ragged/justified, and
   light / sepia / dark themes
+- 🗂 **Table of contents** with chapter detection and jump-to-chapter
+- ⏱ Live **reading-time estimate**, progress %, and current chapter
 - ✏️ Select any text to **highlight** (four colours) or attach a **note**
 - 📝 A per-book notes panel; tap any note to jump back to the passage
-- 🔖 Automatic reading-position memory + a "continue reading" shelf
+- 🔖 Paragraph-anchored position memory + a "continue reading" shelf
+- ➕ Add your own books — open a `.txt` or paste text (stored in your browser)
 - 📱 Mobile-first; chrome auto-hides while you read
 - ⚡️ Static site — deploys to GitHub Pages, works offline once loaded
 

@@ -20,6 +20,8 @@ const DEFAULT_SETTINGS = {
   font: "serif",
   fontSize: 1.18,   // rem
   lineHeight: 1.65,
+  align: "left",    // "left" (ragged, easiest to read) | "justify"
+  mode: "scroll",   // "scroll" | "paged"
 };
 export const settings = {
   get: () => ({ ...DEFAULT_SETTINGS, ...read("settings", {}) }),
@@ -30,6 +32,7 @@ export const settings = {
 export const progress = {
   get: (bookId) => read(`progress:${bookId}`, null),
   set: (bookId, data) => write(`progress:${bookId}`, data),
+  clear: (bookId) => { try { localStorage.removeItem(k(`progress:${bookId}`)); } catch {} },
   all: () => {
     const out = {};
     for (let i = 0; i < localStorage.length; i++) {
@@ -67,3 +70,28 @@ export const annotations = {
 
 export const uid = () =>
   (crypto.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`);
+
+/* ---- Backup: dump / load every rr:* key (settings, progress, annotations) ---- */
+export function dumpLocal() {
+  const out = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith(PREFIX)) {
+      try { out[key.slice(PREFIX.length)] = JSON.parse(localStorage.getItem(key)); } catch {}
+    }
+  }
+  return out;
+}
+
+export function loadLocal(obj) {
+  // Merge: annotations are unioned per book (by id); everything else overwrites.
+  for (const [key, value] of Object.entries(obj || {})) {
+    if (key.startsWith("anno:")) {
+      const existing = read(key, []);
+      const seen = new Set(existing.map((h) => h.id));
+      write(key, existing.concat((value || []).filter((h) => !seen.has(h.id))));
+    } else {
+      write(key, value);
+    }
+  }
+}

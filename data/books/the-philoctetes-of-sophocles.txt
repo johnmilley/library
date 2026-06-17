@@ -1,0 +1,2380 @@
+This ebook, based on a book first published in 1725, was created in
+         honour of Distributed Proofreaders’ 25th Anniversary.
+
+                                  THE
+                              PHILOCTETES
+                                   OF
+                              _SOPHOCLES_.
+
+                      _Translated from the GREEK._
+
+               _Graiis ingenium, Graiis dedit ore rotundo
+               Musa loqui, præter laudem nullius avaris._
+
+                                                                    HOR.
+
+                               _DUBLIN_:
+             Printed by J. HYDE and E. DOBSON, for R. OWEN
+                Bookseller in _Skinner-Row_. M.DCC.XXV.
+
+------------------------------------------------------------------------
+
+                                 TO THE
+
+                            RIGHT HONOURABLE
+
+                                  THE
+
+                            Lady_ CARTERET_.
+
+Madam,
+
+With great Submission I present and dedicate the following Translation
+to Your Ladyship, having no other way of shewing my Gratitude, for the
+great Honour _My Lord Lieutenant_ did me by His Presence, when my
+Scholars acted a Play of _Sophocles_ in _Greek_. I have made choice of
+the same Author to entertain _Your Ladyship_, and he now makes his
+Appearance before You in plain _English_, but much to his disadvantage,
+which I hope will be excused, since I attempted it for the Reason which
+I already mentioned.
+
+The Translation I have made is as close as the Propriety of our Language
+will admit, and _Your Ladyship_ will observe in it at least some Traces
+of the Author’s Genius. But as the lowest Painter in drawing _Your
+Ladyship_’s Picture, would be able to discover, that he at least
+designed to represent something extraordinary, and the best must needs
+fall infinitely short of the Original; So I cannot but hope that _Your
+Ladyship_ will observe in this Translation some faint Lineaments of the
+Author’s great Genius, superior to that of all modern Tragedians. And I
+cannot but fear, that you will easily perceive how unable I am to do him
+Justice, thro’ my own Defects, as well as those of our own Language. And
+this would still be worse, if _Your Ladyship_ should be so cruel to
+desire _My Lord Lieutenant_ to criticize upon these Papers, His
+Excellency will detect, and expose me in every Line, and convince You,
+in a few Minutes, that I am as far unable to express that Sublime in
+_Sophocles_, as I should be able to describe the Virtues of Your
+Ladyship, or His Excellency, which is the only Cause that I pass them
+over in Silence in this Dedication.
+
+I have added a few Notes, to explain some Passages that depend upon the
+Fabulous Stories of the antient _Greeks_, which perhaps may have escaped
+_Your Ladyship_’s Reading.
+
+I humbly entreat _Your Ladyship_’s Pardon for this my Presumption, and
+remain with all Respect
+
+                              _Your Ladyship_’s
+
+                                        _Most Obedient,
+
+                                                  Humble Servant_,
+
+                              THOMAS SHERIDAN.
+
+------------------------------------------------------------------------
+
+                             The ARGUMENT.
+
+To give some Light into the following Tragedy, it will not be amiss to
+give a short Account of the Persons concerned in it, that by knowing
+their Characters beforehand, the Reader may better judge of the Author’s
+Performance. The first who appears upon the Stage is ULYSSES, of whom I
+shall give the following short History.
+
+ULYSSES was King of _Ithaca_, _Cephalenia_, and _Dulichium_, (Islands in
+the _Ionian_ Sea). _Homer_ makes him remarkable for his great
+Experience, Eloquence, Counsel, and Skill in Military Affairs. And
+likewise very famous for his Stratagems. It was he who detected
+_Achilles_, disguised among the Daughters of _Lycomedes_; It was he who
+contriv’d the bringing of _Philoctetes_ and his Arrows against _Troy_;
+who stole off the Ashes of _Laomedon_; the _Palladium_, or Image of
+_Minerva_; who killed _Rhesus_ King of _Thrace_, and brought away his
+Horses, before they drank of the River _Xanthus_. For all these
+Conditions were necessary to be fullfilled; or _Troy_ could never be
+taken.
+
+NEOPTOLEMUS in the Original signifies a young Warriour; his true Name
+was _Pyrrhus_. He was the Son of _Achilles_. A young Man of strict
+Virtue and Honour, and one of great Tenderness and Humanity; but at the
+same Time he was ambitious. This was the only weak Part where ULYSSES
+could attack him, which we find he took Advantage of, with great Art and
+Subtlety. Yet, what gives us great Pleasure in the _Catastrophe_ of this
+Tragedy, we find, upon the moving Exclamations and Complaints of
+PHILOCTETES, that his good Nature, and the great Sense he had of
+Justice, prevails over all other Considerations.
+
+As for the CHORUS it is the only thing unaccountable in the antient
+Tragedians. To examine nicely into the whole Conduct of it would require
+a particular Treatise, and therefore I pass it by for many Reasons,
+which would rather be impertinent to the Reader, than any way agreeable,
+or improving; However it will not be amiss to set down here what
+_Horace_ says of the _Chorus_, in his Art of Poetry.
+
+                A _Chorus_ shou’d supply what Action wants,
+              And hath a gen’rous and a manly Part;
+              Bridles wild Rage, loves rigid Honesty,
+              And strict Observance of impartial Laws,
+              Sobriety, Security, and Peace,
+              And begs the Gods to turn blind Fortune’s Wheel,
+              To raise the Wretched, and pull down the Proud.
+              But nothing must be sung between the Acts
+              But what some way conduces to the Plot.
+
+                                                              ROSCOMMON.
+
+PHILOCTETES, Son of _Pæan_, went with seven Ships of his own a Voluntier
+to _Troy_; and, as _Sophocles_ relates it, he was stung by a Viper in
+one of his Feet, which occasioned such an offensive Smell, and so great
+a Pain, that the Disturbance which he gave the _Greeks_ with his
+Exclamations oblig’d the _Grecian_ Generals to expose him in the Wilds
+of _Lemnos_. For which monstrous and ungrateful Treatment nothing less
+than the Ghost of HERCULES appearing to him could make him join a second
+time against the _Trojans_.
+
+The _Merchant_ is a Person unknown, introduced by the Poet to make out
+the Stratagem of ULYSSES.
+
+HERCULES, the Son of _Jupiter_ and _Alcumena_; much persecuted by _Juno_
+because he was the Off-spring of a stoln Amour. Hence arise the great
+Number of Fables of his prodigious Exploits all over the World.
+
+------------------------------------------------------------------------
+
+                          _Dramatis Personæ._
+
+                           PHILOCTETES.
+                           ULYSSES.
+                           NEOPTOLEMUS.
+                           CHORUS.
+                           MERCHANT.
+                           Ghost of HERCULES.
+
+------------------------------------------------------------------------
+
+                                  THE
+                             _PHILOCTETES_
+                                   OF
+                               SOPHOCLES.
+
+                                SCENE I.
+
+                            _Enter_ ULYSSES.
+
+   _Ul._ Now are we landed on the [1]_Lemnian_ Coast,
+ Encompass’d by the Ocean’s rolling Waves,
+ Where not a Print of human Foot is seen,
+ Nor House, nor Hut; where, _Neoptolemus_,
+ Thou blooming Branch of the renown’d _Achilles_,
+ I left expos’d the [2]_Melian_ Son of _Pæan_.
+ Our Princes thus commanded; I obey’d,
+ Because a dreadful, nauseous, ranckling Wound
+ Eat thro’ his Foot, and made him rend the Skies
+ With Shrieks, and loud Laments, which much disturb’d
+ The Army; no Religious Rites cou’d be
+ Perform’d in Peace; of which I’ll say no more;
+ For Time contracts my Tale, and Dread of him,
+ Lest he shou’d find me here; and so confound
+ My secret Wiles to apprehend his Person.
+ The rest is thine. With careful Search explore
+ A pervious Rock, so form’d as to receive
+ The comfortable Beams of Winter-Suns,
+ And the cool Breezes from the Sea in Summer,
+ With fanning Wings inviting gentle Sleep.
+ Fast by this Rock, upon the Left, you’ll find
+ A Spring, if still it’s living Stream be fed;
+ To this repair with silent Pace, and see
+ Whether he lies conceal’d within these Bounds
+ Advance with cautious Steps, and let me know,
+ Then we’ll consult what next is to be done.
+
+   _Neop._ Short is your Errand; for I now descry
+ The Cave which you express----
+
+   _Ul._ ---- above? below?
+ Or where? in vain I cast my Eyes around.
+
+   _Neop._ ’Tis there above; but not a single Trace
+ Of any Path conducts us tow’rds the Rock.
+
+   _Ul._ Go search, perhaps he is to Sleep reclin’d.
+
+   _Neop._ There’s not a human Creature in this Place.
+
+   _Ul._ Nor fit Provision for a human Creature?
+
+   _Neop._ Some gather’d Leaves which by Impression shew
+ They have been lain on.
+
+   _Ul._ Is there nothing more?
+
+   _Neop._ Yes. I observe a wooden Vessel, fram’d
+ By some unskilful Hand, a little Pot
+ To boil his Food is all that I can see.
+
+   _Ul._ These then are all the Utensils he has?
+
+   _Neop._ Alas! they’re all, except some Rags a-drying,
+ Which by their Stains denote his fester’d Wound.
+
+   _Ul._ Then I’m convinc’d he dwells in this Abode,
+ And can’t be far from hence; his Wounds forbid
+ A distant Walk. Perhaps he went for Food,
+ Or Herbs to ease his Pains; but send this Man
+ To watch his Motion, lest by a Surprize
+ He takes me here; for justly I suspect
+ He’d gladly seize Me above all the _Greeks_.
+
+   _Neop._ I’ll send him straight to execute your Will----
+ Speak, is there any more you’d have me do?
+
+   _Ul._ Son of the great _Achilles_, it behoves thee
+ To use thy Prudence here, as well as Valour;
+ Whatever farther Counsel I shall give,
+ Perform, and with a chearful Mind assist.
+
+   _Neop._ What’s your Command?----
+
+   _Ul_. ---- To _Philoctetes_ go,
+ With soothing Speeches his Belief betray;
+ When he enquires your Name, and whence you come,
+ Tell him _Pelides_[3] is your Sire; so far
+ Tell Truth; and that you now are homeward bound--
+ Disgusted at the _Greeks_ you fly their Fleet.
+ That by Entreaties, and incessant Prayers,
+ They flatter’d you from home, to conquer _Troy_;
+ But now your Father’s Armour they deny,
+ Which by _Hereditary Right_ you claim.
+ Tell him they’re giv’n to me; abuse and rail
+ With all the Malice of an injur’d Foe;
+ Speak what you please of Me, you can’t offend.
+ If this Advice you spurn, you bring to all
+ The _Greeks_ one great and universal Sorrow;
+ For if you don’t contrive to get his Arrows,
+ You never can be conquerour of _Troy_.
+ Besides, you had a former Friendship with him,
+ Which makes you now the fitter to betray.
+ You went a Voluntier, not with the first,
+ Who bound by Oaths and fatal Influence,
+ Sail’d against _Ilium_; This was not my Case;
+ So that my Life’s in Danger, your’s no less,
+ If while he’s arm’d with them he sees me here.
+ Your Bus’ness then is to deceive him straight,
+ And steal th’ unconquerable Weapons from him.
+ I know by Nature you are much averse
+ To Artifice, but think how sweet it is
+ To bear such Arrows as are sure of Conquest.
+ Then bravely dare to do what I advise,
+ The Time will come, the World will think you just
+ For this Exploit; lay by your Shame one Hour,
+ And give yourself to me, and ever hence
+ You shall be deem’d the justest Man on Earth.
+
+   _Neop._ [4]Son of _Laertes_, I am griev’d to hear
+ Such Words from thee; to practise them is Death.
+ I was not born to stoop to such vile Arts,
+ Nor he from whom I glory to be sprung.
+ If open Force or Fortitude require
+ My Aid, I’ll venture; but I scorn Deceit.
+ Sure one poor maimed Wretch can’t overthrow
+ Such as we are, and since I’m sent with thee
+ To join in this Adventure, I will use
+ My utmost Force to help thee, nor betray
+ The Trust repos’d--but let me speak my mind--
+ I’d rather bravely die, than basely conquer.
+
+   _Ul._ Son of the greatest Man, when I was young
+ My Tongue was less employ’d, my Hands were more;
+ But now, by long Experience, I’m convinc’d
+ That Language more than Action can prevail.
+
+   _Neop._ But you a lying Language recommend.
+
+   _Ul._ I urge it still, this Man you must deceive.
+
+   _Neop._ But why deceive, can’t I as well perswade.
+
+   _Ul._ Force and Perswasion are to him the same.
+
+   _Neop._ Has he so great a Confidence in Strength?
+
+   _Ul._ Where’er his Arrows fly they carry Death.
+
+   _Neop._ Who can with Safety then approach his Presence?
+
+   _Ul._ You can’t, except you circumvent him first.
+
+   _Neop._ Do you not think it base to forge a Lie?
+
+   _Ul._ No; when your Safety on a Lie depends.
+
+   _Neop._ Who when he lies can see another’s Face?
+
+   _Ul._ When for your Gain you act, you shou’d not scruple.
+
+   _Neop._ Where is my Gain to make him go to _Troy_?
+
+   _Ul._ Because his Weapons must o’erthrow the Town.
+
+   _Neop._ Then, as you said, the Conquest can’t be mine.
+
+   _Ul._ In vain his Arrows fly without your Aid,
+ And you attack without their Aid in vain.
+
+   _Neop._ If so, I must deceive----
+
+   _Ul._ ---- and well you do,
+ For two Rewards you’re sure of----
+
+   _Neop._ ---- ---- ---- what are they?
+
+   _Ul._ Wisdom and Fortitude will both be thine.
+
+   _Neop._ Farewel then Modesty, for once farewel.
+
+   _Ul._ Do you remember all my Counsels?
+
+   _Neop._ Yes.
+ I can’t forget where once I give Assent.
+
+   _Ul._ Here wait his coming, I must hence withdraw
+ Lest I be seen; back to the Ship I send
+ Our Spy, and if I find a long Delay
+ I’ll send him hither, dress’d in such Disguise
+ That he shall pass for Captain of the Ship.
+ His very Language too shall be disguis’d;
+ Not so but you shall plainly understand
+ What is convenient to be done; hence then
+ In haste I go, and leave the rest to thee.
+ May _Mercury_ assist, God of Deceit,
+ And wise _Minerva_, on whose Care depend
+ Whole States; for she is still _Ulysses’_ Friend.
+
+                             ANTISTROPHICA
+
+                                STROPHE.
+
+ Chorus.      What shall I do a Stranger here?
+                      Or what conceal?
+                      Or what reveal?
+                Behold I see the Man appear!
+                Instruct me then; for well I know
+                That Arts may Arts excell,
+                            As well
+                Counsels Counsels overthrow.
+                    Among the Sceptred Great,
+                Few can fathom the Designs of State.
+              To thee, my Son, this princely Pow’r is given;
+                A Pow’r deriv’d from Heav’n.
+              How far subservient I must be, relate.
+
+ Neop.        Perhaps you willingly wou’d trace,
+                With long expecting Eyes,
+              The wretched solitary Place
+                Where _Philoctetes_ lies.
+              Then look around and do not fear,
+                And when he comes this way,
+              A dreadful Sight approaching near,
+                What I command obey.
+
+                              ANTISTROPHE.
+
+ Chorus.      I was determin’d long before
+                To fix my Eyes on thine,
+              Whatever Object they explore
+                To view the same is mine.
+              But tell me where this wretched Creature lives,
+                Or in what Field he lies,
+              Such Information much Advantage gives;
+                For much I dread Surprize.
+              What Place? what Path? what Seat?
+              Is it an open or a close Retreat?
+
+ Neop.        No Place to rest his weary Head,
+              A pervious Rock you see is both his House and Bed.
+
+ Chorus.      Where is the friendless Creature then?
+              The most unfortunate of Men!
+
+ Neop.        Not far from hence, to find him Food,
+                The poor dejected Soul
+              Is gone to shed the harmless Blood
+                Of some unguarded Fowl:
+              He lives on present Chance they say,
+                His winged Arrows fly,
+              To bring the Food of ev’ry Day
+                Down flutt’ring from the Sky.
+              But what avail him all the slain!
+              For still he feels a sleepless Pain.
+
+ Chorus.      Much I lament his dismal Case,
+              Without the Sight of human Face;
+                  Unhappy, and alone!
+              Whole Nights and Days
+              Rack’d with Disease!
+                  To sigh, to grieve, to groan!
+              How can he bear the dreadful Shock of Fate?
+                  What num’rous Woes
+                  Encompass those,
+              Who live not in a middle State.
+
+                            ANTISTROPHE II.
+
+ Chorus.      Shou’d you the noblest ancient Lineage trace,
+                You’ll find him of an equal Race;
+              And yet behold him of all Joy bereft,
+                Behold him solitary left!
+              No Friend, no kind Companion to relieve his Pain.
+                The spotted and the shagged Beasts around
+                      Unheeding graze;
+              Hunger and Torment he must both sustain;
+                For both at once the wretched Mortal seize.
+                  With piercing Shouts and Cries
+                    He rends the Skies,
+              And _Eccho_ faithfully returns the Sound.
+
+ Neop.        Nothing of this my Breast can move,
+                If I in things divine am skill’d,
+              Whatever is decreed above,
+                Must be on Earth fulfill’d.
+              At _Chrysa_ first his Malady began,
+              ’Twas there the angry Gods attack’d the wretched Man.
+              Nor can we think they plac’d him here alone,
+                        Without a Friend,
+                        For any other End,
+              But that they fix’d a Season of their own,
+                        When ev’ry Wall,
+                        Of _Troy_ shou’d fall,
+              And _Troy_ no longer be a Town.
+
+ Chorus.      Be silent for a while---- ---- ----
+
+ Neop.        ---- ---- ---- For what I pray?
+
+ Chorus.      His piteous Groans afflict my Ear,
+              I hear them now approaching near.
+
+ Neop.        What here? or there? or in what Place?
+                  Methinks I hear a mournful Cry
+              Of one, who moves a wretched Pace,
+                  And dreads his maimed Foot to try.
+              ’Tis he instructed by his Voice I know;
+              I feel the murth’ring Language of his Woe.
+
+ Chorus.      But have my Son---- ----
+
+ Neop.        ---- ---- have what?
+
+ Chorus.      Some other Thoughts; you see him near at Hand,
+                  Not like a Shepherd with a tuneful Reed;
+              But one who dreads upon his Foot to stand,
+                  Because the lightest Pressure makes it bleed.
+              If by ill chance he trips against a Stone,
+                  With loud lamenting Voice he shrieks and roars;
+              And when he spies a Ship; he cries, begone!
+                  Fly far from these inhospitable Shores!
+
+                          _Enter_ PHILOCTETES.
+
+   _Phil._ Alas, ye Strangers! tell me whence ye come,
+ Whence to these wild, these unfrequented Shores?
+ There’s neither House, nor Port! whence? tell me whence
+ Ye come? your Country and your Names: I see
+ You’re _Greeks_ in Dress, a lovely Dress to me.
+ Delight my Ears for once with welcome Sounds;
+ My native Tongue; ah! don’t ye start, or dread
+ To see me thus grown savage; rather shew
+ Compassion to a poor unfortunate,
+ Friendless, forsaken Wretch; speak if you’re Friends.
+ O! answer me in haste, it is not meet
+ A mutual Conversation shou’d be wanting.
+
+   _Neop._ Know we are _Greeks_; for this you want to know.
+
+   _Phil._ O dearest Voice, after ten long years Silence,
+ To hear the Words of such a Man! what Joy!
+ What Rapture does it give! my Son, tell who
+ Has brought you hither? what Necessity?
+ What Expectations? or what friendly Wind
+ Has wafted you to us? O! tell us all,
+ For much I long to know the happy Cause.
+
+   _Neop._ My Country’s _Scyros_; homewards I am bound;
+ My Sire’s _Achilles_; _Neoptolemus_
+ My Name; thus I have told you all in short.
+
+   _Phil._ Son of my dearest Friend, and dearest Country;
+ Of [5]_Lycomedes_ the peculiar Care
+ When young; what Fleet has brought thee here? or whence?
+
+   _Neop._ From _Troy_ directly, thence I steer my Course.
+
+   _Phil._ What’s this you say? when first we went to _Troy_
+ You were not with us on that Expedition.
+
+   _Neop._ Why, were you one of that advent’rous Fleet?
+
+   _Phil._ Know you me not, my Son?
+
+   _Neop._ ---- ---- How shou’d I know
+ A Person whom I never saw before?
+
+   _Phil._ Did you not hear my Name, or the Report
+ Of all the Torments which have rack’d my Soul?
+
+   _Neop._ No not one single Word of Name or Torments.
+
+   _Phil._ Ah! wretched me!--odious to Heav’n’s great Powers!--
+ My woful Case was neither heard at Home,
+ Nor ev’n among the _Greeks_,--but those who cast
+ Me out smile at my Wrongs, and keep them secret.
+ My Wounds still ranckle, and encrease my Pain.
+ Beloved Youth, Son of the fam’d _Pelides_,
+ I the Successor of great _Hercules_
+ Possess his Arrows: I’m the Son of _Pæan_,
+ Call’d _Philoctetes_, whom two _Grecian_ Chiefs,
+ Join’d with the subtle [6]_Cephalenian_ Prince
+ Basely cast out into this desert Isle;
+ Torn with wild Anguish, with Impressions dire
+ Of Vipers Teeth all burning; thus they left me
+ Forlorn, when hither they from [7]_Chrysa_ sail’d;
+ Tir’d with the Agitation of the Waves,
+ And sunk to Sleep profound; rejoic’d to find
+ This cruel Opportunity, they fled
+ And laid me in the hollow of a Rock;
+ A few small Rags to bind my noisome Wounds,
+ And present Food a little, all they left me.
+ I wak’d! O Heavens! my Son, what Tongue can tell
+ The Sorrows of my Soul? what Floods of Tears
+ Flow’d down my Cheeks! what Sighs! what Groans!
+ To see them sailing off, and not one Soul
+ With solitary mourning _Philoctetes_.
+ No Help, no friendly Care, no kind Relief
+ To my distracting Sores; I look’d around,
+ And found not one Companion but my Pain;
+ Which ne’er remits. Day after Day went on,
+ I saw my little Cave must be supply’d
+ By my own Care, and Hunger be subdu’d
+ By the wild Doves my faithful Arrows slew.
+ What Birds I shot I crawl’d along with Pain
+ To bring them home, and dragg’d my bleeding Foot
+ With Anguish great. When to the limpid Spring
+ I crept to cool my parching Thirst, or went
+ To gather Fewel for my Fire, (the same
+ Affliction seiz’d me as I limp’d along)
+ This by repeated Stroaks of Flints I kindled,
+ But long before the little Seeds of Fire,
+ Scarce visible, became a living Flame.
+ This is my chief Support, my Cave’s best Comfort;
+ It grants me all but a Release from Pain.
+   But now, my Son, ’tis Time I should relate
+ The Nature of this Place. No Sailor steers
+ With willing Sails to these inhuman Shores;
+ No Trade; no Harbours; here no Mortal dwells
+ With hospitable Care to tend a Stranger;
+ None in their Senses will approach this Place.
+ If hither by tempestuous waves they’re driven
+ (As oft it happens in the length of Time)
+ To soft Compassion mov’d, my sad Condition
+ They pity, and some Food and Raiment give;
+ But not a Soul will take me home, but here
+ I’m left to perish in the desert Wilds.
+ For ten long Years of Hunger and of Pain,
+ I fed the Wounds, that feed themselves on me.
+ This the [8]_Atridæ_ did, and this _Ulysses_;
+ For which may Heav’n inflict like Woes on them.
+
+ Chorus.      Like those by chance who hither sail,
+                  I feel Compassion rise;
+              Thy Suff’rings force me to bewail,
+                  They pierce my wounded Heart and melt my Eyes.
+
+   _Neop._ I am a Witness of thy sad Complaint;
+ The Truth of what you say I cannot doubt;
+ I by Experience know, how violent
+ The Sons of _Atreus_ and _Ulysses_ are.
+
+   _Phil._ Have you then felt their curst, destructive Power,
+ That with a just Resentment you accuse them?
+
+   _Neop._ I wish my Passion were with Arms supply’d,
+ That [9]_Sparta_ and _Mycenæ_ both might know,
+ What valiant Heroes _Scyros_ can produce.
+
+   _Phil._ Well said, my Son, what is your Cause of Anger?
+
+   _Neop._ Thou Son of _Pæan_, I’ll impart it all,
+ Tho’ Words are wanting justly to describe
+ The injur’d _Neoptolemus_, when he
+ Had lost his best Defence, his martial Father.
+
+   _Phil._ Alas! proceed no farther ’till I hear
+ Whether the [10]Son of _Peleus_ be no more.
+
+   _Neop._ He fell, but by no mortal hand; they say
+ It was _Apollo_ sent the fatal Shaft.
+
+   _Phil._ Great was the Hand that slew! and great the slain!
+ But now, my Son, I am divided much
+ Between thy Suff’rings and his Death to know
+ Whether to hear thy Griefs, or wail his Fate.
+
+   _Neop._ Thy own Misfortunes bring sufficient Pains,
+ And leave no room to think of any others.
+
+   _Phil._ You reason well. Then to yourself proceed,
+ And let me know the Injuries you bear.
+
+   _Neop._ _Ulysses_ and my Tutour _Phœnix_ came
+ Both in one Ship to me, and this their Message;
+   That now my Father was no more, my Help
+ Was requisite to conquer _Troy_; none else
+ Alive could do. For so the Fates decreed.
+ How true or false I shan’t presume to say.
+ With quick Perswasion off I went, but more
+ Desirous far to see my Father’s Body;
+ But saw it not. Yet still Ambition fir’d
+ My gen’rous Soul with glorious Thoughts of Conquest.
+ In two days Time on the [11]_Sigeian_ Shore
+ I landed; wretched was that Shore to me!
+ While the whole Army stood around to pay
+ Their due Respect, and all did loudly swear
+ They saw _Achilles_ still alive in me;
+ But he, alas! was dead; unhappy I
+ Let fall some silent Tears, and so retir’d
+ A while to think of him, and grieve alone.
+ To the _Atridæ_, whom I thought my Friends,
+ I went, demanding my dead Father’s Treasures,
+ Among the rest his Armour; when, alas!
+ How great my Sorrow! this the dismal Answer.
+   “Son of _Achilles_, all the rest is thine;
+ “The Armour is dispos’d of to _Ulysses_.
+ At this Intelligence I griev’d; and wept.
+ At length my Passion struggling broke its way,
+ And thus I spoke; Injurious Prince, who durst
+ Without my Leave dispose of what was mine?
+   Then said _Ulysses_, standing near, they’re mine;
+ “And justly were they given: I sav’d your Sire
+ “From being stript of them and dragg’d him off,
+ “When hostile Foes wou’d make his Coarse a Prey.
+   Now much enrag’d, my swelling Anger burst,
+ And out in dreadful Imprecations flew
+ Upon them all, for such injurious Treatment.
+ _Ulysses_ then advanc’d, suppress’d his Anger;
+ But stung at what he heard, he thus reply’d.
+ _You ran no Risk, but staid behind at Home;
+ Rant as you please, you ne’er shall bear it hence._
+   Thus injur’d and repuls’d, I homeward sail’d,
+ Spoil’d of my native Right, by one I deem
+ The worst of Men, I mean the base _Ulysses_.
+ But yet I blame the chief Commanders more;
+ The Army and the Civil Pow’r is theirs;
+ Their Orders all obey; when Wrongs are done,
+ It is by their Connivance, or Example.
+ I’ve told you all; whoever hates th’ _Atridæ_,
+ I hold him dear both to the Gods and me.
+
+ Chorus.            All feeding Mother Earth,
+                  On whom the lofty [12]Mountains stand,
+                    From thee great _Jove_ derives his [13]Birth,
+                  Supported by thy bounteous Hand.
+              Thou who dost dwell where rich [14]_Pactolus_ shines
+              With Wealth exhausted from the Golden Mines,
+                      Shall I invoke thy Name
+                      Within that Stream?
+              And tell what Injuries are done
+                      To _Neoptolemus_, the Son
+              Of great _Pelides_, that great Man of Fame?
+                      His Armour to _Ulysses_ given,
+              And he the Son from his own native Right is driven.
+                      Thee, mighty Goddess, we invoke,
+                      Who dost Bull-slaught’ring [15]Lyons Yoke,
+              And drawn by them in Car-triumphant ride,
+              Humble th’ _Atridæ_ and pull down their Pride.
+
+-----
+
+Footnote 1:
+
+  _Lemnian_ Coast. _Lemnos_ is an Island in the _Ægean_ Sea, South of
+  _Thrace_, in the Latitude of 41 Deg. now called _Stalimene_ by the
+  _Turks_: The Form of it is Quadrangular, it is 25 Miles over, which
+  makes it 100 Miles about.
+
+Footnote 2:
+
+  _Melian_ Son of _Pæan_. _Philoctetes_ the _Thessalian_ Son of _Pæan_,
+  and Companion of _Hercules_.
+
+Footnote 3:
+
+  _Pelides._ _Achilles_ the Son of _Peleus_.]
+
+Footnote 4:
+
+  Son of _Laertes_. _Ulysses._
+
+Footnote 5:
+
+  _Lycomedes_ King of _Scyros_, (one of the _Cyclades_) to whom the
+  Goddess _Thetis_ gave her Son _Achilles_ in Charge, having stoln him
+  from his Master _Chiron_, as he was asleep; because she foresaw that
+  he would never return alive from the Siege of _Troy_. For this Reason
+  he was kept at the Court of _Lycomedes_, in a Woman’s Dress, among his
+  Daughters, the better to conceal him. He was at last discover’d by a
+  Stratagem of _Ulysses_.
+
+Footnote 6:
+
+  _Cephalenian_ Prince. _Ulysses._ So call’d from the Island
+  _Cephalenia_, of which he was King.
+
+Footnote 7:
+
+  _Chrysa_, an Island near _Lemnos_.
+
+Footnote 8:
+
+  _Atridæ._ _Agamemnon_ and _Menelaus_, the two Sons of _Atreus_. One
+  was King of _Mycenæ_, and the other of _Sparta_. They were the chief
+  Commanders of the _Greeks_ who went upon the _Trojan_ Expedition.
+
+Footnote 9:
+
+  _Sparta_ and _Mycenæ_. Both Towns of the _Peleponnesus_ in _Greece_.
+
+Footnote 10:
+
+  Son of _Peleus_. _Achilles._ _Peleus_ was King of _Thessaly_.
+
+Footnote 11:
+
+  _Sigeum_, a Promontory near _Troy_.
+
+Footnote 12:
+
+  _Orea_, or Mountains according to Mythologists were said to be
+  Daughters of the Goddess _Terra_, or Earth.
+
+Footnote 13:
+
+  _Jupiter_ was born in _Crete_.
+
+Footnote 14:
+
+  _Pactolus_, a River in _Lydia_, which has its Rise from the Mountain
+  _Tmolus_ famous for Golden Sands.
+
+Footnote 15:
+
+  _Cybele_, who was the same with _Terra_, or the Earth, had her Chariot
+  drawn by Lyons.
+
+------------------------------------------------------------------------
+
+                               SCENE II.
+
+   _Phil._ Strangers, ye seem to bear the Marks of Sorrow,
+ And I perceive your Sentiments and mine
+ Concerning the _Atridæ_, and _Ulysses_,
+ Are both the same: As for his Part, I know
+ His artful, false, disguis’d, deluding Tongue,
+ To Truth and Justice is a perfect Stranger:
+ At which I wonder not, but much admire
+ How braver [16]_Ajax_ cou’d allow such Wrongs.
+
+   _Neop._ _Ajax_, my Friend, is dead, or had he Life,
+ I shou’d not thus be made a shameful Prey.
+
+   _Phil._ And is the great, the valiant _Ajax_ dead?
+
+   _Neop._ He now no longer breathes in Heav’ns fair Light.
+
+   _Phil._ Wretched am I--There’s [17]_Diomede_ alive
+ And curs’d _Ulysses_, sprung from [18]_Sisyphus_,
+ And both unworthy of the Breath they draw.
+
+   _Neop._ Both live and flourish, both in Pomp appear,
+ Peculiar Fav’rites of the _Grecian_ Host.
+
+   _Phil._ Where is my good, my old, my faithful Friend,
+ [19]_Nestor_ of _Pylos_? for he well foresaw
+ Their dark Designs, their base, their treach’rous Deeds.
+
+   _Neop._ Loaded with Woes, his only Son is dead,
+ _Antilochus_; the Comfort of his Age.
+
+   _Phil._ Two dismal Evils you have told, I hear
+ Them both with much Affliction; O my Heart!
+ What shall I think? The brave are dead and gone;
+ _Ulysses_ lives! who well deserv’d to die.
+
+   _Neop._ He wisely fights; but even the wise sometimes
+ Perceive their deepest Counsels overthrown.
+
+   _Phil._ Tell me, I pray thee by the Gods, where was
+ Thy Father’s dearest Friend [20]_Patroclus_ then.
+
+   _Neop._ Slain with the rest. Observe this one Remark,
+ _Mars_ ever singles out the brave to die;
+ Cowards are safe; he scorns their panting Breast.
+
+   _Phil._ I grant it’s true; and for this Cause I shall
+ Enquiry make for one unworthy Wretch,
+ Whose Tongue had Words and Cunning at command,
+ In what Condition’s he?---- ----
+
+   _Neop._ ---- ---- ----_Ulysses_ sure
+ You mean; this Character suits none but him.
+
+   _Phil._ No. One [21]_Thersites_ clamorous and loud,
+ In spight of Opposition; does he live?
+
+   _Neop._ I saw him not, but heard he was alive.
+
+   _Phil._ ’Tis like, because no Evil yet is dead.
+ The Gods to me seem Guardians to the base,
+ And take a Pleasure to preserve from Death
+ The false and fraudulent; the just and good
+ They snatch away from hence. What shall we think
+ Of this? or how give Praise to them? who shew
+ So much Regard to wicked Men their Fav’rites.
+
+   _Neop._ As for myself, I’ll freely speak my Thoughts,
+ Thou Son of _Pæan_, I resolve to live
+ Remote from _Troy_, and the _Atridæ_ both;
+ Where wicked Men with Pow’r oppress the Good,
+ Where Virtue is destroy’d, and Vice commands.
+ As for my self, I cannot love such Men;
+ And rocky _Scyros_ shall hereafter be
+ My best Content----There shall I joy to live.
+ Now to my Ship I go, dear Son of _Pæan_,
+ Farewel; with all my Soul farewel; and may
+ The Gods remove thy Pain ev’n as thou wilt;
+ For go we must, whenever Heav’n is pleas’d
+ To send a fair and favourable Wind.
+
+   _Phil._ And do ye now prepare?---- ----
+
+   _Neop._ ---- ---- ----No Time we lose;
+ The moment that the Winds invite, we go.
+
+   _Phil._ O! for thy Father’s, and thy Mother’s sake,
+ For all that can be dear to thee at home,
+ I beg, beseech, and pray you not to leave
+ A poor, forsaken, solitary Man,
+ In all the dire Calamities you see;
+ And such as I already have related;
+ But place me any where, in any manner.
+ I know a wretched Burthen that I am,
+ However bear me to the generous Soul;
+ What’s base is hateful; Goodness is his Glory.
+ If I be left behind, it brings Disgrace;
+ But if you take me off, it brings you Honour.
+ If I shall get alive to _Oeta_’s Land,
+ ’Tis but the trouble of one single Day;
+ Then dare to take me, throw me where you please;
+ Or by the Pump, or Stern, or Prow, my Friend,
+ Or any part, where I shall give no Pain.
+ By _Jove_, who over suppliant Men presides,
+ I beg you to consent, my Son; I fall
+ Down prostrate, and in Tears embrace your Knees;
+ A poor, lame, helpless, miserable Man.
+ Ah! leave me not alone, where not a Print
+ Of human Foot is seen; but save me hence;
+ Whether you take me to your native home,
+ Or land me on [22]_Eubea_’s Coast; from thence
+ To [23]_Oeta_ I’ve not far to go; not far
+ To the _Trachinian_ Hills, where [24]_Spercheus_ winds
+ It’s lovely Stream; there let my Father see me.
+ Tho’ long since much I fear he’s dead; for oft
+ By many Passengers I sent, to beg
+ He’d send a Ship to take me safely home;
+ But he is either dead, or they perhaps
+ Slighted my Message; or they pass’d him by.
+   Now is my last Resort, be thou at once
+ Conductor both and Messenger; O save,
+ And have Compassion, and consider well
+ How frail are human Things; how much expos’d
+ To Change! This day the happy Man may be
+ Cast down from all his Joy; then he who stands
+ Without the Storm, shou’d cast a tender Eye
+ On the poor shipwreck’d Man, and bring Relief;
+ ’Tis in the midst of Happiness we shou’d
+ Live on our Guard, for fear of a Surprize.
+
+ Chorus.        O Prince, for once be kind,
+                Let him Compassion find.
+              He told you all his dreadful Woes,
+                Which Heaven avert from any Friend of mine.
+                Then let the Joy be thine,
+                To make th’ _Atridæ_ know
+                  He shall obtain
+                  Release from Pain,
+                And ev’ry haughty Foe.
+              Then haste away and hoist your Sails,
+              Make haste to catch the flying Gales,
+                  And waft him o’er
+                  Unto his native Shore,
+              Lest Heav’n pursues you if my Counsel fails.
+
+-----
+
+Footnote 16:
+
+  _Ajax_, the Son of _Telamon_ and _Hesione_, accounted the next Hero to
+  _Achilles_ among the _Greeks_.
+
+Footnote 17:
+
+  _Diomede_, Son of _Tydeus_, next in Prowess to _Ajax_. _Homer_ makes
+  him wound _Mars_ and _Venus_.
+
+Footnote 18:
+
+  _Sisyphus_, a great Robber in _Attica_, the Grandfather of _Ulysses_.
+
+Footnote 19:
+
+  _Nestor._ An experienc’d General and Orator, Son of _Neleus_; So
+  excellent in Wisdom, that _Agamemnon_ said, if he had ten such in his
+  Army, _Troy_ would soon be conquer’d.
+
+Footnote 20:
+
+  _Patroclus_, Son of _Menætius_. When he was young having kill’d one of
+  his Playfellows by accident, was forc’d to fly his Country, and go to
+  _Pthia_ in _Thessaly_, where he was receiv’d by _Tydeus_, and bred up
+  with his Son _Achilles_ under _Chiron_: This made him and _Achilles_
+  such inseparable Companions and Friends.
+
+Footnote 21:
+
+  _Thersites._ The most deformed of all the _Greeks_. He is painted by
+  _Homer_ in a most ridiculous Manner.
+
+Footnote 22:
+
+  _Eubea_, an Island in the _Ægean_ Sea, now called _Negrepont_.
+
+Footnote 23:
+
+  _Oeta_, a Mountain on the Borders of _Thessaly_. _Trachin_ a Town near
+  it, whence the Hills are called _Trachinian_.
+
+Footnote 24:
+
+  _Spercheus._ A River which runs with a rapid Course from a Mountain in
+  _Thessaly_.
+
+------------------------------------------------------------------------
+
+                               SCENE III.
+
+   _Neop._ Take care you do not now disguise your Thoughts,
+ And soon again with Violence exclaim,
+ When he no longer can suppress his Anguish.
+
+   _Chorus._ Falshood be far from me, such foul Disgrace
+ You shall not justly have to charge me with.
+
+   _Neop._ It wou’d be scandalous and base in me,
+ To be less willing to assist this Stranger;
+ Then sail we must away, let him prepare
+ With Expedition; for I shan’t deny
+ To take him in my Ship, and may the Gods
+ Propitious prove, and safely fill our Sails.
+
+   _Phil._ O friendly Day to me! O best of Men!
+ Ye dearest Mariners, how shall I make
+ Acknowledgments? or how can I express
+ What Obligations bind me to you all?
+ But let us go, my Son, to visit now
+ My little homeless Home, and there you’ll see
+ What Life I led; how strong my Heart to bear
+ Such Hardships; that the Place wherein I lay
+ Wou’d give your Eyes offence; yet I, alas!
+ Was by Necessity inur’d to this.
+
+   _Chorus._ Hold, let us see; two Men advance this Way,
+ The one belongs to thee, t’other I know
+ Him not, but hither they approach. Before
+ We go, ’tis fit we shou’d enquire their Business.
+
+                         _Enter the_ Merchant.
+
+   _Mer._ Son of _Achilles_, here by Chance I came;
+ And unexpected find thee, by this Man
+ Inform’d; for he, it seems, with two Men more,
+ Guarded thy Vessel. Sailing right from _Troy_
+ And homewards bound to [25]_Peparethos_ fam’d
+ For Vines, I heard these Men, prepar’d to sail,
+ Were thine; I straightway then resolv’d to hail
+ The Crew, and not to pass before I shou’d
+ Acquaint you, what you little think; The _Greeks_
+ Have form’d Designs against you, which not long
+ Will so be call’d, for soon you’ll find them Facts.
+
+   _Neop._ My Friend, I thank thee for thy Care; I shou’d
+ Be base indeed, were you not dear to me
+ For this Intelligence. What new Designs
+ Concerning me? What have the _Greeks_ resolv’d?
+
+   _Mer._ Old _Phœnix_ and the Sons of _Theseus_ in
+ Pursuit of thee set sail----
+
+   _Neop._ ---- ---- ----Do they intend
+ By Force of Arms, or Reason, to subdue
+ And bring me back?----
+
+   _Mer._ ---- ----I know not which they mean;
+ But this Intelligence I thought was proper.
+
+   _Neop._ Will _Phœnix_ and his Men, to gratify
+ The base _Atridæ_, turn their Force on me?
+
+   _Mer._ They have resolv’d so far, they won’t delay.
+
+   _Neop._ Why not _Ulysses_, Was it Fear detain’d him?
+
+   _Mer._ He and the Son of _Diomede_ are bent
+ Upon another Prey, they hoist their Sails
+ The very day I launch’d my Ship from thence.
+
+   _Neop._ Against what Man is this _Ulysses_ sent?
+
+   _Mer._ A certain Man--But whisper me who’s this?
+
+   _Neop._ This is the famous _Philoctetes_, Friend.
+
+   _Mer._ Say not a Word--But hence--begone in Haste;--
+ Fly from this Island with your utmost Speed.
+
+   _Phil._ What does he say, my Son? what private Gain
+ Does he propose by whisp’ring thus of me?
+
+   _Neop._ I know not what he means. He must himself
+ Explain it, in the Presence of us all.
+
+   _Mer._ Son of _Achilles_, do not you betray me,
+ For thus disclosing what I shou’d conceal;
+ Because I’m much indebted to the _Greeks_,
+ Bound by the strongest Ties of Gratitude;
+ For I was poor, and they reliev’d my Want’s.
+
+   _Phil._ To the _Atridæ_ I’m an Enemy----
+ But here’s my greatest Friend, because his Hate
+ For them with mine agrees; and now you’re come,
+ Sincerely act, and do not ought conceal
+ That may be grateful for my Soul to know.
+
+   _Mer._ See what you do, my Friend----
+
+   _Neop._ ---- ---- ----I’ve thought on’t well.
+
+   _Mer._ The Blame shall all be thine---- ----
+
+   _Neop._ ---- ----On what Account?
+
+   _Mer._ Once more, my Friend, I must acquaint you, That
+ The Son of _Tydeus_ and _Ulysses_ come
+ Against this Person, sworn by Force to take him,
+ Or by Perswasion sooth him back again;
+ This from _Ulysses_ all the _Grecians_ heard;
+ For none beside had so much Confidence.
+
+   _Neop._ What mov’d th’ _Atridæ_, after so long Time,
+ To have a Thought of banish’d _Philoctetes_?
+ Whence this Desire for him? was it because
+ They fear’d the Vengeance of th’ offended Gods?
+
+   _Mer._ I’ll tell thee all; (perhaps you heard it not)
+
+ A Royal Prophet, Son of aged _Priam_,
+ Call’d _Helenus_, in dead of Night betray’d
+ By false _Ulysses_, (that detested Man!)
+ Was led in Chains, and brought a glorious Prey
+ By him presented to the _Greeks_; he told
+ All his Prophetick Soul cou’d then foresee
+ Concerning _Troy_; That it wou’d ne’er be conquer’d,
+ Except they brought this Person, whom you see
+ Upon this Island; which _Laertes’_ Son
+ No sooner hear’d, but he straight undertook
+ The Task, and said he’d bring him to the _Greeks_
+ With free Consent, or else against his Will;
+ If not, he wou’d engage to lose his Head.
+ Now you have heard it all, I urge your Haste,
+ And his, and any else whom you regard.
+
+   _Phil._ Alas for me! did he, who’s stain’d all thro’
+ With Crimes, engage to bring me back again?
+ He might as well perswade me back from Death
+ To Life, as basely as his Father came.
+
+   _Mer._ These Things I know not, but I must from hence
+ On Board; may some good God conduct you both.
+
+   _Phil._ Is not this harden’d Impudence, that he
+ Shou’d hope by flatt’ring Speeches to prevail,
+ And take me to the _Greeks_? I’d sooner hear
+ The Viper which depriv’d me of my Foot.
+ But he will say and dare do ev’ry Thing;
+ And now I know for certain he will come.
+ But let us go, my Son, that we may be
+ Divided by a distant Sea from him.
+ Let us be gone--a seasonable Haste,
+ When Labour’s over, brings a pleasing Rest.
+
+   _Neop._ How can we go when Heav’n’s against our Sails,
+ Adverse the Wind, commanding us to stay?
+
+   _Phil._ No Wind’s against us when we fly from Evils.
+
+   _Neop._ It blows against their Sails as much as ours.
+
+   _Phil._ By adverse Winds a Pyrate ne’er is hindred,
+ When forth he sallies for his lawless Plunder.
+
+   _Neop._ Since you request it, let us go, and take
+ Whatever Things are needful for your Voyage.
+
+   _Phil._ Some I shall want, but they are very few.
+
+   _Neop._ What can you need which I cannot supply?
+
+   _Phil._ Some Herbs, whose Virtues mitigate my Pain,
+ And often put my restless Wounds to sleep.
+
+   _Neop._ Well--bring them out----what other Things beside?
+
+   _Phil._ My Bow--Alas I had almost forgot!
+ And left it here behind a Prey to him.
+
+   _Neop._ Is this the celebrated Bow you bear?
+
+   _Phil._ The very same; my Hand no other holds.
+
+   _Neop._ Give me a nearer View, and let me take
+ It in my Hands, and pay it Adoration.
+
+   _Phil._ This, and whatever else I have, my Son,
+ Whatever pleases you, you may command.
+
+   _Neop._ I love thee well, and thus I shew my Love;
+ If Heav’n permits to touch thy Bow, I will;
+ If not, refuse me; if a wrong Request.
+
+   _Phil._ You speak religiously, my Son, you may--
+ You who have brought me to the Sun’s fair Light,
+ To see the sweet _Oetean_ Fields again,
+ My aged Father, and my dearest Friends;
+ Who rais’d me up, o’erwhelm’d by envious Foes;
+ You shall, and welcome, take it in your Hands;
+ But then return it safely to it’s Owner.
+ Then may you boast that you’re the only Man,
+ Whom for your Virtue, and for that alone,
+ So much I’ve honour’d, as to touch this Bow;
+ ’Twas giv’n to me for human Acts; for which
+ I’m pleas’d to see so good a Friend enjoy it.
+ _Whoever knows for Benefits receiv’d
+ To make a just Return, that Man I deem
+ A Friend beyond the Value of all Treasure._
+
+   _Neop._ ---- ----’Tis Time to enter in thy Cave.
+
+   _Phil._ ---- ---- ---- ----And thee
+ I must entreat to go; for I shall want thy Help.
+
+                             ANTISTROPHICA
+
+                               STROPHE I.
+
+ Chorus.      I heard of those eternal Pains,
+                  Which rack’d [26]_Ixion_ feels,
+              Fast bound by Adamantine Chains
+                  To ever-turning Wheels.
+
+              Doom’d to this Fate by angry _Jove_,
+                  For tempting to embrace
+              The Queen of Heav’n with impious Love;
+                  His Torments never cease.
+
+              But never did I hear or see
+                  A Man so rack’d before,
+              As _Philoctetes_ seems to me,
+                  What Suff’rings can be more?
+
+              He never did an Act was wrong,
+                  But Justice still maintain’d;
+              I wonder much that he so long,
+                  Such Torments has sustain’d.
+
+              Tell me the Cause, ye angry Pow’rs,
+                  In Fortune’s stormy Seas,
+              He’s tost so many tedious Hours,
+                  Without one Moment’s Ease.
+
+                             ANTISTROPHE I.
+
+              Expos’d to all the Storms that blow,
+                From whence he cannot fly;
+              And not a Friend to feel his Woe
+                Returning Sigh for Sigh.
+
+              Not one the healing Herb applies
+                To sooth his angry Wound;
+              But torn with Anguish, there he lies
+                Extended on the Ground.
+
+              The Instant that his Pains abate,
+                He like an Infant creeps,
+              To find a Plant to quell that Heat,
+                And thus the Venom sleeps.
+
+                              STROPHE II.
+
+              Not from the sacred Earth his Foods
+                Nor from the Tiller’s Care,
+              Does he recruit his streaming Blood,
+                But from the Bird-flown Air.
+
+              When soaring Fowls advance this Way
+                He lets his Arrows fly;
+              To certain Death the feather’d Prey
+                Falls flutt’ring from the Sky.
+
+              Ah! wretched Soul, thy Fate was hard,
+                To live ten Years in Pain,
+              To be from joyful Wine debarr’d
+                To drink the tastless Rain.
+
+                            ANTISTROPHE II.
+
+              His Fortune’s now revers’d we see,
+                A gen’rous Youth’s inclin’d
+              To waft him Home; to set him free;
+                And ease his tortur’d Mind.
+
+              Lo! to the _Melian_ Nymphs he’s gone,
+                To _Sperchius’_ vagrant Streams,
+              To _Oeta_’s Mount where _Jove_’s great Son
+                To Heav’n aspir’d in Flames.
+
+   _Neop._ Come, gently move along; what means this Silence?
+ Why stand you thus confounded in amaze?
+
+   _Phil._ Alas! alas! alas!---- ---- ----
+
+   _Neop._ ---- ---- ----What mean these Sounds?
+
+   _Phil._ Nothing that’s worth Complaint; my Friend proceed.
+
+   _Neop._ Perhaps our walking may increase your Pains.
+
+   _Phil._ Not in the least, I rather feel my Wound
+ Much lighter since our Walk. Ye heav’nly Powers! (_aside_)
+
+   _Neop._ Why do you then invoke the heav’nly Powers?
+
+   _Phil._ To be propitious, and attend our Voyage.
+ O Heav’ns, what Pains I feel!---- ----
+
+   _Neop._ ---- ---- ----What Suff’rings now?
+ Why are you silent? For you seem to me
+ By Starts and Groans your Torture to confess.
+
+   _Phil._ My Son, I’m lost; no longer I conceal
+ The Malady; it wounds my very Soul;
+ It pierces thro’ and thro’; O wretched me!
+ Murther’d! undone! and lost beyond Redress.
+ O dismal, racking, burning, poison’d Pains!
+ Reach me a Sword, my Son, an Ax, a Dagger;
+ Cut off my Foot this instant; spare it not.
+
+   _Neop._ What new Addition do you feel, that makes
+ You roar with hideous Exclamation loud.
+
+   _Phil._ You know, my Son---- ----
+
+   _Neop._ ----Not I----
+
+   _Phil._ You know indeed.
+
+   _Neop._ What do you mean?
+
+   _Phil._ ----I know not what I mean.
+
+   _Neop._ Why know you not?
+
+   _Phil._ ---- ---- ----I cannot speak for Pain.
+
+   _Neop._ Dreadful the shooting of thy Wound indeed!
+
+   _Phil._ Dreadful beyond Expression; O! my Friend,
+ Have some Compassion on the Woes I feel.
+
+   _Neop._ What shall I do to give thee Ease?----
+
+   _Phil._ ---- ---- ---- ----Ah! don’t
+ Forsake me for the piteous Moans I make.
+ By Fits and Starts, my Torments come and go
+ Like Vagabonds, to feed; and then they vanish.
+
+   _Neop._ Unhappy Mortal, I lament thy Fate,
+ And all the lamentable Shocks thou bearest--
+ Shall I support you as you walk along?
+
+   _Phil._ Support me not, but hold my Bow a-while,
+ Until the present Torment which I feel
+ Abates, and keep it safe; for when my Pains
+ Are at the full, I sink to sleep; no means
+ Beside can give me Ease; then sleep I must,
+ And let me lie from all Disturbance free;
+ If in that Interval my Foes shou’d come,
+ By all the Gods I must conjure thee, not
+ To part it from thy Hands, by Will, or Force,
+ Or any Stratagem may be contriv’d
+ To get it from thee; for on this depends
+ Thy Safety, and thy humble Suppliant’s Life.
+
+   _Neop._ Fear not, thy Caution I’ll observe--No Man
+ Alive shall touch this Bow, except thy self,
+ And me--Give it--May Fortune guard us both.
+
+   _Phil._ Take it--Good luck attend thee--But adore
+ The Goddess _Envy_ first, lest the same Fate
+ Pursues thee which annoy’d its former Masters.
+
+   _Neop._ Ye Gods! grant my Request; may happy Winds,
+ When ye think fit, convey us home with Safety.
+
+   _Phil._ I fear your Pray’rs are all in vain, my Son;
+ The boiling Blood ’stills from my burning Sole.
+ Some Change much worse I dread, alas! alas!
+ O wretched Foot, what Evils do you feed!
+ Now, now it tears, now to my Soul it comes,
+ Attacks with greatest Force. O wretched me!
+ Bear with my loud Complaints, and fly not hence,
+ My Friends, O fly not from my dismal Groans.
+   My _Cephalenian_ Friend, I wish thy Breast
+ Felt all my Grief at once. O _Agamemnon_,
+ And you his Brother-Leader _Menelaus_,
+ How would you bear these Wounds I feel, so long?
+ Ah me what num’rous Evils I endure!
+ O Death! Death! Death! whom ev’ry Day I call;
+ Will you not come and end my loathsome Life?
+ Thou generous Youth in whom true Pity dwells,
+ Take me and throw me in the _Lemnian_ Flames;
+ There burn me all, do me that friendly Office,
+ Which I did for the Son of _Jove_, when he
+ Bequeath’d these Arrows, which to thee I’ve given.
+ What do you say? ah! speak, and be not silent;
+ Where’s thy Attention? where’s thy wand’ring Mind.
+
+   _Neop._ I grieve long since and all thy Pains deplore.
+
+   _Phil._ But, O my Son, bear; bear my Griefs a-while;
+ They’re short, and violent, and quickly gone;
+ Therefore I beg you leave me not alone.
+
+   _Neop._ I shall not leave thee.
+
+   _Phil._ No?
+
+   _Neop._ For certain not.
+
+   _Phil._ I shall not by an Oath engage thy Faith.
+
+   _Neop._ It is not fit I leave thee behind.
+
+   _Phil._ Pledge me your Hand you’ll stay.
+
+   _Neop._ I do.
+
+   _Phil._ O place me there, there place me.
+
+   _Neop._ In what Place?
+
+   _Phil._ Above.
+
+   _Neop._ What makes you wildly look around.
+
+   _Phil._ O let me go from hence.
+
+   _Neop._ Where let thee go?
+
+   _Phil._ Let me, I say.
+
+   _Neop._ I will not let thee go.
+
+   _Phil._ One Touch is Murder.
+
+   _Neop._ Then I let thee go.
+ Hast thou recover’d yet thy perfect Senses?
+
+   _Phil._ O Earth receive me sinking to thy Bosom.
+ I can’t sustain myself one Moment longer.
+
+   _Neop._ Poor Man! a sudden Slumber seals his Eyes!
+ His drooping Head upon his Breast is fallen!
+ The dewy Sweat distils from all his Pores;
+ And bursting Gore streams from his tortur’d Foot.
+ O let us leave him now to Rest and Quiet;
+ Let him forget himself in Sleep a while.
+
+-----
+
+Footnote 25:
+
+  _Peparethos._ One of the Cluster of Islands in the _Ægean_ Sea called
+  the _Cyclades_.
+
+Footnote 26:
+
+  _Ixion._ After he had murther’d his Father-in-law _Deioneus_ being
+  much rack’d on that Account, _Jupiter_ in Compassion translated him to
+  Heaven, where he basely attempted _Juno_; for which, _Jupiter_ had him
+  fix’d to a Wheel in Hell, which was to turn round for ever.
+
+------------------------------------------------------------------------
+
+                               SCENE IV.
+
+                                EPODICA.
+
+                               STROPHE I.
+
+ Chorus.      Soft Sleep, thou Stranger to all Pain,
+                Breathe on him with thy softest Gale;
+              Thou Prince of a most happy Reign,
+                Upon his Eye-Lids gently steal.
+              Keep off the bright extended Rays of Light,
+              And gather all the gloomy Shades of Night.
+                Come hither thou Physician sure,
+                Thou the universal Cure.
+
+                              ANTISTROPHE.
+
+              Resolve, my Son, what you must do,
+                Why are you wav’ring in Suspense?
+              Our first Designs we shou’d pursue,
+                At once surprize and bear him hence.
+              The wisest Counsels still we see
+              Depend on Opportunity.
+              And now this favourable Hour
+              Entirely puts him in our Pow’r.
+
+   _Neop._ Tho’ fast asleep he hears us not, in vain
+ We take his Bow, and leave him here behind;
+ The Crown is due to him, the Gods desire
+ That we shou’d take him with us, but to boast
+ A vain Attempt will bring us foul Disgrace.
+
+                              ANTISTROPHE.
+
+ Chorus.      These Things are to the Gods alone,
+              To their all-searching Wisdom known;
+              But in your Answer tell in short,
+              And fix upon our last Resort;
+              For Pains th’ afflicted wakeful keep,
+              They only have a sleepless Sleep.
+              Whatever Counsel’s best to thee,
+              That Counsel is the best for me;
+              But see it be in secret done,
+              You know the Man I fix upon.
+              If your Opinion be the same
+              With mine, to prosecute the Scheme,
+              You’ll find what Difficulty lies
+              In all the Projects of the wise.
+
+                                EPODOS.
+
+                  We cannot have a fairer Wind,
+                  Behold you see the Man is blind!
+                  Helpless in Darkness there he lies;
+                  Nocturnal Sleep has clos’d his Eyes.
+                  No Motion, Hand, or Foot, or Breath,
+                  He lies all silent there as Death;
+                  But now he seems to look around,
+                  And murmur out a deadly Sound.
+                  Our Bus’ness is to seize him here;
+                  Success is to be void of Fear.
+
+   _Neop._ Be silent then and resolute; you see
+ His Eyes are open’d, and his Head is rais’d.
+
+   _Phil._ O Light succeeding Sleep, Death’s Image! see,
+ Beyond my Hopes, the Stranger’s faithful Guard!
+ This I could never hope, my Son, to find,
+ That you with such Compassion cou’d behold
+ The dismal racking Torments which I bear,
+ And wait with kind Assistance, to relieve
+ A poor afflicted Soul; not so the good,
+ The great _Atridæ_, were they here, wou’d grant
+ Such friendly Aid; But thou art gen’rous, good,
+ And great; of Ancestors the same you’re sprung.
+ My nauseous Wounds, my tiresome Groans you bore
+ With unexampled Patience; now my Pains
+ Abate, they’re gone, and sunk in sweet Oblivion,
+ Do you yourself with helping Hand up raise me.
+ Now that my Torture’s vanish’d, let us haste
+ On Board; for Time requires our Speed.
+
+   _Neop._ What Joys I feel at this surprizing Sight!
+ To see you free from Pains and breathing still!
+ For all the Marks of ghastly Death I saw
+ In thy pale Face, by Life deserted quite.
+ Arise, my Friend, and these shall bear thee hence,
+ Well pleas’d to do’t if you and I command.
+
+   _Phil._ I thank thee for thy Offer; but, my Son,
+ Raise me thy self, lest the ungrateful Stench
+ Offend their Nostrils; they must bear it all
+ While I’m on Board, and giv’n to them in Charge.
+
+   _Neop._ Thy Will is mine----But help to raise thy self.
+
+   _Phil._ I shall; for well I’m us’d to this hard Task.
+
+   _Neop._ Ye Gods! what shall I do?---- ----
+
+   _Phil._ ---- ---- ----What’s this, my Son?
+ What means this sudden Change? and why these Sighs?
+
+   _Neop._ O my distracted Soul! what Doubts arise!
+
+   _Phil._ And do you doubt, my Son? O never own it.
+
+   _Neop._ My Suff’rings now are equal to his Pains. (_aside._)
+
+   _Phil._ Are you offended at my foul Disease,
+ And now relent to take me in your Ship?
+ Is this the Hardship that weighs down your Spirits.
+
+   _Neop._ All is a Hardship to a gen’rous Soul,
+ When ’tis oblig’d to turn against its Nature;
+ To act against Compassion, which was stampt
+ Upon it’s Essence when it first began.
+
+   _Phil._ But you do neither act nor speak a Thing
+ That’s unbecoming of your noble Sire,
+ In doing good to me a virtuous Man.
+
+   _Neop._ But for the Character which I must bear,
+ The base, the treach’rous Character, my Friend!
+ That is my Grief, ’tis that which wounds me most.
+
+   _Phil._ Your Actions give me no great Cause to fear,
+ But your Expressions much alarm my Soul.
+
+   _Neop._ Great _Jove_, what shall I do! I’m doubly curss’d,
+ Both in concealing what I shou’d reveal,
+ And speaking what I rather shou’d keep secret.
+
+   _Phil._ If I mistake not I am now betray’d,
+ And your Intent’s to leave me here behind.
+
+   _Neop._ I shall not leave thee, but my only Grief
+ Is that I take thee hence, to thy great Sorrow.
+
+   _Phil._ What’s this you say, my Son? your Words explain.
+
+   _Neop._ I shall no longer hide my Thoughts; you must
+ For _Troy_ prepare, and to the _Grecian_ Fleet
+ We must from hence to the _Atridæ_ sail.
+
+   _Phil._ Ah me! what’s this?---- ----
+
+   _Neop._ ---- ----Don’t grieve before you know.
+
+   _Phil._ Know what? inform me what you mean to do.
+
+   _Neop._ To free thee from this foul Disease, and then
+ To lay _Troy_ waste by thy assisting Hand.
+
+   _Phil._ Are you for certain then resolv’d on this?
+
+   _Neop._ Necessity commands, you must obey;
+ Be deaf to Anger, and in Peace submit.
+
+   _Phil._ Undone! poor Wretch! betray’d! is’t thus you act,
+ My Friend? O give me back my faithful Bow.
+
+   _Neop._ That cannot be; for to the Pow’rs Supreme
+ Justice and Publick Good command our Faith.
+
+   _Phil._ All-seeing Sun, all Terror, all Deceit!
+ Detested Wretch, what hast thou done to me?
+ How am I now betray’d? dost thou not blush
+ To see me thus on bended Knees before thee?
+ Thou impious, cruel, base, destructive Man!
+ Of Life you robb’d me when you took my Bow.
+ O give it back, upon my Knees I beg;
+ Return my Life’s Support, by all your Gods,
+ Your Country Gods! don’t rob me of my Life.
+ O wretched me! will you not speak one Word,
+ But look averse, resolv’d to keep my Right?
+ Ye Shores, ye Promontories, and ye Rocks,
+ Ye Beasts, my dumb Companions in this Isle,
+ To you I now complain; none else will hear
+ My sad Complaints, to you I speak my Grief:
+ To you so well acquainted with my Woes.
+ See what the Son of great _Achilles_ does!
+ He who has sworn to take me home, to _Troy_
+ Now bears me; and forgetful of his Vow
+ And plighted Hand, the sacred Bow he keeps,
+ Which once belong’d to the great Son of _Jove_.
+ He drags me to the hated _Greeks_ away,
+ As if some mighty Conquest he had gain’d;
+ What is his Triumph! but a poor dead Carcass!
+ A Cloud of Smoak! an incorporeal Shade!
+ Had I the Strength I once possess’d, in vain
+ Wou’d he attempt (or ev’n as now I am)
+ To force me; had he not o’ercome by Fraud.
+ Now I’m betray’d, undone! what shall I do?
+ Return my Bow, and be thy self again.
+ No Answer; but dumb Silence; then I’m lost.
+   To thee again, my pervious Rock, I go,
+ Naked and void of any earthly Food;
+ Now must I die enclos’d alone in thee.
+ No Bird, or Mount-ascending Beast shall be
+ Slain by my Bow; but I, poor lonely I,
+ Who fed on them, shall be to them for Food;
+ They’ll hunt for me for whom I hunted once;
+ And Blood for Blood, and slain for slain I’ll be.
+ This Evil’s from an unexpected Hand!
+ O may you never die, before I know
+ Whether for this base Action you repent!
+ If not; I wish you an inglorious Death.
+
+   _Chorus._ What shall we do? ’Tis now full Time to sail,
+ To put in Execution our Commands.
+
+   _Neop._ Compassion moves me for this friendless Man;
+ And has long since engag’d my Heart to him.
+
+   _Phil._ O for the Gods let pity plead for me!
+ And do not brand thy self with such a Stain
+ Of black Disgrace, as to be thought perfidious.
+
+   _Neop._ What shall I do? I wish I never had
+ Left _Scyros_ to be thus perplex’d with Woes.
+
+   _Phil._ Thou’rt not inclin’d to wicked Deeds thy self,
+ Thy Nature’s gentler far; some horrid Mind
+ Suggested this to thee; let others whom
+ So base a Crime befits perform this Task.
+
+   _Neop._ What shall we do, my Friends---- ----
+
+   _Ul._ ---- ---- ----Basest of Men!
+ You think not to return the Bow again.
+
+   _Phil._ O Heav’ns, methinks I hear _Ulysses_ speak!
+
+   _Ul._ And you may see him too as well as hear him.
+
+   _Phil._ Alas for me! deceiv’d! betray’d! undone!
+ ’Tis he contriv’d the Fraud--he got my Bow.
+
+   _Ul._ ’Twas I--I own the Fraud--and no one else.
+
+   _Phil._ O give me back my Bow again---- ----
+
+   _Ul._ ---- ---- ----Not I,
+ But you shall march with it by Peace or Force.
+
+   _Phil._ Detested Man! shall these use Force to me?
+
+   _Ul._ They shall, except you willingly depart.
+
+   _Phil._ O _Lemnian_ Land! and all-subduing Flames
+ Of _Vulcan_! can you bear that I shou’d hence
+ Be dragg’d by Force, in Spight of thy Protection?
+
+   _Ul._ ’Tis _Jove_ that o’er this Isle presides; ’tis _Jove_;
+ ’Tis _Jove_ decrees what I must execute.
+
+   _Phil._ Impious _Ulysses_, what Pretence is this!
+ You introduce the Gods to vouch your Lies.
+
+   _Ul._ No. But my Truths;----Therefore be gone you must.
+
+   _Phil._ This I deny---- ----
+
+   _Ul._ ---- ----You shall, and must obey.
+
+   _Phil._ Alas my Father has begot a Slave!
+ To gen’rous Freedom I’m a perfect Stranger.
+
+   _Ul._ Not so. But equal to those mighty Princes,
+ With whom you’re destin’d to demolish _Troy_.
+
+   _Phil._ Who I! all Racks I rather wou’d endure;
+ I’d rather live for ever here alone.
+
+   _Neop._ What do you mean to do?---- ----
+
+   _Phil._ ---- ---- ----I mean to fall
+ Headlong, and dash my Brains upon that Rock.
+
+   _Ul._ Seize him, and take him from the Precipice.
+
+   _Phil._ My Hands! what rude Affronts are these ye feel!
+ Robb’d of your faithful Bow, your best Defence!
+   You who have never fram’d one Thought of Good;
+ Or shewn one gen’rous Principle within;
+ How have you circumvented me! and gain’d
+ Upon my honest Heart, under Disguise
+ Of my Friend’s Son estrang’d, not fit to join
+ With thee, as he was fit to take my Part;
+ Artless to do but what he was enjoin’d----
+ ’Tis evident he grieves at what is done;
+ At his own Rashness, and my Suff’rings more;
+ Thy wicked Soul, from dark Retirement, still
+ Contriving Evils, gain’d upon his Weakness,
+ And took Advantage of his tender Years;
+ His unexperienc’d Years; to work thy Plot:
+ And now, insulting Man, you bind me fast
+ To take me from these Shores, where once you left me,
+ Friendless, forsaken, banish’d, and alone;
+ Dead ’midst the living; may some horrid Fate
+ Attend thee for it; This I often pray’d.
+ No Joys to me the Gods propitious give;
+ You live in Pleasures; I am doom’d to Woes.
+ And what is worse become a Sport to thee
+ And the _Atridæ_, whom you come to serve.
+ It was by Force and Stratagem compell’d
+ You sail’d with them from _Greece_; I freely went
+ With sev’n good Ships commanded by my self;
+ From whence, as you relate, they cast me out;
+ As they relate it all the Blame is thine.
+ Whom come you now to take? why lead me hence?
+ On what Account? For I am nothing now.
+ Long since I’ve been translated to the Dead.
+ Thou who art hated by the Gods above,
+ Am I not lame, and loathsome, with my Wounds?
+ How can you pray to them? or burn your Incense?
+ Or with Libations those high Pow’rs invoke;
+ While I am in the Ship, in which you sail?
+ ’Twas this Pretence you made to leave me here.
+ O may you perish for these Injuries!
+ (I once again with Zeal repeat my Curse)
+ For what you’ve done to me; _if Heav’n regards
+ The just, and makes Reprizals for the wrongs
+ They bear; and I am sure it does_--or else
+ You had not hither come----some Sting divine
+ Must goad you with Remorse, to think of me;
+ O’erwhelm’d with all the Sorrows Man can bear.
+ O my dear native Land! and all ye Gods!
+ Who see what’s done within this World below,
+ Avenge my present Suff’rings on them all,
+ If ye can pity such a Wretch as me;
+ In their Destruction I should find a Cure.
+
+   _Chorus._ Wretched the Man, and grievous is his Speech!
+ He has a Soul that will not stoop to Evils.
+
+   _Ul._ I cou’d say many things in answer to
+ This Speech of his, cou’d Arguments prevail;
+ But now I use but one; for such ’tis meet;
+ This is my Method with such Men as he;
+ When there’s a Trial of the Just and Good,
+ There’s none alive more piously inclin’d----
+ My Reasons ever did subdue; but thee
+ I can’t convince; for which I shall submit----
+ Detain him not----but let him stay behind----
+ We shall not need thee, while we have thy Bow;
+ _Teucer_ can manage it as well as you;
+ And I myself can bend the Bow as well,
+ At least as you; and take as good an Aim----
+ Where is the Use of thee?----Then fare thee well.
+ Here traverse _Lemnos_; we shall sail away,
+ And gain that Honour which you might obtain.
+
+   _Phil._ What shall I do? Unhappy Wretch, Shall you
+ Shine with those Arms among the hated _Greeks_?
+
+   _Ul._ In vain you contradict, for now I go.
+
+   _Phil._ Son of _Achilles_, won’t you speak one Word
+ E’er you depart, but leave me thus forlorn.
+
+   _Ul._ Begone without Regard, lest you relent;
+ Your gen’rous Heart must not defeat our Fortune.
+
+   _Phil._ Will ye, my Friends, fly off, and leave me thus?
+ And have no pity for the Wrongs I feel?
+
+   _Chorus._ This is our Captain; He determines all;
+ What he prescribes must be a Law to us.
+
+   _Neop._ I know _Ulysses_ will condemn me for
+ The Tenderness I shew; However stay,
+ If it seems good to _Philoctetes_; stay
+ Until the Sailors have the Ship prepar’d,
+ And we our Vows perform unto the Gods.
+ Perhaps his Mind may change, and then we go,
+ And see that you be ready at our Call.
+
+                             ANTISTROPHICA.
+
+                               STROPHE I.
+
+ Phil.        My lonely Cave, my last Retreat,
+              Expos’d alike to Cold and Heat;
+              I never shou’d thy Limits leave,
+              But make thee both my House and Grave.
+              Alas! by me thy craggy Stones
+              Are fill’d with Sobs, and Sighs, and Groans!
+              What will become of me this Day!
+              No Hopes to catch the flying Prey!
+              I wish that Vultures here wou’d fly,
+              And bear me swiftly to the Sky,
+              And tear me piece-meal in the Air;
+              This wretched Life I cannot bear.
+
+                              STROPHE II.
+
+                The Fault’s thy own,
+                And thine alone
+              ’Tis to your self you owe this Fate:
+                ’Twas in your Breast
+                To chuse the best,
+              And yet you chose this dismal State.
+
+   _Phil._ O wretched, wretched me! what Woes I find!
+ Of human Conversation quite debarr’d!
+ For ever--and for ever----to this Cave
+ Confin’d----’till Death alone must give Release.
+ No more I hope for Food; Life’s Fewel’s gone----
+ The Birds in Safety hover o’er my Head----
+ My Arrows lost! which were more swift than they----
+ A dark and subtle Stratagem’s my Ruin----
+ O cou’d I see its Author feel my Pains
+ As long as I! what Pleasure wou’d it give!
+
+ Chorus.      Not I, but Heav’n, I’d have thee know,
+              Inflicts on thee this dreadful Blow;
+              Thy Imprecations then refrain,
+              And blame not others for thy Pain;
+              For I’m resolv’d, against thy Will,
+              To shew my Friendship for thee still.
+
+   _Phil._ What shall I do? Upon the sandy Shore
+ He bears the sure Provider of my Food----
+ Which no Hand ever forc’d before; and there
+ Derides my Woes, and jests upon my Torments.
+ O my dear Bow, wrench’d from these friendly Hands,
+ Cou’d you but see or feel the Wrongs I bear!
+ That I, who did the Son of _Jove_ succeed,
+ In Right of thee, must never more enjoy thee----
+ But by a cursed Usurpation seiz’d,
+ By one who had no Right to thy Succession.
+ Coud’st thou but see this vile deceitful Man
+ Of base Extraction, my insulting Foe;
+ What num’rous Evils he contriv’d for me,
+ How wou’d it grieve thee to be born by him!
+
+ Chorus.        Whate’er this Person has express’d,
+                You shou’d interpret it the best,
+              Nor wrest his Meaning to invidious Sense;
+                The publick Orders he obey’d
+                Justly in ev’ry thing he said,
+              And well contriv’d it for his Friends Defence.
+
+   _Phil._ Ye wanton Fowl, that skim the liquid Air;
+ Ye spotted Beasts that graze the sloaping Hills;
+ Ye need not now be shy, to come within
+ The Reach of this my solitary Cave;
+ My Bow is ravish’d from me, my keen Shafts
+ Are gone, and I am now compleatly wretched.
+ What need ye fly from this unguarded Place!
+ Now is your Time to come and make Reprizals;
+ Eat me alive, and take your Flesh again;
+ Soon I shall quit my Life for want of Food.
+ Who can on empty Air support himself,
+ Devoid of those Supplies, those Fruits which grow
+ Our Nourishment from the Life-giving Earth?
+
+ Chorus.      By all the Gods, if Strangers are
+              Entitled to thy friendly Care,
+              Let him a good Reception find,
+              I thee conjure, with willing Mind.
+              You may your present Grievance shun;
+              For none but Fools to ruin run.
+
+   _Phil._ Again, again my Anguish is renew’d;
+ Thou best of Men why am I ruin’d thus?
+ What’s this you do? why do you back re-call
+ My sleeping Mem’ry to my former Pains?
+
+   _Chorus._ Why say you so?---- ---- ----
+
+   _Phil._ ---- ----Because you now propose
+ With cruel Force to take me hence to _Troy_.
+
+   _Chorus._ It best seems so to me---- ----
+
+   _Phil._ ---- ---- ----Leave me behind.
+
+   _Chorus._ This I’m content to do; therefore I shall
+ Obey your Will----and to the Ship we go.
+
+   _Phil._ Don’t for the Love of _Jove_, to whom we pray.
+
+   _Chorus._ Be mod’rate then---- ----
+
+   _Phil._ ---- ----O for the Gods don’t leave me.
+
+   _Chorus._ What makes you roar with so much Vehemence?
+
+   _Phil._ O Fortune, Fortune, I’m undone for ever!
+ My painful, burning Foot, how shall I now
+ Hereafter thy unhappy Wound sustain!
+ Return, my Friends, ah! turn again to me.
+
+   _Chorus._ What can we do but what you have desir’d?
+
+   _Phil._ Why shou’d my loud Complaints provoke your Anger?
+ I’m not my self; Distraction makes me wild.
+
+   _Chorus._ Then be advis’d, and come along with us.
+
+   _Phil._ No--never--never--firmly I’m resolv’d----
+ Tho’ threat’ning _Jove_ with his red flaming Hand
+ Shou’d come, and point his Thunder at my Breast;
+ Farewel to _Troy_, and all the Army round it,
+ Who cast me off for these distracting Pains.
+ One thing I must entreat you, grant me one.
+
+   _Chorus._ What’s that?---- ---- ----
+
+   _Phil._ ---- ----A Sword, or Ax, or any Weapon.
+
+   _Chorus._ What Murder wou’d you fain commit?----
+
+   _Phil._ ---- ---- ---- ----My Head----
+ My Limbs--with my own Hands, I’d chop them off;
+ For my Disease does loudly call for Death.
+
+   _Chorus._ Why so?----
+
+   _Phil._ Because I want to go and seek my Father.
+
+   _Chorus._ Speak in what Country----
+
+   _Phil._ ---- ---- ---- ----With the Shades below;
+ For he no longer lives upon the Earth.
+ O my dear Father’s Country, how I long
+ To see you once again! I who forsook
+ Your sacred Altars to attend the _Greeks_,
+ My greatest Foes; for which I’m thus rewarded.
+
+   _Chorus._ Long since I had departed to my Ship,
+ But that I see _Ulysses_ here advance,
+ And _Neoptolemus_ attends him hither.
+
+   _Ul._ Tell me the Reason why you hasten back?
+
+   _Neop._ To mend the Wrongs I did some time ago.
+
+   _Ul._ You shock me much. What were the Wrongs you did?
+
+   _Neop._ ’Twas in obeying you and all the Army.
+
+   _Ul._ What did you act repugnant to your Honour?
+
+   _Neop._ By Fraud I did ensnare the Innocent.
+
+   _Ul._ As how? Alas, what new Device is this?
+
+   _Neop._ No new Device. But as to _Pæan_’s Son----
+
+   _Ul._ What will you do? I dread what he intends.
+
+   _Neop._ I will return his Bow again to him.
+
+   _Ul._ O Heav’ns! what do you mean? You will not sure.
+
+   _Neop._ I got them basely, ’gainst all Laws of Justice.
+
+   _Ul._ Is’t to perplex me that you say this thing?
+ Speak, by th’ Immortal Gods I must conjure thee.
+
+   _Neop._ Is it perplexing to declare the Truth?
+
+   _Ul._ What say’st thou? or what Speech is this that ’scapes
+ Thy Lips? thou Son of great _Achilles_, tell.
+
+   _Neop._ Once can’t suffice; but twice, or thrice I must
+ Repeat my Words. You’re slow of Apprehension.
+
+   _Ul._ I wish I had not heard thee once begin.
+
+   _Neop._ Then be content; you’ve heard my Resolution.
+
+   _Ul._ There is a certain Person will prevent thee.
+
+   _Neop._ What say you? who will dare presume to do it?
+
+   _Ul._ Why all the _Greeks_; and I amongst the rest.
+
+   _Neop._ Tho’ you be wise you talk like one that’s mad.
+
+   _Ul._ But you do neither think or act with Wisdom.
+
+   _Neop._ _Justice surpasses Wisdom----I am just._
+
+   _Ul._ How are you just, when what’s acquir’d by me,
+ You now return without my Leave?--
+
+   _Neop._ ---- ---- ---- ---- ----But I,
+ ’Tis plain, was guilty of a horrid Crime.
+
+   _Ul._ Do you not dread the _Grecian_ Army, Friend?
+
+   _Neop._ When Justice sides with me I dread it not;
+ Nor shall I ever by thy Pow’r be sway’d.
+
+   _Ul._ I shall not with the _Trojans_ fight, but thee.
+
+   _Neop._ Happen what will---- ---- ----
+
+   _Ul._ ---- ---- ----You see my Right Hand fixt
+ Upon the Handle of my Sword---- ----
+
+   _Neop._ ---- ---- ---- ---- ----I do;
+ And am no less prepar’d to fight than you.
+
+   _Ul._ Well, Sir--I’ll let the Army know your Mind,
+ And they will find a way to punish you.
+
+   _Neop._ You’re wise indeed, if always thus you act;
+ You never will have any Cause to grieve----
+   Thou Son of _Pæan_, _Philoctetes_, come
+ And leave thy lonesome craggy Habitation.
+
+   _Phil._ What Clamour’s this I hear disturbs my Cave?
+ Why do ye call me out? For what, my Friends?
+ Alas! some Evil sure. What brought you here?
+ Is it to add Misfortunes to Misfortunes?
+
+   _Neop._ Confide in me, and listen to my Words.
+
+   _Phil._ So you dissembled once before when you
+ Prov’d false, and robb’d me of my faithful Bow.
+
+   _Neop._ I don’t dissemble now; but tell me whether
+ You here intend to stay, or sail with us.
+
+   _Phil._ Hold--not one Word--you speak them all in vain.
+
+   _Neop._ You’re so resolv’d---- ---- ----
+
+   _Phil._ ---- ----More fixt than Words can tell.
+
+   _Neop._ All my Design was to perswade you hence;
+ But since I find that my Proposal’s vain,
+ And much afflicts your Mind, I shall desist.
+
+   _Phil._ All that you say is vain, and you shall never
+ Gain the Affection of my Heart; for you
+ Basely betray’d me of my Life. And now,
+ Thou worst of Men, worst Son of the best Father,
+ You come with your Advice, whom most I hate.
+ May the _Atridæ_ perish, and may you
+ And your Companion, subtle, false _Ulysses_.
+
+   _Neop._ Curse us no more, but here receive your Bow.
+
+   _Phil._ How say you! sure I’m not deceiv’d again.
+
+   _Neop._ No. By the Pow’r of sacred _Jove_ you’re not.
+
+   _Phil._ How grateful is thy Speech, if this be true!
+
+   _Neop._ It shall be true in Fact; here stretch thy Hand,
+ And be Possessor of thy Arms again.
+
+   _Ul._ This I forbid----I call the Gods to witness.
+ In the _Atridæ_’s Name, and all the Army.
+
+   _Phil._ Whose Voice is this, my Son? is’t not _Ulysses_?
+
+   _Ul._ ’Tis I for certain, and I’ll take thee hence.
+ Whether _Achilles’_ Son consents or no.
+
+   _Phil._ You shall not triumph long, if once I take
+ This Arrow, and direct it at thy Breast.
+
+   _Neop._ O shoot him not----I beg thee lay it down.
+
+   _Phil._ Restrain me not----My dearest Son let go.
+
+   _Neop._ I will not---- ---- ----
+
+   _Phil._ ----You have hindred me from killing
+ An Enemy---- ---- ----
+
+   _Neop._ ----’Tis neither good for you nor me.
+
+   _Phil._ Thus much I’d have thee know, the _Grecian_ Chiefs
+ Are Cowards all; but valiant in their Tongues.
+
+   _Neop._ ’Tis true--But now you’ve got your Bow, your Anger
+ Ceases of Course, and all Complaints of me.
+
+   _Phil._ I grant they do; and O my Son! you’ve shewn
+ The noble Race from whence you sprung, not from
+ The subtle _Sisyphus_; but from _Achilles_,
+ Famous among the Living, and the Dead.
+
+   _Neop._ Thy Praises of my Father, and my self,
+ Transport me much; but hear what I advise.
+   _Whatever Lot by Heav’n’s assign’d to us
+ We must with humble Patience bear, ’tis fixt,
+ And once decreed must be unalterable._
+   Those who submit to voluntary Woes
+ Deserve not our Forgiveness, or Compassion.
+   You are grown fierce with Anger, and won’t hear
+ The Counsel of a Friend; for tho’ he comes
+ With true Benevolence to set thee right;
+ You spurn his Admonitions, and you deem
+ Him as your greatest Foe. But still I’ll speak;
+ And call great _Jove_ to witness what I say.
+   Then hear the Sequel--print it in thy Mind--
+ And be convinc’d this Wound, which frets thee so,
+ Was Heav’n’s Decree; because you did approach
+ The Guard of _Chrysa_, that same hidden Viper,
+ Which watches the uncover’d Temple there.
+ And know, thou never shalt enjoy Release
+ From grievous Pain, while that all-seeing Sun
+ Rises in th’ Eastern Clime, and sets again,
+ Except you go a Voluntier to _Troy_;
+ Where we shall have the Sons of _Æsculapius_
+ To work thy Cure, and _Troy_ shall be subdu’d
+ By these thy Arrows, and by my Assistance.
+   How I’m inform’d of this be pleas’d to hear----
+ We have a _Trojan_ Prophet taken Pris’ner,
+ One _Helenus_, who says all this must be
+ Fulfill’d, and he’s a Prophet of undoubted Credit;
+ Nay more, he says this very Summer will
+ The Fate of _Troy_ determine; if ’tis false
+ He does declare his Life shall be the Forfeit.
+   Now you’re assur’d of this, consent and come;
+ It is a noble Prize, that you alone
+ Of all the _Greeks_ shou’d be esteem’d the bravest;
+ And next to have Release from all thy Pains;
+ To gain a Conquest over _Troy_, that shall
+ Bring you the greatest Glory Man can gain.
+
+   _Phil._ Detested Life! why am I here preserv’d!
+ Why not transmitted to the Shades below!
+ What shall I do? How shall I now suspect
+ His Truth, who’s so benevolent to me?
+ But grant I yield; How then shall I behold
+ The Light of Heav’n? To whom shall I appeal?
+   Ye shining Orbs above, that view all things,
+ How will ye bear to see me go, and join
+ The Sons of _Atreus_, who were once my Ruin?
+ Or join with all-destroying false _Ulysses_?
+ ’Tis not the past that frets my anxious Soul,
+ But the sad Prospects of my Grief’s to come;
+ For they whose Minds are pregnant still with Evils,
+ Pour forth a num’rous Brood, they never fail.
+ I wonder more at you for this, who ought
+ Never to think of _Troy_, when such Disgrace
+ Befel you there, robb’d of your Father’s Armour,
+ Which was adjudg’d to curss’d _Laertes’_ Son,
+ And _Ajax_ turn’d aside; methinks you shou’d
+ Use all your Pow’r to hinder me from going;
+ Sure after such Affronts you cannot go
+ To join in their Designs; and force me hence;
+ But sacred keep your Oath, and steer us home;
+ And there at _Scyros_ pass your Life in Peace;
+ Let all those Wretches die as they deserve.
+ Thus will you doubly please your aged Sire,
+ And me, and equal Thanks from both receive;
+ Thus you’ll escape a foul Surmise, nor be
+ Suppos’d a Fav’rer of such wicked Men.
+
+   _Neop._ All that you say is well. But still I wou’d
+ Entreat you to obey the Gods and me;
+ Sail with your Friend, and leave this hated Shore.
+
+   _Phil._ What! to the Land of _Troy_! to _Atreus’_ Sons!
+ And with this bleeding Foot, which oft reminds me
+ What barb’rous Treatment I from them receiv’d.
+
+   _Neop._ It is my best Advice; for there you’ll find
+ A full Discharge of all the Pains you feel.
+
+   _Phil._ What’s this you say? what’s the Advice you give?
+
+   _Neop._ ’Tis what will bring Advantage to us both.
+
+   _Phil._ Don’t you disgrace the Gods in saying this?
+
+   _Neop._ No. But I rather their Commands fulfil.
+
+   _Phil._ For the _Atridæ_ do you speak, or me?
+
+   _Neop._ I am your Friend--and I shall say no more.
+
+   _Phil._ Where is your Friendship, when you thus betray
+ And give me up unto my Enemies?
+
+   _Neop._ My Friend, be humbler in Adversity.
+
+   _Phil._ I know you well, you now contrive my Ruin.
+
+   _Neop._ Not I----But this I’ll say----You’re much mistaken.
+
+   _Phil._ I don’t mistake, that I was here expos’d
+ By the _Atridæ_, and by all the _Greeks_.
+
+   _Neop._ Your Foes are now your Friends, and come to save you.
+
+   _Phil._ I never will consent to go to _Troy_.
+
+   _Neop._ What shall I do! since you reject my Counsel,
+ I can with Ease desist; and say no more;
+ But leave you to your Choice to live in Pain.
+
+   _Phil._ Then give me leave to do what suits me best,
+ And as you pledg’d your Right-hand’s Faith to do it,
+ Conduct me home, my Son, without delay;
+ And think no more of _Troy_;----I’ve griev’d enough.
+
+   _Neop._ Since ’tis your Will we go----
+
+   _Phil._ ---- ---- ----O gen’rous Word!
+
+   _Neop._ Then let us move----
+
+   _Phil._ ---- ----As well as Pains allow.
+
+   _Neop._ How shall I shun the Fury of the _Greeks_?
+
+   _Phil._ Let that be not thy Care----
+
+   _Neop._ ---- ---- ----But what if they
+ Shou’d come and work my Country’s Overthrow!
+
+   _Phil._ Then I am there----
+
+   _Neop._ ---- ----But how can you assist.
+
+   _Phil._ I have the Arrows here of _Hercules_.
+
+   _Neop._ What do you say?---- ----
+
+   _Phil._ ----I’ll drive them from thy Country.
+
+   _Neop._ If this you’ll do--march on--adore the Earth.
+
+------------------------------------------------------------------------
+
+                                SCENE V.
+
+                     _Enter the Ghost of_ HERCULES.
+
+   _Her._ O Son of _Pæan_, move not hence, before
+ You hear my Words, and you yourself shall own
+ You do not only hear, but see me too;
+ ’Tis for your sake I leave my Heav’nly Mansion,
+ Here to impart _Jove_’s Will; ’tis on his Errand
+ I come, to stop the Journey you intend;
+ Thy Bus’ness is my Counsel to obey.
+   Then first I shall of my own Fate inform thee;
+ How many Labours, Toils, and Pains, I pass’d,
+ Immortal Glory to obtain; which now
+ You may behold in me; ’tis destin’d too
+ That you thro’ Danger’s Path arrive at Fame.
+   With this Prince, going to the Town of _Troy_,
+ The first Advantage you shall find, will be
+ A Freedom from Disease; and next, the _Greeks_
+ Shall well distinguish you the first in Valour,
+ _Paris_ to slay, the Author of their Woes,
+ With these my fatal never-failing Arrows.
+ And _Troy_ shall sink by them; the richest Spoils
+ Be thine, by full Consent of all the _Greeks_;
+ These to thy Native _Oeta_ thou shalt send
+ Unto thy Father _Pæan_. All the Spoils,
+ Which from the _Grecian_ Army you shall take,
+ Bear them unto my Pile, and there erect
+ A Monument to this my faithful Bow.
+   Son of _Achilles_, this Advice be thine----
+ You must not think to conquer _Troy_ without
+ His Help; or _Philoctetes_ without your’s;
+ But, like two Lyon’s Whelps, each other’s Aid
+ Engage; one Moment don’t ye part asunder.
+   To cure thy Wounds, I’ll _Æsculapius_ bring
+ To _Troy_, which must a second time submit
+ To these my Arrows; But remember this----
+ _When you the Conquest gain, return your Thanks
+ To Heav’n for your Success; for _Jove_ regards
+ Religious Rites above all human Acts.
+ Religion, which attends departing Souls,
+ Whether we live or die, is still immortal._
+
+   _Phil._ O Voice desirable to me, tho’ long
+ Unheard! I shall not disobedient be.
+
+   _Neop._ To the same Counsel I with Joy subscribe.
+
+   _Her._ Haste then and hoist your Sails; the Winds are fair.
+
+   _Phil._ Off then I go; but let me thus express
+ My last farewel, it is a Debt I owe.
+   My little Cave, wherein I dwelt so long;
+ Ye wat’ry Nymphs, which tread the verdant Meads;
+ Ye stormy Sounds that break upon the Shore,
+ Which often did convey your frothy Dews
+ Upon my Head, as in my Cave I lay,
+ And loudly of the Tempest’s Rage complain’d,
+ ’Till the _Hermean_ Promontory rung.
+ Ye Springs, from whose delicious Streams I drank,
+ I leave ye all; beyond my Hopes I leave you;
+ To thee, dear _Lemnos_, I must bid farewel,
+ Which in the Ocean’s swelling Bosom liest;
+ Grant us a lucky Voyage hence; and land
+ Our Ship in Safety where the Fates decree;
+ And where our Friends direct; where Heav’ns great King,
+ Who conquers all, commands that we shou’d go.
+
+ Chorus.      Then let us leave the _Lemnian_ Shore,
+                  And all together sail;
+              The Nymphs who guide the Seas implore
+                  To send a prosp’rous Gale.
+
+                                 FINIS.
+
+------------------------------------------------------------------------
+
+                          Transcriber’s Notes
+
+This file uses _underscores_ to indicate italic text. In the original
+printed text, the Argument and all verse passages were printed in italic
+text, with upright text used for emphasis. For the sake of readability,
+in those passages _underscores_ are used only for the emphasized
+(upright) text. New original cover art included with this ebook is
+granted to the public domain.
+
+In some cases, two short lines of dialogue were printed on the same line
+in the printed play; each of these has been moved to its own line. The
+following changes and corrections have been made:
+
+ • Dedication: Supplied missing period after phrase “some Traces of the
+   Author’s Genius.”
+ • p. 6: Capitalized and formatted heading “Strophe” to match other
+   occurrences.
+ • p. 13: Added comma after “Sigeum” in note 11.
+ • p. 21: Supplied missing period after speaker “Neop.” before phrase
+   “Do they intend / By Force of Arms.”
+ • p. 40: Replaced “Friendip” with “Friendship” in phrase “To shew my
+   Friendship for thee still.”
+ • p. 43: Supplied missing period after speaker “Neop.” before phrase
+   “Tho’ you be wise you talk like one that’s mad.”
+ • p. 47: Replaced “Souls” with “Soul” in phrase “’Tis not the past that
+   frets my anxious Soul.”

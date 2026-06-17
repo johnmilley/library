@@ -68,3 +68,26 @@ export async function listImports() {
 export async function deleteImport(id) {
   return tx("readwrite", (s) => s.delete(id));
 }
+
+/* Full records (with text) for backup export. */
+export async function exportImports() {
+  return tx("readonly", (s) => {
+    const out = {};
+    s.getAll().onsuccess = (e) => (out._result = e.target.result || []);
+    return out;
+  });
+}
+
+/* Restore imported books from a backup (skips ids that already exist). */
+export async function importImports(records) {
+  if (!records?.length) return 0;
+  const existing = new Set((await exportImports()).map((r) => r.id));
+  let added = 0;
+  await tx("readwrite", (s) => {
+    for (const r of records) {
+      if (r?.id && r.text != null && !existing.has(r.id)) { s.put(r); added++; }
+    }
+    return {};
+  });
+  return added;
+}
