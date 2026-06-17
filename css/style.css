@@ -146,6 +146,11 @@ a { color: var(--accent); }
   font-family: var(--reading-font);
   font-size: var(--font-size); line-height: var(--line-height);
   color: var(--text); hyphens: auto;
+  /* Keep selection (we need it to highlight) but suppress the OS callout
+     bar (Copy / Look Up / Share) so our own toolbar is the one that shows. */
+  -webkit-touch-callout: none;
+  -webkit-user-select: text;
+  user-select: text;
 }
 body[data-font="sans"] .book { font-family: var(--ui-font); }
 .book h1.book__h { font-size: 1.6rem; line-height: 1.2; margin: .5rem 0 .2rem; }

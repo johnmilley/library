@@ -34,6 +34,9 @@ export function initReader(refs) {
     if (mode === "paged") handlePageTap(e);
   });
 
+  // Stop the native long-press / right-click menu so our highlight toolbar wins.
+  els.book.addEventListener("contextmenu", (e) => e.preventDefault());
+
   els.selToolbar.querySelectorAll(".swatch").forEach((sw) =>
     sw.addEventListener("click", () => commitHighlight(sw.dataset.color, false)));
   els.selNote.addEventListener("click", () => commitHighlight("yellow", true));
