@@ -41,11 +41,14 @@ export function initReader(refs) {
   els.book.addEventListener("click", (e) => {
     const mark = e.target.closest("mark.hl");
     if (mark) { openNote(mark.dataset.id); return; }
+    if (!window.getSelection().isCollapsed) return;   // selecting text
+    const rect = els.scroll.getBoundingClientRect();
+    const x = e.clientX - rect.left, y = e.clientY - rect.top;
+    // A tap near the very top reveals the bar (when hidden) in either mode.
+    if (els.bar.classList.contains("hidden") && y < 72) { els.bar.classList.remove("hidden"); return; }
     if (mode === "paged") { handlePageTap(e); return; }
-    // Scroll mode: a tap in the middle band toggles the bar (no auto-hide).
-    if (!window.getSelection().isCollapsed) return;
+    // Scroll mode: a tap in the middle band toggles the bar.
     const w = els.scroll.clientWidth;
-    const x = e.clientX - els.scroll.getBoundingClientRect().left;
     if (x > w * 0.30 && x < w * 0.70) els.bar.classList.toggle("hidden");
   });
 
@@ -106,15 +109,20 @@ function indexHighlights() {
   }
 }
 
-/* ---------- Chapters ---------- */
-const HEADING_RE = /^(chapter|part|book|canto|act|scene|letter|volume|prologue|epilogue|introduction)\b/i;
+/* ---------- Chapters ----------
+   Deliberately conservative: only structural keywords, proper roman numerals,
+   or plain numbers count. No generic "ALL CAPS line" rule — that swept up
+   character names, exclamations, and signatures. Better to miss a heading than
+   to clutter the table of contents. */
+const HEADING_RE = /^(chapter|part|section|book|canto|act|scene|volume|prologue|epilogue)\b/i;
+// Strict roman numeral (uppercase), e.g. I, II, IV, XIV — rejects words like "DID".
+const ROMAN_RE = /^(?=[MDCLXVI])M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.?$/;
 function isHeading(text) {
-  if (text.startsWith(IMG_MARK)) return false;
-  if (text.length > 70) return false;
-  if (HEADING_RE.test(text)) return true;
-  if (/^[IVXLCDM]+\.?$/.test(text)) return true;          // roman numeral alone
-  if (/^\d{1,3}\.?$/.test(text)) return true;              // number alone
-  if (text.length <= 48 && text === text.toUpperCase() && /[A-Z]/.test(text)) return true; // ALL CAPS line
+  const t = text.trim();
+  if (!t || t.startsWith(IMG_MARK)) return false;
+  if (HEADING_RE.test(t)) return t.length <= 64;   // "Chapter Xii. The Title" but not prose
+  if (ROMAN_RE.test(t)) return true;               // a roman numeral on its own line
+  if (/^\d{1,3}[.)]?$/.test(t)) return true;        // a number on its own line
   return false;
 }
 
