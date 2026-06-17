@@ -68,24 +68,6 @@ export const annotations = {
   },
 };
 
-/* ---- Per-book bookmarks (explicit, multiple) ---- */
-export const bookmarks = {
-  get: (bookId) => read(`marks:${bookId}`, []),
-  set: (bookId, list) => write(`marks:${bookId}`, list),
-  toggle(bookId, mark) {
-    const list = bookmarks.get(bookId);
-    const i = list.findIndex((m) => m.para === mark.para);
-    if (i >= 0) list.splice(i, 1);
-    else list.push(mark);
-    list.sort((a, b) => a.para - b.para);
-    bookmarks.set(bookId, list);
-    return i < 0; // true if added
-  },
-  remove(bookId, id) {
-    bookmarks.set(bookId, bookmarks.get(bookId).filter((m) => m.id !== id));
-  },
-};
-
 export const uid = () =>
   (crypto.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`);
 
