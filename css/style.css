@@ -120,6 +120,8 @@ a { color: var(--accent); }
    READER
    ============================================================ */
 #reader { position: fixed; inset: 0; display: flex; flex-direction: column; background: var(--bg); }
+/* hidden must beat the ID selector's display:flex (IDs win on specificity) */
+#reader[hidden] { display: none; }
 .reader-bar {
   display: flex; align-items: center; gap: .25rem; z-index: 4;
   padding: max(env(safe-area-inset-top), .35rem) .35rem .35rem;
@@ -164,6 +166,7 @@ body[data-font="sans"] .book { font-family: var(--ui-font); }
   padding: .35rem .5rem; box-shadow: 0 6px 20px var(--shadow);
   transform: translateX(-50%);
 }
+.sel-toolbar[hidden] { display: none; }
 .swatch { width: 1.5rem; height: 1.5rem; border-radius: 50%; border: 1px solid var(--border); background: var(--c); cursor: pointer; padding: 0; }
 .swatch:hover { transform: scale(1.12); }
 .sel-toolbar__note { border: 0; background: var(--bg-sunk); color: var(--text); border-radius: 1rem; padding: .3rem .6rem; font: inherit; font-size: .82rem; cursor: pointer; }
