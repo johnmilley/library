@@ -7,6 +7,7 @@ import { annotations, bookmarks, progress, settings, uid } from "./store.js";
 import { readSelection, renderParagraph, escapeHtml } from "./annotate.js";
 
 const WPM = 230; // words per minute, for time-left estimates
+const IMG_MARK = "", ALT_MARK = ""; // image-block sentinels (see epub.js)
 
 const els = {};
 let current = null;          // { book, paras, paraEls, chapters, words }
@@ -74,7 +75,7 @@ export async function openBook(book) {
   detectChapters();
   applyReadingPrefs();
   renderBook();
-  current.paraEls = [...els.book.querySelectorAll("p[data-i]")];
+  current.paraEls = [...els.book.querySelectorAll("[data-i]")].filter((el) => Number(el.dataset.i) >= 0);
   setMode(settings.get().mode, /*restore*/ true);
 }
 
@@ -94,6 +95,7 @@ function indexHighlights() {
 /* ---------- Chapters ---------- */
 const HEADING_RE = /^(chapter|part|book|canto|act|scene|letter|volume|prologue|epilogue|introduction)\b/i;
 function isHeading(text) {
+  if (text.startsWith(IMG_MARK)) return false;
   if (text.length > 70) return false;
   if (HEADING_RE.test(text)) return true;
   if (/^[IVXLCDM]+\.?$/.test(text)) return true;          // roman numeral alone
@@ -117,6 +119,10 @@ function renderBook() {
              (book.translator ? ` &middot; translated by ${escapeHtml(book.translator)}` : "") +
              `</p>`;
   html += paras.map((text, i) => {
+    if (text.startsWith(IMG_MARK)) {
+      const [url, alt = ""] = text.slice(IMG_MARK.length).split(ALT_MARK);
+      return `<figure class="book__img" data-i="${i}"><img src="${url}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`;
+    }
     const cls = isHeading(text) ? " class=\"heading\"" : "";
     return `<p data-i="${i}"${cls}>${renderParagraph(text, hlByPara.get(i))}</p>`;
   }).join("");

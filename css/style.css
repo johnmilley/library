@@ -158,6 +158,9 @@ body[data-font="sans"] .book { font-family: var(--ui-font); }
 .book p { margin: 0 0 1.05em; text-align: left; }
 body[data-align="justify"] .book p { text-align: justify; text-justify: inter-word; }
 .book p.heading { text-align: center; font-weight: 600; margin: 2em 0 1em; text-transform: none; }
+.book__img { margin: 1.4em 0; text-align: center; }
+.book__img img { max-width: 100%; height: auto; border-radius: 3px; }
+.reader-scroll[data-mode="paged"] .book__img img { max-height: calc(var(--page-h, 80vh) - 32px); }
 .book mark.hl {
   background: var(--hl, var(--hl-yellow)); color: inherit;
   border-radius: .15em; padding: 0 .03em; cursor: pointer;

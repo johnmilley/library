@@ -70,22 +70,44 @@ function resolve(base, href) {
   return decodeURIComponent(out.join("/"));
 }
 
-/* Extract readable text from one XHTML document, paragraph by paragraph. */
-function textFromXhtml(html) {
+function bytesToBase64(bytes) {
+  let s = "";
+  const CHUNK = 0x8000;
+  for (let i = 0; i < bytes.length; i += CHUNK)
+    s += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
+  return btoa(s);
+}
+
+// Image blocks are encoded as a sentinel paragraph the reader recognises:
+//   <data-url><alt>
+export const IMG_MARK = "";
+const ALT_MARK = "";
+
+/* Extract text + image blocks from one XHTML doc, preserving reading order.
+   `images` maps full zip paths -> data URLs; `docDir` resolves <img src>. */
+function blocksFromXhtml(html, docDir, images) {
   const doc = new DOMParser().parseFromString(html, "text/html");
   doc.querySelectorAll("script,style").forEach((n) => n.remove());
-  const blocks = doc.querySelectorAll("h1,h2,h3,h4,h5,h6,p,li,blockquote,pre");
+  const nodes = doc.querySelectorAll(
+    "h1,h2,h3,h4,h5,h6,p,li,blockquote,pre,figcaption,img,image");
   const out = [];
-  if (blocks.length) {
-    blocks.forEach((b) => {
-      const t = b.textContent.replace(/\s+/g, " ").trim();
-      if (t) out.push(t);
-    });
-  } else {
-    const t = (doc.body || doc).textContent.replace(/\s+\n/g, "\n").trim();
-    if (t) out.push(t);
+  if (!nodes.length) {
+    const t = (doc.body || doc).textContent.replace(/\s+/g, " ").trim();
+    return t ? [t] : [];
   }
-  return out.join("\n\n");
+  nodes.forEach((el) => {
+    const tag = el.tagName.toLowerCase();
+    if (tag === "img" || tag === "image") {
+      const src = el.getAttribute("src") || el.getAttribute("xlink:href")
+        || el.getAttributeNS?.("http://www.w3.org/1999/xlink", "href");
+      const url = src && images[resolve(docDir, src)];
+      if (url) out.push(IMG_MARK + url + ALT_MARK + (el.getAttribute("alt") || ""));
+    } else {
+      const t = el.textContent.replace(/\s+/g, " ").trim();
+      if (t) out.push(t);
+    }
+  });
+  return out;
 }
 
 export async function epubToText(file) {
@@ -108,16 +130,28 @@ export async function epubToText(file) {
       type: it.getAttribute("media-type"),
     };
   });
-  const spine = [...opf.querySelectorAll("spine > itemref")].map((r) => r.getAttribute("idref"));
 
-  const chunks = [];
+  // Decode images once into data URLs, keyed by full zip path. Skip absurdly
+  // large ones so a single photo can't blow up local storage.
+  const images = {};
+  for (const it of Object.values(manifest)) {
+    if (!/^image\//.test(it.type || "")) continue;
+    const path = resolve(base, it.href);
+    const bytes = await entryBytes(zip, path);
+    if (bytes && bytes.length <= 4_000_000)
+      images[path] = `data:${it.type};base64,${bytesToBase64(bytes)}`;
+  }
+
+  const spine = [...opf.querySelectorAll("spine > itemref")].map((r) => r.getAttribute("idref"));
+  const blocks = [];
   for (const idref of spine) {
     const item = manifest[idref];
     if (!item || !/x?html/.test(item.type || "")) continue;
-    const html = await entryText(zip, resolve(base, item.href));
-    if (html) { const t = textFromXhtml(html); if (t) chunks.push(t); }
+    const path = resolve(base, item.href);
+    const html = await entryText(zip, path);
+    if (html) blocks.push(...blocksFromXhtml(html, dirOf(path), images));
   }
-  const text = chunks.join("\n\n");
+  const text = blocks.join("\n\n");
   if (!text.trim()) throw new Error("Couldn’t extract text from this EPUB.");
   return { title, author, text };
 }
