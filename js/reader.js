@@ -3,7 +3,7 @@
      - scroll: continuous vertical scroll
      - paged:  e-reader style page-turning (CSS multi-column + translateX)
    Plus a table of contents, reading-time estimate, notes, and highlights. */
-import { annotations, progress, settings, uid } from "./store.js";
+import { annotations, bookmarks, progress, settings, uid } from "./store.js";
 import { readSelection, renderParagraph, escapeHtml } from "./annotate.js";
 
 const WPM = 230; // words per minute, for time-left estimates
@@ -271,6 +271,7 @@ function updateStatus() {
   els.status.innerHTML =
     `<span>${escapeHtml(chap || current.book.title)}</span>` +
     `<span>${pageInfo} · ${left}</span>`;
+  updateBookmarkBtn();
 }
 
 function saveProgress() {
@@ -391,20 +392,72 @@ export function renderNotes() {
     b.addEventListener("click", () => { closePanels(); flashJump(Number(b.dataset.jump), b.dataset.id); }));
 }
 
-/* ---------- Table of contents ---------- */
+/* ---------- Bookmarks ---------- */
+export function toggleBookmark() {
+  const i = currentParaIndex();
+  const added = bookmarks.toggle(current.book.id, {
+    id: uid(), para: i, excerpt: current.paras[i]?.slice(0, 90) || "", at: Date.now(),
+  });
+  updateBookmarkBtn();
+  if (!els.tocPanel.hidden) renderTOC();
+  return added;
+}
+
+function isHereBookmarked() {
+  const marks = bookmarks.get(current.book.id);
+  if (!marks.length) return false;
+  if (mode === "paged") return marks.some((m) => bookmarkPage(m.para) === page);
+  return marks.some((m) => m.para === currentParaIndex());
+}
+
+function bookmarkPage(para) {
+  const el = current.paraEls.find((p) => Number(p.dataset.i) === para);
+  return el ? paraPage(el) : -1;
+}
+
+function updateBookmarkBtn() {
+  if (!els.bookmarkBtn || !current) return;
+  els.bookmarkBtn.classList.toggle("active", isHereBookmarked());
+}
+
+/* ---------- Table of contents (+ bookmarks) ---------- */
 export function renderTOC() {
-  if (!current.chapters.length) {
-    els.tocList.innerHTML = `<p class="notes-empty">No chapters detected in this text.<br>Use the progress bar or search to navigate.</p>`;
-    return;
-  }
+  const marks = bookmarks.get(current.book.id);
   const hereI = currentParaIndex();
-  let activeIdx = 0;
-  current.chapters.forEach((ch, k) => { if (ch.para <= hereI) activeIdx = k; });
-  els.tocList.innerHTML = current.chapters.map((ch, k) =>
-    `<button class="toc-item${k === activeIdx ? " toc-item--active" : ""}" data-jump="${ch.para}">${escapeHtml(ch.label)}</button>`
-  ).join("");
-  els.tocList.querySelectorAll(".toc-item").forEach((b) =>
-    b.addEventListener("click", () => { closePanels(); gotoPara(Number(b.dataset.jump)); updateStatus(); }));
+  let html = "";
+
+  if (marks.length) {
+    html += `<div class="toc-section">Bookmarks</div>`;
+    html += marks.map((m) =>
+      `<div class="toc-item toc-item--mark" data-jump="${m.para}">
+         <span class="toc-item__txt">🔖 ${escapeHtml(m.excerpt || "Bookmark")}…</span>
+         <button class="toc-item__del" data-unmark="${m.id}" aria-label="Remove bookmark">✕</button>
+       </div>`).join("");
+  }
+
+  if (current.chapters.length) {
+    if (marks.length) html += `<div class="toc-section">Chapters</div>`;
+    let activeIdx = 0;
+    current.chapters.forEach((ch, k) => { if (ch.para <= hereI) activeIdx = k; });
+    html += current.chapters.map((ch, k) =>
+      `<button class="toc-item${k === activeIdx ? " toc-item--active" : ""}" data-jump="${ch.para}">${escapeHtml(ch.label)}</button>`
+    ).join("");
+  } else if (!marks.length) {
+    html = `<p class="notes-empty">No chapters detected in this text.<br>Tap 🔖 to bookmark where you are.</p>`;
+  }
+
+  els.tocList.innerHTML = html;
+  els.tocList.querySelectorAll("[data-jump]").forEach((b) =>
+    b.addEventListener("click", (e) => {
+      if (e.target.closest("[data-unmark]")) return;
+      closePanels(); gotoPara(Number(b.dataset.jump)); updateStatus(); updateBookmarkBtn();
+    }));
+  els.tocList.querySelectorAll("[data-unmark]").forEach((b) =>
+    b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      bookmarks.remove(current.book.id, b.dataset.unmark);
+      renderTOC(); updateBookmarkBtn();
+    }));
   const active = els.tocList.querySelector(".toc-item--active");
   if (active) active.scrollIntoView({ block: "center" });
 }

@@ -232,6 +232,14 @@ body[data-align="justify"] .book p { text-align: justify; text-justify: inter-wo
   font-size: .92rem; line-height: 1.3; border-left: 2px solid transparent; }
 .toc-item:hover { background: var(--bg-sunk); }
 .toc-item--active { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+.toc-section { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--text-dim);
+  padding: .7rem .7rem .3rem; font-weight: 600; }
+.toc-item--mark { display: flex; align-items: center; gap: .4rem; }
+.toc-item--mark .toc-item__txt { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.toc-item__del { border: 0; background: none; color: var(--text-dim); cursor: pointer; font-size: .85rem;
+  padding: .2rem .3rem; border-radius: .3rem; }
+.toc-item__del:hover { color: #c0392b; background: var(--bg-sunk); }
+.icon-btn.active { color: var(--accent); }
 .notes-panel__head { display: flex; align-items: center; justify-content: space-between;
   padding: max(env(safe-area-inset-top), .8rem) .6rem .8rem 1.1rem; border-bottom: 1px solid var(--border); }
 .notes-panel__head h2 { font-family: var(--reading-font); font-size: 1.15rem; margin: 0; }
@@ -251,7 +259,9 @@ body[data-align="justify"] .book p { text-align: justify; text-justify: inter-wo
 .note-dialog { position: fixed; inset: 0; z-index: 40; display: grid; place-items: end center; padding: 1rem; background: rgba(0,0,0,.4); }
 .note-dialog[hidden] { display: none; }
 .note-dialog__card { background: var(--bg-elev); border: 1px solid var(--border); border-radius: .9rem;
-  width: min(34rem, 100%); padding: 1rem; box-shadow: 0 12px 40px var(--shadow); margin-bottom: env(safe-area-inset-bottom); }
+  width: min(34rem, 100%); padding: 1rem; box-shadow: 0 12px 40px var(--shadow);
+  margin-bottom: env(safe-area-inset-bottom);
+  max-height: calc(100svh - 1.25rem); overflow-y: auto; -webkit-overflow-scrolling: touch; }
 @media (min-width: 40rem) { .note-dialog { place-items: center; } }
 .note-dialog__quote { margin: 0 0 .7rem; padding-left: .7rem; border-left: 3px solid var(--accent);
   font-family: var(--reading-font); color: var(--text-dim); font-size: .95rem; line-height: 1.4; max-height: 8rem; overflow: auto; }

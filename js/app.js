@@ -1,7 +1,7 @@
 /* App bootstrap: hash routing, theme/display settings, and view wiring. */
 import { settings, progress } from "./store.js";
 import { loadCatalog, getBook, renderLibrary, renderImports } from "./library.js";
-import { initReader, openBook, closeBook, renderNotes, renderTOC, setMode, applyReadingPrefs } from "./reader.js";
+import { initReader, openBook, closeBook, renderNotes, renderTOC, setMode, applyReadingPrefs, toggleBookmark } from "./reader.js";
 import { isImportId, getImport, addImport, deleteImport } from "./imports.js";
 import { exportData, importData } from "./backup.js";
 import { epubToText } from "./epub.js";
@@ -231,7 +231,9 @@ async function main() {
     noteSave: $("note-save"), noteCancel: $("note-cancel"), noteDelete: $("note-delete"),
     notesPanel: $("notes-panel"), notesList: $("notes-list"),
     tocPanel: $("toc-panel"), tocList: $("toc-list"), scrim: $("scrim"),
+    bookmarkBtn: $("bookmark-btn"),
   });
+  $("bookmark-btn").addEventListener("click", toggleBookmark);
 
   $("back-btn").addEventListener("click", () => { location.hash = "/"; });
   $("search").addEventListener("input", () => {
