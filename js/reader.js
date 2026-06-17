@@ -42,10 +42,11 @@ export function initReader(refs) {
     const mark = e.target.closest("mark.hl");
     if (mark) { openNote(mark.dataset.id); return; }
     if (!window.getSelection().isCollapsed) return;   // selecting text
-    const rect = els.scroll.getBoundingClientRect();
-    const x = e.clientX - rect.left, y = e.clientY - rect.top;
-    // A tap near the very top reveals the bar (when hidden) in either mode.
-    if (els.bar.classList.contains("hidden") && y < 72) { els.bar.classList.remove("hidden"); return; }
+    const x = e.clientX - els.scroll.getBoundingClientRect().left;
+    // A tap in the strip where the bar lives reveals it (when hidden), either mode.
+    if (els.bar.classList.contains("hidden") && e.clientY <= els.bar.offsetHeight + 4) {
+      els.bar.classList.remove("hidden"); return;
+    }
     if (mode === "paged") { handlePageTap(e); return; }
     // Scroll mode: a tap in the middle band toggles the bar.
     const w = els.scroll.clientWidth;
@@ -164,6 +165,14 @@ function renderBook() {
 function repaintPara(i) {
   const p = els.book.querySelector(`p[data-i="${i}"]`);
   if (p) p.innerHTML = renderParagraph(current.paras[i], hlByPara.get(i));
+}
+
+/* Repaint a paragraph (after a highlight/note change) without losing the
+   reader's place — adding a <mark> can nudge the paged column flow. */
+function repaintKeepingPlace(i) {
+  const anchor = mode === "paged" ? currentParaIndex() : null;
+  repaintPara(i);
+  if (mode === "paged") { layoutPaged(); gotoPara(anchor ?? i, false); }
 }
 
 export function applyReadingPrefs() {
@@ -376,10 +385,9 @@ function commitHighlight(color, withNote) {
   annotations.add(current.book.id, hl);
   if (!hlByPara.has(hl.para)) hlByPara.set(hl.para, []);
   hlByPara.get(hl.para).push(hl);
-  repaintPara(hl.para);
   window.getSelection()?.removeAllRanges();
   hideToolbar();
-  if (mode === "paged") layoutPaged();   // repaint may change column flow slightly
+  repaintKeepingPlace(hl.para);
   if (withNote) openNote(hl.id);
 }
 
@@ -405,7 +413,7 @@ function saveNote() {
   const note = els.noteText.value.trim();
   annotations.update(current.book.id, editingId, { note });
   const hl = findHl(editingId);
-  if (hl) { hl.note = note; repaintPara(hl.para); }
+  if (hl) { hl.note = note; repaintKeepingPlace(hl.para); }
   closeNote();
   if (!els.notesPanel.hidden) renderNotes();
 }
@@ -415,7 +423,7 @@ function deleteHighlight() {
   annotations.remove(current.book.id, editingId);
   if (hl) {
     hlByPara.set(hl.para, (hlByPara.get(hl.para) || []).filter((x) => x.id !== editingId));
-    repaintPara(hl.para);
+    repaintKeepingPlace(hl.para);
   }
   closeNote();
   if (!els.notesPanel.hidden) renderNotes();
