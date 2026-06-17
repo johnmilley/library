@@ -71,6 +71,8 @@ a { color: var(--accent); }
   border-bottom: 1px solid var(--border);
 }
 .lib-head__row { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.lib-head__actions { display: flex; align-items: center; gap: .1rem; }
+#add-btn { font-size: 1.5rem; }
 .lib-title { font-family: var(--reading-font); font-size: 1.5rem; font-weight: 600; margin: 0; letter-spacing: -.01em; }
 .search {
   width: 100%; margin-top: .6rem; padding: .6rem .8rem; font: inherit; font-size: 1rem;
@@ -217,6 +219,26 @@ body[data-font="sans"] .book { font-family: var(--ui-font); }
   background: var(--bg-sunk); border: 1px solid var(--border); border-radius: .5rem; color: var(--text); }
 .note-dialog__actions { display: flex; align-items: center; justify-content: space-between; margin-top: .8rem; gap: .5rem; }
 .note-dialog__actions > div { display: flex; gap: .5rem; }
+
+/* Import dialog */
+.import-card { width: min(34rem, 100%); }
+.import-card__title { font-family: var(--reading-font); font-size: 1.25rem; margin: 0 0 .2rem; }
+.import-card__hint { color: var(--text-dim); font-size: .85rem; margin: 0 0 .8rem; line-height: 1.4; }
+.import-card__grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-bottom: .5rem; }
+@media (max-width: 26rem) { .import-card__grid { grid-template-columns: 1fr; } }
+.import-input { font: inherit; font-size: 1rem; padding: .55rem .6rem; background: var(--bg-sunk);
+  border: 1px solid var(--border); border-radius: .5rem; color: var(--text); }
+.import-file { display: block; padding: .6rem .7rem; margin-bottom: .5rem; text-align: center; cursor: pointer;
+  border: 1px dashed var(--border); border-radius: .5rem; color: var(--text-dim); font-size: .9rem; background: var(--bg-sunk); }
+.import-file:hover { border-color: var(--accent); color: var(--text); }
+.import-card__error { color: #c0392b; font-size: .85rem; margin: .5rem 0 0; }
+.import-card__note { color: var(--text-dim); font-size: .75rem; max-width: 14rem; line-height: 1.35; }
+.import-card__note code { font-size: .92em; }
+.card__del { position: absolute; top: .4rem; right: .4rem; border: 0; background: var(--bg-sunk); color: var(--text-dim);
+  width: 1.5rem; height: 1.5rem; border-radius: 50%; cursor: pointer; font-size: .9rem; line-height: 1; display: none; }
+.card { position: relative; }
+.card:hover .card__del { display: block; }
+.card__del:hover { color: #c0392b; }
 
 /* Wider screens: roomier reading column */
 @media (min-width: 48rem) {

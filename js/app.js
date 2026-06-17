@@ -1,7 +1,8 @@
 /* App bootstrap: hash routing, theme/display settings, and view wiring. */
 import { settings } from "./store.js";
-import { loadCatalog, getBook, renderLibrary } from "./library.js";
+import { loadCatalog, getBook, renderLibrary, renderImports } from "./library.js";
 import { initReader, openBook, closeBook, renderNotes } from "./reader.js";
+import { isImportId, getImport, addImport, deleteImport } from "./imports.js";
 
 const $ = (id) => document.getElementById(id);
 const THEMES = ["light", "sepia", "dark"];
@@ -69,17 +70,29 @@ async function route() {
   const hash = location.hash.slice(1); // e.g. "/read/crime-and-punishment"
   const m = hash.match(/^\/read\/(.+)$/);
   if (m) {
-    const book = getBook(decodeURIComponent(m[1]));
-    if (book && book.downloaded) {
-      show("reader");
-      $("type-panel").hidden = true;
-      await openBook(book);
-      return;
+    const id = decodeURIComponent(m[1]);
+    if (isImportId(id)) {
+      const rec = await getImport(id);
+      if (rec) {
+        show("reader");
+        $("type-panel").hidden = true;
+        await openBook({ id: rec.id, title: rec.title, author: rec.author, text: rec.text });
+        return;
+      }
+    } else {
+      const book = getBook(id);
+      if (book && book.downloaded) {
+        show("reader");
+        $("type-panel").hidden = true;
+        await openBook(book);
+        return;
+      }
     }
   }
   closeBook();
   show("library");
   renderLibrary($("sections"), $("search").value);
+  renderImports($("search").value);
 }
 
 /* ---------- Notes panel ---------- */
@@ -93,6 +106,45 @@ function bindNotesPanel() {
   });
   $("notes-close").addEventListener("click", close);
   scrim.addEventListener("click", close);
+}
+
+/* ---------- Add / import book ---------- */
+function bindImportDialog() {
+  const dlg = $("import-dialog");
+  const fileInput = $("import-file"), fileLabel = $("import-file-label");
+  const titleEl = $("import-title"), authorEl = $("import-author");
+  const textEl = $("import-text"), errEl = $("import-error");
+  let pickedText = null;
+
+  const reset = () => {
+    titleEl.value = ""; authorEl.value = ""; textEl.value = "";
+    pickedText = null; fileInput.value = ""; fileLabel.textContent = "Choose a .txt file…";
+    errEl.hidden = true;
+  };
+  const open = () => { reset(); dlg.hidden = false; titleEl.focus(); };
+  const close = () => { dlg.hidden = true; };
+
+  $("add-btn").addEventListener("click", open);
+  $("import-cancel").addEventListener("click", close);
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) close(); });
+
+  fileInput.addEventListener("change", () => {
+    const f = fileInput.files[0];
+    if (!f) return;
+    fileLabel.textContent = f.name;
+    if (!titleEl.value) titleEl.value = f.name.replace(/\.txt$/i, "").replace(/[_-]+/g, " ");
+    const reader = new FileReader();
+    reader.onload = () => { pickedText = String(reader.result); };
+    reader.readAsText(f);
+  });
+
+  $("import-save").addEventListener("click", async () => {
+    const text = (textEl.value.trim() || pickedText || "").trim();
+    if (!text) { errEl.textContent = "Add some text — choose a file or paste it in."; errEl.hidden = false; return; }
+    const rec = await addImport({ title: titleEl.value, author: authorEl.value, text });
+    close();
+    location.hash = `/read/${encodeURIComponent(rec.id)}`;
+  });
 }
 
 /* ---------- Boot ---------- */
@@ -112,10 +164,21 @@ async function main() {
   });
 
   $("back-btn").addEventListener("click", () => { location.hash = "/"; });
-  $("search").addEventListener("input", () => renderLibrary($("sections"), $("search").value));
+  $("search").addEventListener("input", () => {
+    renderLibrary($("sections"), $("search").value);
+    renderImports($("search").value);
+  });
+  bindImportDialog();
 
-  // Card clicks (event-delegated for both shelves)
-  document.addEventListener("click", (e) => {
+  // Card clicks (event-delegated for all shelves)
+  document.addEventListener("click", async (e) => {
+    const del = e.target.closest(".card__del");
+    if (del) {
+      e.stopPropagation();
+      await deleteImport(del.dataset.del);
+      renderImports($("search").value);
+      return;
+    }
     const card = e.target.closest(".card[data-id]");
     if (card && !card.disabled) location.hash = `/read/${encodeURIComponent(card.dataset.id)}`;
   });

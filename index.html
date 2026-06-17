@@ -14,13 +14,20 @@
     <header class="lib-head">
       <div class="lib-head__row">
         <h1 class="lib-title">The Reading&nbsp;Room</h1>
-        <button id="theme-btn" class="icon-btn" title="Change theme" aria-label="Change theme">◐</button>
+        <div class="lib-head__actions">
+          <button id="add-btn" class="icon-btn" title="Add a book" aria-label="Add a book">＋</button>
+          <button id="theme-btn" class="icon-btn" title="Change theme" aria-label="Change theme">◐</button>
+        </div>
       </div>
       <input id="search" class="search" type="search" placeholder="Search title or author…" autocomplete="off">
     </header>
     <div id="continue-wrap" class="continue" hidden>
       <h2 class="continue__label">Continue reading</h2>
       <div id="continue-list" class="continue__list"></div>
+    </div>
+    <div id="imports-wrap" class="continue" hidden>
+      <h2 class="continue__label">Your imports</h2>
+      <div id="imports-list" class="continue__list"></div>
     </div>
     <div id="sections"></div>
     <footer class="lib-foot">
@@ -109,6 +116,31 @@
         <div>
           <button id="note-cancel" class="btn btn--ghost">Cancel</button>
           <button id="note-save" class="btn">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add / import book dialog -->
+  <div id="import-dialog" class="note-dialog" hidden>
+    <div class="note-dialog__card import-card">
+      <h2 class="import-card__title">Add a book</h2>
+      <p class="import-card__hint">Open a plain-text file, or paste the text below. Stored privately in this browser.</p>
+      <div class="import-card__grid">
+        <input id="import-title" class="import-input" type="text" placeholder="Title">
+        <input id="import-author" class="import-input" type="text" placeholder="Author">
+      </div>
+      <label class="import-file">
+        <input id="import-file" type="file" accept=".txt,text/plain" hidden>
+        <span id="import-file-label">Choose a .txt file…</span>
+      </label>
+      <textarea id="import-text" class="note-dialog__text" rows="6" placeholder="…or paste the full text here"></textarea>
+      <p id="import-error" class="import-card__error" hidden></p>
+      <div class="note-dialog__actions">
+        <span class="import-card__note">Tip: Gutenberg URLs import via <code>scripts/add_book.py</code>.</span>
+        <div>
+          <button id="import-cancel" class="btn btn--ghost">Cancel</button>
+          <button id="import-save" class="btn">Add to library</button>
         </div>
       </div>
     </div>

@@ -44,12 +44,15 @@ export async function openBook(book) {
   els.author.textContent = book.author;
   els.book.innerHTML = `<p class="book__byline">Loading…</p>`;
 
-  const res = await fetch(`data/books/${book.file}`);
-  if (!res.ok) {
-    els.book.innerHTML = `<p class="book__byline">This text isn’t downloaded yet. Run <code>python3 scripts/fetch_books.py ${book.id}</code>.</p>`;
-    return;
+  let raw = book.text;            // imported books arrive with their text inline
+  if (raw == null) {
+    const res = await fetch(`data/books/${book.file}`);
+    if (!res.ok) {
+      els.book.innerHTML = `<p class="book__byline">This text isn’t downloaded yet. Run <code>python3 scripts/fetch_books.py ${book.id}</code>.</p>`;
+      return;
+    }
+    raw = await res.text();
   }
-  const raw = await res.text();
   current.paras = paragraphsFrom(raw);
   indexHighlights();
   renderBook();

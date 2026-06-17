@@ -1,5 +1,6 @@
 /* Library view: catalog grid, search, and a "continue reading" shelf. */
 import { progress } from "./store.js";
+import { listImports } from "./imports.js";
 
 let catalog = null;
 
@@ -36,6 +37,34 @@ function cardHtml(book) {
       ${status}
       ${bar}
     </button>`;
+}
+
+/* "Your imports" shelf — books the reader added in-browser (IndexedDB). */
+export async function renderImports(query = "") {
+  const wrap = document.getElementById("imports-wrap");
+  const list = document.getElementById("imports-list");
+  const q = query.trim().toLowerCase();
+  let items = [];
+  try { items = await listImports(); } catch { /* IndexedDB unavailable */ }
+  items = items.filter((b) => !q || b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q));
+  if (!items.length) { wrap.hidden = true; return; }
+  wrap.hidden = false;
+  list.innerHTML = items.map((b) => {
+    const done = progress.get(b.id)?.percent ? Math.round(progress.get(b.id).percent) : 0;
+    const bar = done ? `<div class="card__bar"><i style="width:${done}%"></i></div>` : "";
+    return `
+      <button class="card" data-id="${b.id}">
+        <span class="card__del" data-del="${b.id}" title="Remove" aria-label="Remove">✕</span>
+        <span class="card__title">${escapeText(b.title)}</span>
+        <span class="card__author">${escapeText(b.author)}</span>
+        <span class="card__meta">${b.words.toLocaleString()} words${done ? ` · ${done}% read` : ""}</span>
+        ${bar}
+      </button>`;
+  }).join("");
+}
+
+function escapeText(s) {
+  return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
 export function renderLibrary(root, query = "") {

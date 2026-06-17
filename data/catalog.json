@@ -5,6 +5,26 @@
       "id": "russian",
       "title": "Russian Classics",
       "blurb": "The 19th- and early-20th-century canon, in the public-domain translations of Constance Garnett, the Maudes, and their contemporaries."
+    },
+    {
+      "id": "english",
+      "title": "English Classics",
+      "blurb": "Poets and novelists from Chaucer to the early modernists. Everything here is public domain — roughly up to the late 1920s; later authors remain in copyright."
+    },
+    {
+      "id": "shakespeare",
+      "title": "Shakespeare",
+      "blurb": "The plays and poems on their own shelf."
+    },
+    {
+      "id": "western",
+      "title": "Classics of Western Civilisation",
+      "blurb": "Foundational works of Greece, Rome, and the European tradition — philosophy, history, and epic — in standard public-domain translations."
+    },
+    {
+      "id": "bibles",
+      "title": "Bibles",
+      "blurb": "Public-domain English Bibles. (The RSVCE is under copyright and can't be offered freely; the Douay-Rheims is the public-domain Catholic edition.)"
     }
   ],
   "books": [
@@ -40,7 +60,9 @@
       "translator": "Constance Garnett",
       "year": 1880,
       "gutenberg": 28054,
-      "file": "the-brothers-karamazov.txt"
+      "file": "the-brothers-karamazov.txt",
+      "downloaded": true,
+      "words": 350685
     },
     {
       "id": "the-idiot",
@@ -50,7 +72,33 @@
       "translator": "Eva Martin",
       "year": 1869,
       "gutenberg": 2638,
-      "file": "the-idiot.txt"
+      "file": "the-idiot.txt",
+      "downloaded": true,
+      "words": 241545
+    },
+    {
+      "id": "the-possessed",
+      "section": "russian",
+      "title": "The Possessed (Demons)",
+      "author": "Fyodor Dostoevsky",
+      "translator": "Constance Garnett",
+      "year": 1872,
+      "gutenberg": 8117,
+      "file": "the-possessed.txt",
+      "downloaded": true,
+      "words": 253684
+    },
+    {
+      "id": "the-gambler",
+      "section": "russian",
+      "title": "The Gambler",
+      "author": "Fyodor Dostoevsky",
+      "translator": "C. J. Hogarth",
+      "year": 1867,
+      "gutenberg": 2197,
+      "file": "the-gambler.txt",
+      "downloaded": true,
+      "words": 60312
     },
     {
       "id": "war-and-peace",
@@ -60,7 +108,9 @@
       "translator": "Louise & Aylmer Maude",
       "year": 1869,
       "gutenberg": 2600,
-      "file": "war-and-peace.txt"
+      "file": "war-and-peace.txt",
+      "downloaded": true,
+      "words": 563286
     },
     {
       "id": "anna-karenina",
@@ -70,7 +120,9 @@
       "translator": "Constance Garnett",
       "year": 1877,
       "gutenberg": 1399,
-      "file": "anna-karenina.txt"
+      "file": "anna-karenina.txt",
+      "downloaded": true,
+      "words": 349763
     },
     {
       "id": "the-death-of-ivan-ilyich",
@@ -85,6 +137,42 @@
       "words": 58466
     },
     {
+      "id": "master-and-man",
+      "section": "russian",
+      "title": "Master and Man",
+      "author": "Leo Tolstoy",
+      "translator": "Aylmer Maude",
+      "year": 1895,
+      "gutenberg": 986,
+      "file": "master-and-man.txt",
+      "downloaded": true,
+      "words": 19170
+    },
+    {
+      "id": "resurrection",
+      "section": "russian",
+      "title": "Resurrection",
+      "author": "Leo Tolstoy",
+      "translator": "Louise Maude",
+      "year": 1899,
+      "gutenberg": 1938,
+      "file": "resurrection.txt",
+      "downloaded": true,
+      "words": 173070
+    },
+    {
+      "id": "the-kreutzer-sonata",
+      "section": "russian",
+      "title": "The Kreutzer Sonata and Other Stories",
+      "author": "Leo Tolstoy",
+      "translator": "Benjamin R. Tucker",
+      "year": 1889,
+      "gutenberg": 689,
+      "file": "the-kreutzer-sonata.txt",
+      "downloaded": true,
+      "words": 64107
+    },
+    {
       "id": "fathers-and-sons",
       "section": "russian",
       "title": "Fathers and Sons",
@@ -95,6 +183,18 @@
       "file": "fathers-and-sons.txt",
       "downloaded": true,
       "words": 74881
+    },
+    {
+      "id": "a-sportsmans-sketches",
+      "section": "russian",
+      "title": "A Sportsman's Sketches",
+      "author": "Ivan Turgenev",
+      "translator": "Constance Garnett",
+      "year": 1852,
+      "gutenberg": 8597,
+      "file": "a-sportsmans-sketches.txt",
+      "downloaded": true,
+      "words": 68903
     },
     {
       "id": "dead-souls",
@@ -109,6 +209,18 @@
       "words": 141950
     },
     {
+      "id": "taras-bulba",
+      "section": "russian",
+      "title": "Taras Bulba and Other Tales",
+      "author": "Nikolai Gogol",
+      "translator": "various",
+      "year": 1835,
+      "gutenberg": 1197,
+      "file": "taras-bulba.txt",
+      "downloaded": true,
+      "words": 108951
+    },
+    {
       "id": "the-lady-with-the-dog",
       "section": "russian",
       "title": "The Lady with the Dog and Other Stories",
@@ -119,18 +231,6 @@
       "file": "the-lady-with-the-dog.txt",
       "downloaded": true,
       "words": 71515
-    },
-    {
-      "id": "a-hero-of-our-time",
-      "section": "russian",
-      "title": "A Hero of Our Time",
-      "author": "Mikhail Lermontov",
-      "translator": "J. H. Wisdom & Marr Murray",
-      "year": 1840,
-      "gutenberg": 913,
-      "file": "a-hero-of-our-time.txt",
-      "downloaded": true,
-      "words": 58937
     },
     {
       "id": "the-cherry-orchard",
@@ -145,16 +245,680 @@
       "words": 67108
     },
     {
-      "id": "master-and-man",
+      "id": "a-hero-of-our-time",
       "section": "russian",
-      "title": "Master and Man",
-      "author": "Leo Tolstoy",
-      "translator": "Aylmer Maude",
-      "year": 1895,
-      "gutenberg": 986,
-      "file": "master-and-man.txt",
+      "title": "A Hero of Our Time",
+      "author": "Mikhail Lermontov",
+      "translator": "J. H. Wisdom & Marr Murray",
+      "year": 1840,
+      "gutenberg": 913,
+      "file": "a-hero-of-our-time.txt",
       "downloaded": true,
-      "words": 19170
+      "words": 58937
+    },
+    {
+      "id": "the-captains-daughter",
+      "section": "russian",
+      "title": "The Captain's Daughter and Other Tales",
+      "author": "Alexander Pushkin",
+      "translator": "T. Keane",
+      "year": 1836,
+      "gutenberg": 13511,
+      "file": "the-captains-daughter.txt",
+      "downloaded": true,
+      "words": 39781
+    },
+    {
+      "id": "mother",
+      "section": "russian",
+      "title": "Mother",
+      "author": "Maxim Gorky",
+      "translator": "anonymous",
+      "year": 1906,
+      "gutenberg": 3783,
+      "file": "mother.txt",
+      "downloaded": true,
+      "words": 131923
+    },
+    {
+      "id": "the-canterbury-tales",
+      "section": "english",
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "year": 1400,
+      "gutenberg": 2383,
+      "file": "the-canterbury-tales.txt",
+      "downloaded": true,
+      "words": 279774
+    },
+    {
+      "id": "paradise-lost",
+      "section": "english",
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "year": 1667,
+      "gutenberg": 26,
+      "file": "paradise-lost.txt",
+      "downloaded": true,
+      "words": 80272
+    },
+    {
+      "id": "gullivers-travels",
+      "section": "english",
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "year": 1726,
+      "gutenberg": 829,
+      "file": "gullivers-travels.txt",
+      "downloaded": true,
+      "words": 105079
+    },
+    {
+      "id": "robinson-crusoe",
+      "section": "english",
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "year": 1719,
+      "gutenberg": 521,
+      "file": "robinson-crusoe.txt",
+      "downloaded": true,
+      "words": 120920
+    },
+    {
+      "id": "tom-jones",
+      "section": "english",
+      "title": "The History of Tom Jones",
+      "author": "Henry Fielding",
+      "year": 1749,
+      "gutenberg": 6593,
+      "file": "tom-jones.txt",
+      "downloaded": true,
+      "words": 350588
+    },
+    {
+      "id": "pride-and-prejudice",
+      "section": "english",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "gutenberg": 1342,
+      "file": "pride-and-prejudice.txt",
+      "downloaded": true,
+      "words": 127359
+    },
+    {
+      "id": "emma",
+      "section": "english",
+      "title": "Emma",
+      "author": "Jane Austen",
+      "year": 1815,
+      "gutenberg": 158,
+      "file": "emma.txt",
+      "downloaded": true,
+      "words": 157558
+    },
+    {
+      "id": "sense-and-sensibility",
+      "section": "english",
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "year": 1811,
+      "gutenberg": 161,
+      "file": "sense-and-sensibility.txt",
+      "downloaded": true,
+      "words": 118860
+    },
+    {
+      "id": "frankenstein",
+      "section": "english",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": 1818,
+      "gutenberg": 84,
+      "file": "frankenstein.txt",
+      "downloaded": true,
+      "words": 75042
+    },
+    {
+      "id": "jane-eyre",
+      "section": "english",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": 1847,
+      "gutenberg": 1260,
+      "file": "jane-eyre.txt",
+      "downloaded": true,
+      "words": 185390
+    },
+    {
+      "id": "wuthering-heights",
+      "section": "english",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": 1847,
+      "gutenberg": 768,
+      "file": "wuthering-heights.txt",
+      "downloaded": true,
+      "words": 115945
+    },
+    {
+      "id": "great-expectations",
+      "section": "english",
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "year": 1861,
+      "gutenberg": 1400,
+      "file": "great-expectations.txt",
+      "downloaded": true,
+      "words": 184478
+    },
+    {
+      "id": "a-tale-of-two-cities",
+      "section": "english",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "year": 1859,
+      "gutenberg": 98,
+      "file": "a-tale-of-two-cities.txt",
+      "downloaded": true,
+      "words": 135886
+    },
+    {
+      "id": "david-copperfield",
+      "section": "english",
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "year": 1850,
+      "gutenberg": 766,
+      "file": "david-copperfield.txt",
+      "downloaded": true,
+      "words": 354826
+    },
+    {
+      "id": "bleak-house",
+      "section": "english",
+      "title": "Bleak House",
+      "author": "Charles Dickens",
+      "year": 1853,
+      "gutenberg": 1023,
+      "file": "bleak-house.txt",
+      "downloaded": true,
+      "words": 353463
+    },
+    {
+      "id": "middlemarch",
+      "section": "english",
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "year": 1872,
+      "gutenberg": 145,
+      "file": "middlemarch.txt",
+      "downloaded": true,
+      "words": 316381
+    },
+    {
+      "id": "silas-marner",
+      "section": "english",
+      "title": "Silas Marner",
+      "author": "George Eliot",
+      "year": 1861,
+      "gutenberg": 550,
+      "file": "silas-marner.txt",
+      "downloaded": true,
+      "words": 70982
+    },
+    {
+      "id": "vanity-fair",
+      "section": "english",
+      "title": "Vanity Fair",
+      "author": "William Makepeace Thackeray",
+      "year": 1848,
+      "gutenberg": 599,
+      "file": "vanity-fair.txt",
+      "downloaded": true,
+      "words": 302384
+    },
+    {
+      "id": "tess-of-the-durbervilles",
+      "section": "english",
+      "title": "Tess of the d'Urbervilles",
+      "author": "Thomas Hardy",
+      "year": 1891,
+      "gutenberg": 110,
+      "file": "tess-of-the-durbervilles.txt",
+      "downloaded": true,
+      "words": 150042
+    },
+    {
+      "id": "far-from-the-madding-crowd",
+      "section": "english",
+      "title": "Far from the Madding Crowd",
+      "author": "Thomas Hardy",
+      "year": 1874,
+      "gutenberg": 27,
+      "file": "far-from-the-madding-crowd.txt",
+      "downloaded": true,
+      "words": 137190
+    },
+    {
+      "id": "the-picture-of-dorian-gray",
+      "section": "english",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": 1890,
+      "gutenberg": 174,
+      "file": "the-picture-of-dorian-gray.txt",
+      "downloaded": true,
+      "words": 78979
+    },
+    {
+      "id": "dracula",
+      "section": "english",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": 1897,
+      "gutenberg": 345,
+      "file": "dracula.txt",
+      "downloaded": true,
+      "words": 161321
+    },
+    {
+      "id": "heart-of-darkness",
+      "section": "english",
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "year": 1899,
+      "gutenberg": 219,
+      "file": "heart-of-darkness.txt",
+      "downloaded": true,
+      "words": 37917
+    },
+    {
+      "id": "lord-jim",
+      "section": "english",
+      "title": "Lord Jim",
+      "author": "Joseph Conrad",
+      "year": 1900,
+      "gutenberg": 5658,
+      "file": "lord-jim.txt",
+      "downloaded": true,
+      "words": 130012
+    },
+    {
+      "id": "the-adventures-of-sherlock-holmes",
+      "section": "english",
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": 1892,
+      "gutenberg": 1661,
+      "file": "the-adventures-of-sherlock-holmes.txt",
+      "downloaded": true,
+      "words": 104506
+    },
+    {
+      "id": "dubliners",
+      "section": "english",
+      "title": "Dubliners",
+      "author": "James Joyce",
+      "year": 1914,
+      "gutenberg": 2814,
+      "file": "dubliners.txt",
+      "downloaded": true,
+      "words": 67559
+    },
+    {
+      "id": "a-portrait-of-the-artist",
+      "section": "english",
+      "title": "A Portrait of the Artist as a Young Man",
+      "author": "James Joyce",
+      "year": 1916,
+      "gutenberg": 4217,
+      "file": "a-portrait-of-the-artist.txt",
+      "downloaded": true,
+      "words": 84828
+    },
+    {
+      "id": "the-voyage-out",
+      "section": "english",
+      "title": "The Voyage Out",
+      "author": "Virginia Woolf",
+      "year": 1915,
+      "gutenberg": 144,
+      "file": "the-voyage-out.txt",
+      "downloaded": true,
+      "words": 136348
+    },
+    {
+      "id": "the-complete-poems-of-keats",
+      "section": "english",
+      "title": "Poems",
+      "author": "John Keats",
+      "year": 1820,
+      "gutenberg": 23684,
+      "file": "keats-poems.txt",
+      "downloaded": true,
+      "words": 41616
+    },
+    {
+      "id": "leaves-of-grass",
+      "section": "english",
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "year": 1855,
+      "gutenberg": 1322,
+      "file": "leaves-of-grass.txt",
+      "downloaded": true,
+      "words": 121712
+    },
+    {
+      "id": "shakespeare-complete",
+      "section": "shakespeare",
+      "title": "The Complete Works",
+      "author": "William Shakespeare",
+      "year": 1623,
+      "gutenberg": 100,
+      "file": "shakespeare-complete.txt",
+      "downloaded": true,
+      "words": 963460
+    },
+    {
+      "id": "hamlet",
+      "section": "shakespeare",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "year": 1603,
+      "gutenberg": 1524,
+      "file": "hamlet.txt",
+      "downloaded": true,
+      "words": 31960
+    },
+    {
+      "id": "macbeth",
+      "section": "shakespeare",
+      "title": "Macbeth",
+      "author": "William Shakespeare",
+      "year": 1606,
+      "gutenberg": 1533,
+      "file": "macbeth.txt",
+      "downloaded": true,
+      "words": 18393
+    },
+    {
+      "id": "romeo-and-juliet",
+      "section": "shakespeare",
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "year": 1597,
+      "gutenberg": 1513,
+      "file": "romeo-and-juliet.txt",
+      "downloaded": true,
+      "words": 25958
+    },
+    {
+      "id": "king-lear",
+      "section": "shakespeare",
+      "title": "King Lear",
+      "author": "William Shakespeare",
+      "year": 1606,
+      "gutenberg": 1532,
+      "file": "king-lear.txt",
+      "downloaded": true,
+      "words": 27680
+    },
+    {
+      "id": "othello",
+      "section": "shakespeare",
+      "title": "Othello",
+      "author": "William Shakespeare",
+      "year": 1604,
+      "gutenberg": 1531,
+      "file": "othello.txt",
+      "downloaded": true,
+      "words": 27926
+    },
+    {
+      "id": "a-midsummer-nights-dream",
+      "section": "shakespeare",
+      "title": "A Midsummer Night's Dream",
+      "author": "William Shakespeare",
+      "year": 1596,
+      "gutenberg": 1514,
+      "file": "a-midsummer-nights-dream.txt",
+      "downloaded": true,
+      "words": 17284
+    },
+    {
+      "id": "the-tempest",
+      "section": "shakespeare",
+      "title": "The Tempest",
+      "author": "William Shakespeare",
+      "year": 1611,
+      "gutenberg": 23042,
+      "file": "the-tempest.txt",
+      "downloaded": true,
+      "words": 23433
+    },
+    {
+      "id": "julius-caesar",
+      "section": "shakespeare",
+      "title": "Julius Caesar",
+      "author": "William Shakespeare",
+      "year": 1599,
+      "gutenberg": 1522,
+      "file": "julius-caesar.txt",
+      "downloaded": true,
+      "words": 21014
+    },
+    {
+      "id": "shakespeare-sonnets",
+      "section": "shakespeare",
+      "title": "The Sonnets",
+      "author": "William Shakespeare",
+      "year": 1609,
+      "gutenberg": 1041,
+      "file": "shakespeare-sonnets.txt",
+      "downloaded": true,
+      "words": 17676
+    },
+    {
+      "id": "the-iliad",
+      "section": "western",
+      "title": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "year": -750,
+      "gutenberg": 2199,
+      "file": "the-iliad.txt",
+      "downloaded": true,
+      "words": 152757
+    },
+    {
+      "id": "the-odyssey",
+      "section": "western",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "year": -725,
+      "gutenberg": 1727,
+      "file": "the-odyssey.txt",
+      "downloaded": true,
+      "words": 129571
+    },
+    {
+      "id": "the-aeneid",
+      "section": "western",
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "translator": "John Dryden",
+      "year": -19,
+      "gutenberg": 228,
+      "file": "the-aeneid.txt",
+      "downloaded": true,
+      "words": 107551
+    },
+    {
+      "id": "the-republic",
+      "section": "western",
+      "title": "The Republic",
+      "author": "Plato",
+      "translator": "Benjamin Jowett",
+      "year": -375,
+      "gutenberg": 1497,
+      "file": "the-republic.txt",
+      "downloaded": true,
+      "words": 216285
+    },
+    {
+      "id": "the-apology",
+      "section": "western",
+      "title": "Apology",
+      "author": "Plato",
+      "translator": "Benjamin Jowett",
+      "year": -399,
+      "gutenberg": 1656,
+      "file": "the-apology.txt",
+      "downloaded": true,
+      "words": 16094
+    },
+    {
+      "id": "nicomachean-ethics",
+      "section": "western",
+      "title": "The Nicomachean Ethics",
+      "author": "Aristotle",
+      "translator": "F. H. Peters",
+      "year": -340,
+      "gutenberg": 8438,
+      "file": "nicomachean-ethics.txt",
+      "downloaded": true,
+      "words": 113322
+    },
+    {
+      "id": "politics",
+      "section": "western",
+      "title": "Politics",
+      "author": "Aristotle",
+      "translator": "Benjamin Jowett",
+      "year": -350,
+      "gutenberg": 6762,
+      "file": "politics.txt",
+      "downloaded": true,
+      "words": 102339
+    },
+    {
+      "id": "the-meditations",
+      "section": "western",
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "translator": "George Long",
+      "year": 180,
+      "gutenberg": 2680,
+      "file": "the-meditations.txt",
+      "downloaded": true,
+      "words": 71957
+    },
+    {
+      "id": "the-histories-herodotus",
+      "section": "western",
+      "title": "The History of Herodotus",
+      "author": "Herodotus",
+      "translator": "G. C. Macaulay",
+      "year": -430,
+      "gutenberg": 2707,
+      "file": "the-histories-herodotus.txt",
+      "downloaded": true,
+      "words": 162433
+    },
+    {
+      "id": "confessions-augustine",
+      "section": "western",
+      "title": "The Confessions of St. Augustine",
+      "author": "Augustine of Hippo",
+      "translator": "E. B. Pusey",
+      "year": 400,
+      "gutenberg": 3296,
+      "file": "confessions-augustine.txt",
+      "downloaded": true,
+      "words": 111821
+    },
+    {
+      "id": "the-divine-comedy",
+      "section": "western",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "translator": "H. W. Longfellow",
+      "year": 1320,
+      "gutenberg": 1001,
+      "file": "the-divine-comedy.txt",
+      "downloaded": true,
+      "words": 38044
+    },
+    {
+      "id": "the-prince",
+      "section": "western",
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "translator": "W. K. Marriott",
+      "year": 1532,
+      "gutenberg": 1232,
+      "file": "the-prince.txt",
+      "downloaded": true,
+      "words": 49943
+    },
+    {
+      "id": "leviathan",
+      "section": "western",
+      "title": "Leviathan",
+      "author": "Thomas Hobbes",
+      "year": 1651,
+      "gutenberg": 3207,
+      "file": "leviathan.txt",
+      "downloaded": true,
+      "words": 213346
+    },
+    {
+      "id": "thus-spake-zarathustra",
+      "section": "western",
+      "title": "Thus Spake Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "translator": "Thomas Common",
+      "year": 1883,
+      "gutenberg": 1998,
+      "file": "thus-spake-zarathustra.txt",
+      "downloaded": true,
+      "words": 110900
+    },
+    {
+      "id": "kjv-bible",
+      "section": "bibles",
+      "title": "The Holy Bible — King James Version",
+      "author": "Authorized Version",
+      "year": 1611,
+      "gutenberg": 10,
+      "file": "kjv-bible.txt",
+      "downloaded": true,
+      "words": 821496
+    },
+    {
+      "id": "douay-rheims-bible",
+      "section": "bibles",
+      "title": "The Holy Bible — Douay-Rheims Version",
+      "author": "Douay-Rheims",
+      "year": 1610,
+      "gutenberg": 1581,
+      "file": "douay-rheims-bible.txt",
+      "downloaded": true,
+      "words": 1067908
+    },
+    {
+      "id": "world-english-bible",
+      "section": "bibles",
+      "title": "The World English Bible",
+      "author": "WEB (public domain)",
+      "year": 2000,
+      "gutenberg": 8294,
+      "file": "world-english-bible.txt",
+      "downloaded": true,
+      "words": 799219
     }
   ]
 }

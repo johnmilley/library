@@ -65,6 +65,20 @@ def strip_boilerplate(raw: str) -> str:
     return raw.strip() + "\n"
 
 
+def looks_like(text: str, book: dict) -> bool:
+    """Loose sanity check that we downloaded the work we asked for.
+    True if the author's surname or a distinctive title word shows up near
+    the top of the text. Catches grossly wrong Gutenberg ids."""
+    head = text[:6000].lower()
+    surname = re.sub(r"[^a-z]", "", book.get("author", "").split()[-1:] and
+                     book["author"].split()[-1].lower() or "")
+    if surname and len(surname) >= 4 and surname in head:
+        return True
+    title_words = [w for w in re.findall(r"[a-z']{5,}", book.get("title", "").lower())
+                   if w not in {"other", "complete", "version", "stories", "tales"}]
+    return any(w in head for w in title_words)
+
+
 def fetch_book(book: dict) -> tuple[bool, int]:
     gid = book.get("gutenberg")
     if not gid:
@@ -78,7 +92,8 @@ def fetch_book(book: dict) -> tuple[bool, int]:
             out = BOOKS_DIR / book["file"]
             out.write_text(text, encoding="utf-8")
             words = len(text.split())
-            print(f"  + {book['id']}: {words:,} words  ({url})")
+            flag = "" if looks_like(text, book) else "  ⚠ VERIFY (title/author not found near top)"
+            print(f"  + {book['id']}: {words:,} words  (gutenberg {gid}){flag}")
             return True, words
         time.sleep(0.4)
     print(f"  ! {book['id']}: all download URLs failed (gutenberg {gid})")

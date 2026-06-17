@@ -25,6 +25,7 @@ js/
   library.js          Catalog load, search, card grid, "continue reading"
   reader.js           Book rendering, selection→highlight, notes, progress
   annotate.js         Highlight engine: offset math + paragraph rendering
+  imports.js          In-browser book import stored in IndexedDB
 data/
   catalog.json        Source of truth: sections + books with metadata
   books/*.txt         Cleaned plain-text bodies (git-ignored; fetched locally)
@@ -59,6 +60,21 @@ rendering, so the output is always a flat, non-nested run of `<mark>`s.
 
 `downloaded`/`words` are written by the fetch scripts. A book with
 `downloaded:false` shows in the library greyed-out ("not downloaded").
+
+Sections currently: `russian`, `english`, `shakespeare`, `western`
+(Classics of Western Civilisation), `bibles`. Note the RSVCE is copyrighted
+and cannot be offered — `bibles` uses the public-domain KJV and Douay-Rheims.
+
+## Imported books (IndexedDB)
+
+Books the reader adds in-browser (the ＋ button → open a .txt or paste text)
+are stored in IndexedDB under db `reading-room`, store `imports`, with ids
+prefixed `import:`. They appear in a "Your imports" shelf and are opened by
+`route()` loading the record and passing its `text` straight to `openBook`
+(catalog books instead lazy-fetch their file). Highlights/notes/progress key
+off the `import:<uuid>` id, so all reader features work unchanged. Importing a
+Gutenberg *URL* still goes through `scripts/add_book.py` (browser fetches of
+gutenberg.org are blocked by CORS).
 
 ## Adding books
 
