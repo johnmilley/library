@@ -1,0 +1,7 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+__pycache__/
+
+# Note: data/books/*.txt ARE committed on purpose — they are public-domain
+# texts and the deployed (GitHub Pages) site needs them to load books.

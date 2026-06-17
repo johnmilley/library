@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#faf8f4">
+  <title>The Reading Room</title>
+  <meta name="description" content="A clean, distraction-free reader for public-domain classics.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== Library view ===== -->
+  <main id="library" class="view">
+    <header class="lib-head">
+      <div class="lib-head__row">
+        <h1 class="lib-title">The Reading&nbsp;Room</h1>
+        <button id="theme-btn" class="icon-btn" title="Change theme" aria-label="Change theme">◐</button>
+      </div>
+      <input id="search" class="search" type="search" placeholder="Search title or author…" autocomplete="off">
+    </header>
+    <div id="continue-wrap" class="continue" hidden>
+      <h2 class="continue__label">Continue reading</h2>
+      <div id="continue-list" class="continue__list"></div>
+    </div>
+    <div id="sections"></div>
+    <footer class="lib-foot">
+      <p>Texts are public domain, sourced from <a href="https://www.gutenberg.org" target="_blank" rel="noopener">Project&nbsp;Gutenberg</a>. Your notes &amp; highlights are stored only on this device.</p>
+    </footer>
+  </main>
+
+  <!-- ===== Reader view ===== -->
+  <section id="reader" class="view" hidden>
+    <header id="reader-bar" class="reader-bar">
+      <button id="back-btn" class="icon-btn" title="Library" aria-label="Back to library">‹</button>
+      <div class="reader-bar__title">
+        <span id="reader-title"></span>
+        <small id="reader-author"></small>
+      </div>
+      <button id="notes-btn" class="icon-btn" title="Notes &amp; highlights" aria-label="Notes">❧</button>
+      <button id="type-btn" class="icon-btn" title="Display settings" aria-label="Display settings">Aa</button>
+    </header>
+
+    <div id="reader-scroll" class="reader-scroll">
+      <article id="book" class="book"></article>
+    </div>
+
+    <div id="reader-progress" class="reader-progress"><span id="progress-fill"></span></div>
+
+    <!-- Floating selection toolbar -->
+    <div id="sel-toolbar" class="sel-toolbar" hidden>
+      <button class="swatch" data-color="yellow" style="--c:var(--hl-yellow)" aria-label="Yellow"></button>
+      <button class="swatch" data-color="green" style="--c:var(--hl-green)" aria-label="Green"></button>
+      <button class="swatch" data-color="blue" style="--c:var(--hl-blue)" aria-label="Blue"></button>
+      <button class="swatch" data-color="pink" style="--c:var(--hl-pink)" aria-label="Pink"></button>
+      <button id="sel-note" class="sel-toolbar__note" aria-label="Highlight and add note">＋ Note</button>
+    </div>
+
+    <!-- Display settings popover -->
+    <div id="type-panel" class="popover" hidden>
+      <div class="popover__row">
+        <span>Text size</span>
+        <div class="stepper">
+          <button data-act="font-dec" aria-label="Smaller">A−</button>
+          <button data-act="font-inc" aria-label="Larger">A+</button>
+        </div>
+      </div>
+      <div class="popover__row">
+        <span>Spacing</span>
+        <div class="stepper">
+          <button data-act="lh-dec" aria-label="Tighter">▾</button>
+          <button data-act="lh-inc" aria-label="Looser">▴</button>
+        </div>
+      </div>
+      <div class="popover__row">
+        <span>Typeface</span>
+        <div class="seg" id="font-seg">
+          <button data-font="serif">Serif</button>
+          <button data-font="sans">Sans</button>
+        </div>
+      </div>
+      <div class="popover__row">
+        <span>Theme</span>
+        <div class="seg" id="theme-seg">
+          <button data-theme-set="light">Light</button>
+          <button data-theme-set="sepia">Sepia</button>
+          <button data-theme-set="dark">Dark</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notes & highlights slide-over -->
+  <aside id="notes-panel" class="notes-panel" hidden>
+    <header class="notes-panel__head">
+      <h2>Notes &amp; Highlights</h2>
+      <button id="notes-close" class="icon-btn" aria-label="Close">✕</button>
+    </header>
+    <div id="notes-list" class="notes-list"></div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <!-- Note editor dialog -->
+  <div id="note-dialog" class="note-dialog" hidden>
+    <div class="note-dialog__card">
+      <blockquote id="note-quote" class="note-dialog__quote"></blockquote>
+      <textarea id="note-text" class="note-dialog__text" placeholder="Write a note…" rows="4"></textarea>
+      <div class="note-dialog__actions">
+        <button id="note-delete" class="btn btn--ghost">Delete highlight</button>
+        <div>
+          <button id="note-cancel" class="btn btn--ghost">Cancel</button>
+          <button id="note-save" class="btn">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

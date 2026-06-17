@@ -1,0 +1,160 @@
+{
+  "title": "The Reading Room",
+  "sections": [
+    {
+      "id": "russian",
+      "title": "Russian Classics",
+      "blurb": "The 19th- and early-20th-century canon, in the public-domain translations of Constance Garnett, the Maudes, and their contemporaries."
+    }
+  ],
+  "books": [
+    {
+      "id": "crime-and-punishment",
+      "section": "russian",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "translator": "Constance Garnett",
+      "year": 1866,
+      "gutenberg": 2554,
+      "file": "crime-and-punishment.txt",
+      "downloaded": true,
+      "words": 203505
+    },
+    {
+      "id": "notes-from-the-underground",
+      "section": "russian",
+      "title": "Notes from the Underground",
+      "author": "Fyodor Dostoevsky",
+      "translator": "Constance Garnett",
+      "year": 1864,
+      "gutenberg": 600,
+      "file": "notes-from-the-underground.txt",
+      "downloaded": true,
+      "words": 44132
+    },
+    {
+      "id": "the-brothers-karamazov",
+      "section": "russian",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "translator": "Constance Garnett",
+      "year": 1880,
+      "gutenberg": 28054,
+      "file": "the-brothers-karamazov.txt"
+    },
+    {
+      "id": "the-idiot",
+      "section": "russian",
+      "title": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "translator": "Eva Martin",
+      "year": 1869,
+      "gutenberg": 2638,
+      "file": "the-idiot.txt"
+    },
+    {
+      "id": "war-and-peace",
+      "section": "russian",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "translator": "Louise & Aylmer Maude",
+      "year": 1869,
+      "gutenberg": 2600,
+      "file": "war-and-peace.txt"
+    },
+    {
+      "id": "anna-karenina",
+      "section": "russian",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "translator": "Constance Garnett",
+      "year": 1877,
+      "gutenberg": 1399,
+      "file": "anna-karenina.txt"
+    },
+    {
+      "id": "the-death-of-ivan-ilyich",
+      "section": "russian",
+      "title": "The Death of Ivan Ilyich",
+      "author": "Leo Tolstoy",
+      "translator": "Aylmer Maude",
+      "year": 1886,
+      "gutenberg": 887,
+      "file": "the-death-of-ivan-ilyich.txt",
+      "downloaded": true,
+      "words": 58466
+    },
+    {
+      "id": "fathers-and-sons",
+      "section": "russian",
+      "title": "Fathers and Sons",
+      "author": "Ivan Turgenev",
+      "translator": "Constance Garnett",
+      "year": 1862,
+      "gutenberg": 30723,
+      "file": "fathers-and-sons.txt",
+      "downloaded": true,
+      "words": 74881
+    },
+    {
+      "id": "dead-souls",
+      "section": "russian",
+      "title": "Dead Souls",
+      "author": "Nikolai Gogol",
+      "translator": "D. J. Hogarth",
+      "year": 1842,
+      "gutenberg": 1081,
+      "file": "dead-souls.txt",
+      "downloaded": true,
+      "words": 141950
+    },
+    {
+      "id": "the-lady-with-the-dog",
+      "section": "russian",
+      "title": "The Lady with the Dog and Other Stories",
+      "author": "Anton Chekhov",
+      "translator": "Constance Garnett",
+      "year": 1899,
+      "gutenberg": 13415,
+      "file": "the-lady-with-the-dog.txt",
+      "downloaded": true,
+      "words": 71515
+    },
+    {
+      "id": "a-hero-of-our-time",
+      "section": "russian",
+      "title": "A Hero of Our Time",
+      "author": "Mikhail Lermontov",
+      "translator": "J. H. Wisdom & Marr Murray",
+      "year": 1840,
+      "gutenberg": 913,
+      "file": "a-hero-of-our-time.txt",
+      "downloaded": true,
+      "words": 58937
+    },
+    {
+      "id": "the-cherry-orchard",
+      "section": "russian",
+      "title": "Plays (The Cherry Orchard, The Seagull, Uncle Vanya)",
+      "author": "Anton Chekhov",
+      "translator": "Julius West / Marian Fell",
+      "year": 1904,
+      "gutenberg": 7986,
+      "file": "the-cherry-orchard.txt",
+      "downloaded": true,
+      "words": 67108
+    },
+    {
+      "id": "master-and-man",
+      "section": "russian",
+      "title": "Master and Man",
+      "author": "Leo Tolstoy",
+      "translator": "Aylmer Maude",
+      "year": 1895,
+      "gutenberg": 986,
+      "file": "master-and-man.txt",
+      "downloaded": true,
+      "words": 19170
+    }
+  ]
+}
