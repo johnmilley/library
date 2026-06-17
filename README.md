@@ -1,4 +1,4 @@
-# The Reading Room
+# Readpublica
 
 A clean, distraction-free reader for public-domain classics — built for phones
 and small desktop windows. Highlight, take notes, and pick up where you left

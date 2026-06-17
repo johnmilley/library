@@ -1,5 +1,5 @@
 /* Library view: catalog grid, search, and a "continue reading" shelf. */
-import { progress } from "./store.js";
+import { progress, collapsed } from "./store.js";
 import { listImports } from "./imports.js";
 
 let catalog = null;
@@ -91,11 +91,19 @@ export function renderLibrary(root, query = "") {
   root.innerHTML = catalog.sections.map((sec) => {
     const books = catalog.books.filter((b) => b.section === sec.id && match(b));
     if (!books.length) return "";
+    // When searching, always show results expanded; otherwise honour saved state.
+    const isCollapsed = !q && collapsed.get(sec.id);
     return `
-      <section class="section">
-        <h2 class="section__title">${sec.title}</h2>
-        ${sec.blurb ? `<p class="section__blurb">${sec.blurb}</p>` : ""}
-        <div class="book-grid">${books.map(cardHtml).join("")}</div>
+      <section class="section${isCollapsed ? " section--collapsed" : ""}" data-section="${sec.id}">
+        <button class="section__head" aria-expanded="${!isCollapsed}">
+          <span class="section__title">${sec.title}</span>
+          <span class="section__count">${books.length}</span>
+          <span class="section__chev" aria-hidden="true">▾</span>
+        </button>
+        <div class="section__body">
+          ${sec.blurb ? `<p class="section__blurb">${sec.blurb}</p>` : ""}
+          <div class="book-grid">${books.map((b) => cardHtml(b)).join("")}</div>
+        </div>
       </section>`;
   }).join("") || `<p class="notes-empty">No works match “${query}”.</p>`;
 }

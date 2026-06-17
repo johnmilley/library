@@ -1,4 +1,4 @@
-# The Reading Room
+# Readpublica
 
 A clean, mobile-first reader for freely accessible public-domain classics in
 plain text. Vanilla HTML/CSS/JS front-end + a small Python toolchain for

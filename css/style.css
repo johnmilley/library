@@ -87,6 +87,20 @@ a { color: var(--accent); }
   font-weight: 600; margin: 1.4rem 0 .7rem; letter-spacing: .02em;
 }
 .section__blurb { color: var(--text-dim); font-size: .9rem; margin: -.4rem 0 1rem; max-width: 42rem; line-height: 1.5; }
+.section__head {
+  display: flex; align-items: center; gap: .6rem; width: 100%;
+  background: none; border: 0; cursor: pointer; color: inherit; font: inherit;
+  text-align: left; padding: 1.2rem 0 .5rem; border-bottom: 1px solid transparent;
+}
+.section__head:hover .section__title { color: var(--text); }
+.section__head .section__title { margin: 0; }
+.section__count {
+  font-size: .72rem; color: var(--text-dim); background: var(--bg-sunk);
+  border-radius: 1rem; padding: .12rem .55rem; font-family: var(--ui-font);
+}
+.section__chev { margin-left: auto; color: var(--text-dim); font-size: .8rem; transition: transform .2s; }
+.section--collapsed .section__chev { transform: rotate(-90deg); }
+.section--collapsed .section__body { display: none; }
 
 .book-grid {
   display: grid; gap: .7rem;

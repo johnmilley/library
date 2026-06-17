@@ -28,6 +28,18 @@ export const settings = {
   set: (patch) => write("settings", { ...settings.get(), ...patch }),
 };
 
+/* ---- Collapsed library sections ---- */
+export const collapsed = {
+  map: () => read("collapsed", {}),
+  get: (id) => !!read("collapsed", {})[id],
+  toggle: (id) => {
+    const c = read("collapsed", {});
+    c[id] = !c[id];
+    write("collapsed", c);
+    return c[id];
+  },
+};
+
 /* ---- Per-book reading progress ---- */
 export const progress = {
   get: (bookId) => read(`progress:${bookId}`, null),

@@ -1,5 +1,5 @@
 /* App bootstrap: hash routing, theme/display settings, and view wiring. */
-import { settings, progress } from "./store.js";
+import { settings, progress, collapsed } from "./store.js";
 import { loadCatalog, getBook, renderLibrary, renderImports } from "./library.js";
 import { initReader, openBook, closeBook, renderNotes, renderTOC, setMode, applyReadingPrefs } from "./reader.js";
 import { isImportId, getImport, addImport, deleteImport } from "./imports.js";
@@ -244,6 +244,14 @@ async function main() {
 
   // Card clicks (event-delegated for all shelves)
   document.addEventListener("click", async (e) => {
+    const head = e.target.closest(".section__head");
+    if (head) {
+      const sec = head.closest(".section");
+      const now = collapsed.toggle(sec.dataset.section);
+      sec.classList.toggle("section--collapsed", now);
+      head.setAttribute("aria-expanded", String(!now));
+      return;
+    }
     const del = e.target.closest(".card__del");
     if (del) {
       e.stopPropagation(); e.preventDefault();

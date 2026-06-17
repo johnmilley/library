@@ -6,7 +6,8 @@
 import { dumpLocal, loadLocal } from "./store.js";
 import { exportImports, importImports } from "./imports.js";
 
-const FORMAT = "reading-room-backup";
+const FORMAT = "readpublica-backup";
+const LEGACY_FORMAT = "reading-room-backup";
 const VERSION = 1;
 
 export async function exportData() {
@@ -22,7 +23,7 @@ export async function exportData() {
   const a = document.createElement("a");
   const stamp = new Date().toISOString().slice(0, 10);
   a.href = url;
-  a.download = `reading-room-backup-${stamp}.json`;
+  a.download = `readpublica-backup-${stamp}.json`;
   document.body.appendChild(a);
   a.click();
   a.remove();
@@ -39,7 +40,8 @@ export async function importData(file) {
   const text = await file.text();
   let data;
   try { data = JSON.parse(text); } catch { throw new Error("That file isn’t valid JSON."); }
-  if (data.format !== FORMAT) throw new Error("That doesn’t look like a Reading Room backup.");
+  if (data.format !== FORMAT && data.format !== LEGACY_FORMAT)
+    throw new Error("That doesn’t look like a Readpublica backup.");
   loadLocal(data.local || {});
   const added = await importImports(data.imports || []);
   return { added };
