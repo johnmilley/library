@@ -22,12 +22,21 @@ let page = 0;
 let totalPages = 1;
 let stride = 1;
 let gap = 0;
+let touchStart = null;     // swipe tracking
+let suppressTap = false;   // ignore the click a swipe would otherwise fire
 
 export function initReader(refs) {
   Object.assign(els, refs);
 
   els.scroll.addEventListener("mouseup", onSelectionChange);
-  els.scroll.addEventListener("touchend", () => setTimeout(onSelectionChange, 10));
+  els.scroll.addEventListener("touchstart", (e) => {
+    touchStart = e.touches.length === 1
+      ? { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() } : null;
+  }, { passive: true });
+  els.scroll.addEventListener("touchend", (e) => {
+    setTimeout(onSelectionChange, 10);
+    handleSwipe(e);
+  }, { passive: true });
 
   els.book.addEventListener("click", (e) => {
     const mark = e.target.closest("mark.hl");
@@ -217,12 +226,27 @@ function goPage(delta) {
 }
 
 function handlePageTap(e) {
+  if (suppressTap) return;                          // a swipe already turned the page
   if (!window.getSelection().isCollapsed) return;   // user is selecting text
   const x = e.clientX - els.scroll.getBoundingClientRect().left;
   const w = els.scroll.clientWidth;
   if (x < w * 0.32) goPage(-1);
   else if (x > w * 0.68) goPage(1);
   else els.bar.classList.toggle("hidden");          // center tap toggles chrome
+}
+
+// Horizontal swipe in paged mode: left → next page, right → previous.
+function handleSwipe(e) {
+  const start = touchStart;
+  touchStart = null;
+  if (mode !== "paged" || !start || !window.getSelection().isCollapsed) return;
+  const t = e.changedTouches[0];
+  const dx = t.clientX - start.x, dy = t.clientY - start.y;
+  if (Date.now() - start.t < 800 && Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    suppressTap = true;
+    setTimeout(() => (suppressTap = false), 400);
+    goPage(dx < 0 ? 1 : -1);
+  }
 }
 
 /* page index of a paragraph element, using the current translate as reference */
