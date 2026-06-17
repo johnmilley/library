@@ -32,7 +32,12 @@ export function initReader(refs) {
   els.book.addEventListener("click", (e) => {
     const mark = e.target.closest("mark.hl");
     if (mark) { openNote(mark.dataset.id); return; }
-    if (mode === "paged") handlePageTap(e);
+    if (mode === "paged") { handlePageTap(e); return; }
+    // Scroll mode: a tap in the middle band toggles the bar (no auto-hide).
+    if (!window.getSelection().isCollapsed) return;
+    const w = els.scroll.clientWidth;
+    const x = e.clientX - els.scroll.getBoundingClientRect().left;
+    if (x > w * 0.30 && x < w * 0.70) els.bar.classList.toggle("hidden");
   });
 
   // Stop the native long-press / right-click menu so our highlight toolbar wins.
@@ -165,8 +170,6 @@ export function setMode(next, restore = false) {
   const settle = () => {
     if (goStart) { page = 0; mode === "paged" ? applyPage(false) : (els.scroll.scrollTop = 0); }
     else gotoPara(anchor, false);
-    lastScroll = els.scroll.scrollTop;
-    clearTimeout(idleTimer);
     els.bar.classList.remove("hidden");
     updateStatus();
   };
@@ -296,20 +299,9 @@ function saveProgress() {
   });
 }
 
-let lastScroll = 0;
-let idleTimer = null;
-const IDLE_HIDE_MS = 2600;
 function onScroll() {
   if (mode !== "scroll") return;
-  const el = els.scroll;
-  // Keep the bar up while you're actively scrolling; only fade it once you've
-  // settled (gone idle) and you're not right at the top.
-  els.bar.classList.remove("hidden");
-  clearTimeout(idleTimer);
-  if (el.scrollTop > 80) {
-    idleTimer = setTimeout(() => els.bar.classList.add("hidden"), IDLE_HIDE_MS);
-  }
-  lastScroll = el.scrollTop;
+  // The bar never auto-hides; it only toggles on a center-screen tap.
   updateStatus();
   clearTimeout(saveTimer);
   saveTimer = setTimeout(saveProgress, 350);
@@ -451,7 +443,6 @@ function closePanels() {
 export function closeBook() {
   if (current) saveProgress();
   current = null;
-  clearTimeout(idleTimer);
   els.bar.classList.remove("hidden");
   els.selToolbar.hidden = true;
 }
