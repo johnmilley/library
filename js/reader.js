@@ -166,6 +166,7 @@ export function setMode(next, restore = false) {
     if (goStart) { page = 0; mode === "paged" ? applyPage(false) : (els.scroll.scrollTop = 0); }
     else gotoPara(anchor, false);
     lastScroll = els.scroll.scrollTop;
+    clearTimeout(idleTimer);
     els.bar.classList.remove("hidden");
     updateStatus();
   };
@@ -296,11 +297,18 @@ function saveProgress() {
 }
 
 let lastScroll = 0;
+let idleTimer = null;
+const IDLE_HIDE_MS = 2600;
 function onScroll() {
   if (mode !== "scroll") return;
   const el = els.scroll;
-  if (el.scrollTop > lastScroll + 6 && el.scrollTop > 80) els.bar.classList.add("hidden");
-  else if (el.scrollTop < lastScroll - 6) els.bar.classList.remove("hidden");
+  // Keep the bar up while you're actively scrolling; only fade it once you've
+  // settled (gone idle) and you're not right at the top.
+  els.bar.classList.remove("hidden");
+  clearTimeout(idleTimer);
+  if (el.scrollTop > 80) {
+    idleTimer = setTimeout(() => els.bar.classList.add("hidden"), IDLE_HIDE_MS);
+  }
   lastScroll = el.scrollTop;
   updateStatus();
   clearTimeout(saveTimer);
@@ -443,5 +451,7 @@ function closePanels() {
 export function closeBook() {
   if (current) saveProgress();
   current = null;
+  clearTimeout(idleTimer);
+  els.bar.classList.remove("hidden");
   els.selToolbar.hidden = true;
 }
