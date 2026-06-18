@@ -71,7 +71,7 @@ export function initReader(refs) {
 }
 
 export async function openBook(book) {
-  current = { book, paras: [], paraEls: [], chapters: [], words: 0 };
+  current = { book, paras: [], paraEls: [], chapters: [], chapterParas: new Set(), words: 0 };
   editingId = null;
   page = 0;
   els.title.textContent = book.title;
@@ -111,37 +111,59 @@ function indexHighlights() {
 }
 
 /* ---------- Chapters ----------
-   Deliberately conservative: only structural keywords, proper roman numerals,
-   or plain numbers count. No generic "ALL CAPS line" rule — that swept up
-   character names, exclamations, and signatures. Better to miss a heading than
-   to clutter the table of contents. */
-const HEADING_RE = /^(chapter|part|section|book|canto|act|scene|volume|prologue|epilogue)\b/i;
+   Tiered, pattern-based detection, informed by the real divider styles in
+   these texts:
+   - Tier A (high confidence): structural keywords (CHAPTER/PART/BOOK/ACT/
+     SCENE/CANTO/LETTER/…) and bare roman numerals (I, II, IV, …).
+   - Tier B (fallback): ALL-CAPS or numbered title lines — used only when a
+     book has no structural headings (e.g. a short-story collection whose only
+     dividers are caps titles like THE SISTERS / ARABY).
+   - A book's own "Contents" listing (a run of headings with almost no body
+     text between them) is removed so the table of contents isn't doubled. */
+const KW_RE = /^(chapter|part|section|book|canto|act|scene|volume|stave|letter|prologue|epilogue|fytte|introduction|argument)\b/i;
 // Strict roman numeral (uppercase), e.g. I, II, IV, XIV — rejects words like "DID".
 const ROMAN_RE = /^(?=[MDCLXVI])M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.?$/;
-function isHeading(text) {
-  const t = text.trim();
-  if (!t || t.startsWith(IMG_MARK)) return false;
-  if (HEADING_RE.test(t)) return t.length <= 64;   // "Chapter Xii. The Title" but not prose
-  if (ROMAN_RE.test(t)) return true;               // a roman numeral on its own line
-  if (/^\d{1,3}[.)]?$/.test(t)) return true;        // a number on its own line
-  return false;
+
+function classifyLine(t) {
+  if (KW_RE.test(t)) return "kw";
+  // bare roman numeral, but skip a lone C/D/L/M (usually an initial or list mark)
+  if (ROMAN_RE.test(t) && !/^[CDLM]\.?$/.test(t)) return "roman";
+  if (/^\d{1,3}[.)]?$/.test(t)) return "num";
+  if (t === t.toUpperCase() && /[A-Z]/.test(t) && t.length <= 48 && t.split(/\s+/).length <= 8) return "caps";
+  return null;
 }
 
 function detectChapters() {
-  current.chapters = [];
   const paras = current.paras;
-  const heading = paras.map(isHeading);
+  const len = paras.map((p) => (p.startsWith(IMG_MARK) ? 0 : p.length));
+  const cand = [];
   paras.forEach((t, i) => {
-    if (!heading[i]) return;
-    // A real chapter heading is followed by prose. The book's own "Contents"
-    // listing is a run of headings with no prose between them — skip those so
-    // the table of contents isn't doubled up.
-    let prose = false;
-    for (let j = i + 1; j < paras.length && j <= i + 5; j++) {
-      if (!heading[j] && !paras[j].startsWith(IMG_MARK) && paras[j].length >= 100) { prose = true; break; }
-    }
-    if (prose) current.chapters.push({ para: i, label: t.replace(/\s+/g, " ").trim() });
+    if (t.startsWith(IMG_MARK) || t.length > 64) return;
+    const type = classifyLine(t);
+    if (type) cand.push({ i, type, label: t });
   });
+
+  // Drop dense runs (>=4 candidates with <200 chars of body between each) —
+  // that's the book's own contents listing, measured by text not paragraphs
+  // (so books with very long paragraphs aren't mistaken for a listing).
+  const drop = new Set();
+  const bodyBetween = (a, b) => {
+    let n = 0;
+    for (let k = cand[a].i + 1; k < cand[b].i; k++) n += len[k];
+    return n;
+  };
+  for (let k = 0; k < cand.length;) {
+    let j = k;
+    while (j + 1 < cand.length && bodyBetween(j, j + 1) < 200) j++;
+    if (j - k + 1 >= 4) for (let m = k; m <= j; m++) drop.add(m);
+    k = j + 1;
+  }
+  let chosen = cand.filter((_, idx) => !drop.has(idx));
+  const structural = chosen.filter((c) => c.type === "kw" || c.type === "roman");
+  if (structural.length >= 3) chosen = structural;   // ignore caps/num noise when structure exists
+
+  current.chapters = chosen.map((c) => ({ para: c.i, label: c.label.replace(/\s+/g, " ").trim() }));
+  current.chapterParas = new Set(current.chapters.map((c) => c.para));
 }
 
 /* ---------- Rendering ---------- */
@@ -156,7 +178,7 @@ function renderBook() {
       const [url, alt = ""] = text.slice(IMG_MARK.length).split(ALT_MARK);
       return `<figure class="book__img" data-i="${i}"><img src="${url}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`;
     }
-    const cls = isHeading(text) ? " class=\"heading\"" : "";
+    const cls = current.chapterParas.has(i) ? " class=\"heading\"" : "";
     return `<p data-i="${i}"${cls}>${renderParagraph(text, hlByPara.get(i))}</p>`;
   }).join("");
   els.book.innerHTML = html;
