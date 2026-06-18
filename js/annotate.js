@@ -20,28 +20,28 @@ function offsetWithin(root, node, offset) {
   return total;
 }
 
-/* Read the current selection. Returns {para, start, end, text} or null when
-   the selection is empty, collapsed, or spans more than one paragraph. */
+/* Read the current selection. Returns a span {sp, so, ep, eo, rect} across one
+   or more paragraphs (sp/ep = start/end paragraph index, so/eo = offsets), or
+   null when empty/collapsed/outside the body text. */
 export function readSelection(container) {
   const sel = window.getSelection();
   if (!sel || sel.isCollapsed || sel.rangeCount === 0) return null;
   const range = sel.getRangeAt(0);
   const pa = closestPara(range.startContainer, container);
   const pb = closestPara(range.endContainer, container);
-  if (!pa || pa !== pb) return null;
+  if (!pa || !pb) return null;
 
-  let start = offsetWithin(pa, range.startContainer, range.startOffset);
-  let end = offsetWithin(pa, range.endContainer, range.endOffset);
-  if (end < start) [start, end] = [end, start];
-  const text = pa.textContent.slice(start, end).trim();
-  if (!text) return null;
-  return { para: Number(pa.dataset.i), start, end, text, rect: range.getBoundingClientRect() };
+  let sp = Number(pa.dataset.i), so = offsetWithin(pa, range.startContainer, range.startOffset);
+  let ep = Number(pb.dataset.i), eo = offsetWithin(pb, range.endContainer, range.endOffset);
+  if (sp > ep || (sp === ep && eo < so)) { [sp, ep] = [ep, sp]; [so, eo] = [eo, so]; }
+  if (sp === ep && eo <= so) return null;
+  return { sp, so, ep, eo, rect: range.getBoundingClientRect() };
 }
 
 function closestPara(node, container) {
   let el = node.nodeType === 3 ? node.parentElement : node;
   while (el && el !== container) {
-    if (el.dataset && el.dataset.i != null) return el;
+    if (el.dataset && el.dataset.i != null && Number(el.dataset.i) >= 0) return el;
     el = el.parentElement;
   }
   return null;

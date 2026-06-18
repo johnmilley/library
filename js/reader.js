@@ -102,12 +102,45 @@ function paragraphsFrom(raw) {
     .map((p) => p.replace(/\n/g, " ").trim()).filter(Boolean);
 }
 
+/* Normalise old single-paragraph highlights {para,start,end} to the span shape
+   {sp,so,ep,eo} so both load seamlessly. */
+function normHl(h) {
+  return h.sp !== undefined ? h : { ...h, sp: h.para, so: h.start, ep: h.para, eo: h.end };
+}
+
+/* Text covered by a highlight span, across paragraphs. */
+function hlText(h) {
+  const p = current.paras;
+  if (h.sp === h.ep) return (p[h.sp] || "").slice(h.so, h.eo);
+  const parts = [(p[h.sp] || "").slice(h.so)];
+  for (let i = h.sp + 1; i < h.ep; i++) parts.push(p[i] || "");
+  parts.push((p[h.ep] || "").slice(0, h.eo));
+  return parts.filter(Boolean).join(" ").trim();
+}
+
+// Build per-paragraph mark segments from (possibly multi-paragraph) highlights.
 function indexHighlights() {
   hlByPara = new Map();
-  for (const h of annotations.get(current.book.id)) {
-    if (!hlByPara.has(h.para)) hlByPara.set(h.para, []);
-    hlByPara.get(h.para).push(h);
+  const paras = current.paras;
+  for (const raw of annotations.get(current.book.id)) {
+    const h = normHl(raw);
+    for (let i = h.sp; i <= h.ep && i < paras.length; i++) {
+      const start = i === h.sp ? h.so : 0;
+      const end = i === h.ep ? h.eo : paras[i].length;
+      if (end <= start) continue;
+      if (!hlByPara.has(i)) hlByPara.set(i, []);
+      hlByPara.get(i).push({ id: h.id, color: h.color, note: h.note, start, end });
+    }
   }
+}
+
+// Rebuild + repaint the paragraphs a highlight touches, keeping the reader's
+// place in paged mode (a mark can nudge the column flow).
+function refreshSpan(sp, ep) {
+  const anchor = mode === "paged" ? currentParaIndex() : null;
+  indexHighlights();
+  for (let i = sp; i <= ep; i++) repaintPara(i);
+  if (mode === "paged") { layoutPaged(); gotoPara(anchor ?? sp, false); }
 }
 
 /* ---------- Chapters ----------
@@ -187,14 +220,6 @@ function renderBook() {
 function repaintPara(i) {
   const p = els.book.querySelector(`p[data-i="${i}"]`);
   if (p) p.innerHTML = renderParagraph(current.paras[i], hlByPara.get(i));
-}
-
-/* Repaint a paragraph (after a highlight/note change) without losing the
-   reader's place — adding a <mark> can nudge the paged column flow. */
-function repaintKeepingPlace(i) {
-  const anchor = mode === "paged" ? currentParaIndex() : null;
-  repaintPara(i);
-  if (mode === "paged") { layoutPaged(); gotoPara(anchor ?? i, false); }
 }
 
 export function applyReadingPrefs() {
@@ -409,29 +434,24 @@ function hideToolbar() { els.selToolbar.hidden = true; pendingSel = null; }
 
 function commitHighlight(color, withNote) {
   if (!pendingSel) return;
-  const hl = { id: uid(), para: pendingSel.para, start: pendingSel.start,
-    end: pendingSel.end, color, note: "", at: Date.now() };
+  const hl = { id: uid(), sp: pendingSel.sp, so: pendingSel.so,
+    ep: pendingSel.ep, eo: pendingSel.eo, color, note: "", at: Date.now() };
   annotations.add(current.book.id, hl);
-  if (!hlByPara.has(hl.para)) hlByPara.set(hl.para, []);
-  hlByPara.get(hl.para).push(hl);
   window.getSelection()?.removeAllRanges();
   hideToolbar();
-  repaintKeepingPlace(hl.para);
+  refreshSpan(hl.sp, hl.ep);
   if (withNote) openNote(hl.id);
 }
 
 function findHl(id) {
-  for (const list of hlByPara.values()) {
-    const h = list.find((x) => x.id === id);
-    if (h) return h;
-  }
-  return null;
+  const raw = annotations.get(current.book.id).find((h) => h.id === id);
+  return raw ? normHl(raw) : null;
 }
 function openNote(id) {
   const hl = findHl(id);
   if (!hl) return;
   editingId = id;
-  els.noteQuote.textContent = current.paras[hl.para].slice(hl.start, hl.end);
+  els.noteQuote.textContent = hlText(hl);
   els.noteText.value = hl.note || "";
   els.noteDialog.hidden = false;
   els.noteText.focus();
@@ -440,9 +460,9 @@ function closeNote() { els.noteDialog.hidden = true; editingId = null; }
 function saveNote() {
   if (!editingId) return;
   const note = els.noteText.value.trim();
-  annotations.update(current.book.id, editingId, { note });
   const hl = findHl(editingId);
-  if (hl) { hl.note = note; repaintKeepingPlace(hl.para); }
+  annotations.update(current.book.id, editingId, { note });
+  if (hl) refreshSpan(hl.sp, hl.ep);
   closeNote();
   if (!els.notesPanel.hidden) renderNotes();
 }
@@ -450,26 +470,23 @@ function deleteHighlight() {
   if (!editingId) return;
   const hl = findHl(editingId);
   annotations.remove(current.book.id, editingId);
-  if (hl) {
-    hlByPara.set(hl.para, (hlByPara.get(hl.para) || []).filter((x) => x.id !== editingId));
-    repaintKeepingPlace(hl.para);
-  }
+  if (hl) refreshSpan(hl.sp, hl.ep);
   closeNote();
   if (!els.notesPanel.hidden) renderNotes();
 }
 
 /* ---------- Notes panel ---------- */
 export function renderNotes() {
-  const list = annotations.get(current.book.id).slice()
-    .sort((a, b) => a.para - b.para || a.start - b.start);
+  const list = annotations.get(current.book.id).map(normHl)
+    .sort((a, b) => a.sp - b.sp || a.so - b.so);
   if (!list.length) {
     els.notesList.innerHTML = `<p class="notes-empty">No highlights yet.<br>Select any text while reading to highlight it or attach a note.</p>`;
     return;
   }
   els.notesList.innerHTML = list.map((h) => {
-    const quote = escapeHtml(current.paras[h.para].slice(h.start, h.end));
+    const quote = escapeHtml(hlText(h));
     const note = h.note ? `<span class="note-item__note">${escapeHtml(h.note)}</span>` : "";
-    return `<button class="note-item" data-jump="${h.para}" data-id="${h.id}" style="--c:var(--hl-${h.color})">
+    return `<button class="note-item" data-jump="${h.sp}" data-id="${h.id}" style="--c:var(--hl-${h.color})">
         <span class="note-item__quote">“${quote}”</span>${note}</button>`;
   }).join("");
   els.notesList.querySelectorAll(".note-item").forEach((b) =>
