@@ -21,17 +21,23 @@ function applySettings() {
   document.documentElement.style.setProperty("--line-height", s.lineHeight);
   const tc = { light: "#f7f8f9", sepia: "#f3e9d6", dark: "#14151a" }[s.theme] || "#f7f8f9";
   document.querySelector('meta[name="theme-color"]')?.setAttribute("content", tc);
-  // reflect active state in the popover segments
-  document.querySelectorAll("#theme-seg button").forEach((b) =>
-    b.classList.toggle("active", b.dataset.themeSet === s.theme));
-  document.querySelectorAll("#font-seg button").forEach((b) =>
-    b.classList.toggle("active", b.dataset.font === s.font));
-  document.querySelectorAll("#sort-seg button").forEach((b) =>
-    b.classList.toggle("active", b.dataset.sortSet === s.sort));
-  document.querySelectorAll("#mode-seg button").forEach((b) =>
-    b.classList.toggle("active", b.dataset.modeSet === s.mode));
-  document.querySelectorAll("#align-seg button").forEach((b) =>
-    b.classList.toggle("active", b.dataset.alignSet === s.align));
+
+  // numeric readouts
+  const fv = $("font-val"), lv = $("lh-val");
+  if (fv) fv.textContent = `${Math.round(s.fontSize * 16)}`;
+  if (lv) lv.textContent = s.lineHeight.toFixed(2);
+
+  // reflect active state (+ aria-pressed) on the segmented controls
+  const seg = (id, attr, val) => document.querySelectorAll(`#${id} button`).forEach((b) => {
+    const on = b.dataset[attr] === String(val);
+    b.classList.toggle("active", on);
+    b.setAttribute("aria-pressed", String(on));
+  });
+  seg("theme-seg", "themeSet", s.theme);
+  seg("font-seg", "font", s.font);
+  seg("sort-seg", "sortSet", s.sort);
+  seg("mode-seg", "modeSet", s.mode);
+  seg("align-seg", "alignSet", s.align);
 }
 
 function bindSettings() {
@@ -54,11 +60,9 @@ function bindSettings() {
   });
 
   panel.addEventListener("click", (e) => {
-    const act = e.target.dataset.act;
-    const font = e.target.dataset.font;
-    const theme = e.target.dataset.themeSet;
-    const modeSet = e.target.dataset.modeSet;
-    const alignSet = e.target.dataset.alignSet;
+    const btn = e.target.closest("button");   // clicks may land on the inner <svg>
+    if (!btn) return;
+    const { act, font, themeSet: theme, modeSet, alignSet } = btn.dataset;
     const s = settings.get();
     if (act === "font-dec") settings.set({ fontSize: clamp(s.fontSize - 0.06, FONT_MIN, FONT_MAX) });
     if (act === "font-inc") settings.set({ fontSize: clamp(s.fontSize + 0.06, FONT_MIN, FONT_MAX) });
@@ -271,6 +275,17 @@ async function main() {
     }
     const card = e.target.closest(".card[data-id]");
     if (card && !card.disabled) location.hash = `/read/${encodeURIComponent(card.dataset.id)}`;
+  });
+
+  // Escape closes whatever overlay is open
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    let closed = false;
+    for (const id of ["note-dialog", "import-dialog", "type-panel", "notes-panel", "toc-panel"]) {
+      const el = $(id);
+      if (el && !el.hidden) { el.hidden = true; closed = true; }
+    }
+    if (closed) $("scrim").hidden = true;
   });
 
   await loadCatalog();

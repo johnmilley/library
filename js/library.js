@@ -38,7 +38,7 @@ function cardHtml(book, { dismiss = false } = {}) {
     ? `<span class="tag tag--off">not downloaded</span>`
     : (done ? `<span class="card__meta">${done}% read</span>` : "");
   const del = dismiss
-    ? `<span class="card__del" data-clear="${book.id}" title="Remove from this shelf" aria-label="Remove from currently reading">✕</span>` : "";
+    ? `<span class="card__del" data-clear="${book.id}" title="Remove from this shelf" aria-label="Remove from currently reading"><svg class="ic" aria-hidden="true"><use href="#ic-x"></use></svg></span>` : "";
   return `
     <button class="card ${off ? "card--off" : ""}" data-id="${book.id}" ${off ? "disabled" : ""}>
       ${del}
@@ -65,7 +65,7 @@ export async function renderImports(query = "") {
     const bar = done ? `<div class="card__bar"><i style="width:${done}%"></i></div>` : "";
     return `
       <button class="card" data-id="${b.id}">
-        <span class="card__del" data-del="${b.id}" title="Remove" aria-label="Remove">✕</span>
+        <span class="card__del" data-del="${b.id}" title="Remove" aria-label="Remove imported book"><svg class="ic" aria-hidden="true"><use href="#ic-x"></use></svg></span>
         <span class="card__title">${escapeText(b.title)}</span>
         <span class="card__author">${escapeText(b.author)}</span>
         <span class="card__meta">${b.words.toLocaleString()} words${done ? ` · ${done}% read` : ""}</span>
@@ -107,7 +107,7 @@ export function renderLibrary(root, query = "") {
         <button class="section__head" aria-expanded="${!isCollapsed}">
           <span class="section__title">${sec.title}</span>
           <span class="section__count">${books.length}</span>
-          <span class="section__chev" aria-hidden="true">▾</span>
+          <svg class="ic section__chev" aria-hidden="true"><use href="#ic-chevron"></use></svg>
         </button>
         <div class="section__body">
           ${sec.blurb ? `<p class="section__blurb">${sec.blurb}</p>` : ""}

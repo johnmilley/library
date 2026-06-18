@@ -9,17 +9,32 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Icon sprite: one clean monochrome line set (stroke = currentColor) -->
+  <svg width="0" height="0" class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="ic-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="ic-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="ic-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="ic-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="ic-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="ic-list" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h11"/></symbol>
+    <symbol id="ic-note" viewBox="0 0 24 24"><path d="M4 4h11l5 5v11H4z"/><path d="M15 4v5h5"/></symbol>
+    <symbol id="ic-type" viewBox="0 0 24 24"><path d="M5 18l5-12 5 12M6.7 14h6.6"/><path d="M16 18l3-7 3 7M16.7 16h4.6"/></symbol>
+    <symbol id="ic-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-download" viewBox="0 0 24 24"><path d="M12 4v11M8 11l4 4 4-4M5 20h14"/></symbol>
+    <symbol id="ic-upload" viewBox="0 0 24 24"><path d="M12 20V9M8 13l4-4 4 4M5 4h14"/></symbol>
+  </svg>
+
   <!-- ===== Library view ===== -->
   <main id="library" class="view">
     <header class="lib-head">
       <div class="lib-head__row">
         <h1 class="lib-title">Readpublica</h1>
         <div class="lib-head__actions">
-          <button id="add-btn" class="icon-btn" title="Add a book" aria-label="Add a book">＋</button>
-          <button id="theme-btn" class="icon-btn" title="Change theme" aria-label="Change theme">◐</button>
+          <button id="add-btn" class="icon-btn" title="Add a book" aria-label="Add a book"><svg class="ic" aria-hidden="true"><use href="#ic-plus"></use></svg></button>
+          <button id="theme-btn" class="icon-btn" title="Change theme" aria-label="Change theme"><svg class="ic" aria-hidden="true"><use href="#ic-theme"></use></svg></button>
         </div>
       </div>
-      <input id="search" class="search" type="search" placeholder="Search title or author…" autocomplete="off">
+      <input id="search" class="search" type="search" placeholder="Search title or author…" aria-label="Search title or author" autocomplete="off">
       <div class="lib-sort">
         <span class="lib-sort__label">SORT</span>
         <div class="seg seg--mono" id="sort-seg">
@@ -39,8 +54,8 @@
     <div id="sections"></div>
     <footer class="lib-foot">
       <div class="backup">
-        <button id="export-btn" class="btn btn--ghost">⤓ Export notes</button>
-        <button id="import-btn" class="btn btn--ghost">⤒ Import backup</button>
+        <button id="export-btn" class="btn btn--ghost"><svg class="ic" aria-hidden="true"><use href="#ic-download"></use></svg>Export notes</button>
+        <button id="import-btn" class="btn btn--ghost"><svg class="ic" aria-hidden="true"><use href="#ic-upload"></use></svg>Import backup</button>
         <input id="backup-file" type="file" accept="application/json,.json" hidden>
         <span id="backup-msg" class="backup__msg" aria-live="polite"></span>
       </div>
@@ -51,14 +66,14 @@
   <!-- ===== Reader view ===== -->
   <section id="reader" class="view" hidden>
     <header id="reader-bar" class="reader-bar">
-      <button id="back-btn" class="icon-btn" title="Library" aria-label="Back to library">‹</button>
-      <button id="toc-btn" class="icon-btn" title="Contents" aria-label="Table of contents">☰</button>
+      <button id="back-btn" class="icon-btn" title="Library" aria-label="Back to library"><svg class="ic" aria-hidden="true"><use href="#ic-back"></use></svg></button>
+      <button id="toc-btn" class="icon-btn" title="Contents" aria-label="Table of contents"><svg class="ic" aria-hidden="true"><use href="#ic-list"></use></svg></button>
       <div class="reader-bar__title">
         <span id="reader-title"></span>
         <small id="reader-author"></small>
       </div>
-      <button id="notes-btn" class="icon-btn" title="Notes &amp; highlights" aria-label="Notes">❧</button>
-      <button id="type-btn" class="icon-btn" title="Display settings" aria-label="Display settings">Aa</button>
+      <button id="notes-btn" class="icon-btn" title="Notes &amp; highlights" aria-label="Notes and highlights"><svg class="ic" aria-hidden="true"><use href="#ic-note"></use></svg></button>
+      <button id="type-btn" class="icon-btn" title="Display settings" aria-label="Display settings"><svg class="ic" aria-hidden="true"><use href="#ic-type"></use></svg></button>
     </header>
 
     <div id="reader-scroll" class="reader-scroll">
@@ -74,49 +89,51 @@
       <button class="swatch" data-color="green" style="--c:var(--hl-green)" aria-label="Green"></button>
       <button class="swatch" data-color="blue" style="--c:var(--hl-blue)" aria-label="Blue"></button>
       <button class="swatch" data-color="pink" style="--c:var(--hl-pink)" aria-label="Pink"></button>
-      <button id="sel-note" class="sel-toolbar__note" aria-label="Highlight and add note">＋ Note</button>
+      <button id="sel-note" class="sel-toolbar__note" aria-label="Highlight and add note"><svg class="ic" aria-hidden="true"><use href="#ic-note"></use></svg>Note</button>
     </div>
 
     <!-- Display settings popover -->
-    <div id="type-panel" class="popover" hidden>
+    <div id="type-panel" class="popover" role="dialog" aria-label="Display settings" hidden>
       <div class="popover__row">
-        <span>Text size</span>
+        <span class="popover__label">Text size</span>
         <div class="stepper">
-          <button data-act="font-dec" aria-label="Smaller">A−</button>
-          <button data-act="font-inc" aria-label="Larger">A+</button>
+          <button data-act="font-dec" aria-label="Smaller text"><svg class="ic" aria-hidden="true"><use href="#ic-minus"></use></svg></button>
+          <output id="font-val" class="stepper__val">19</output>
+          <button data-act="font-inc" aria-label="Larger text"><svg class="ic" aria-hidden="true"><use href="#ic-plus"></use></svg></button>
         </div>
       </div>
       <div class="popover__row">
-        <span>Spacing</span>
+        <span class="popover__label">Line spacing</span>
         <div class="stepper">
-          <button data-act="lh-dec" aria-label="Tighter">▾</button>
-          <button data-act="lh-inc" aria-label="Looser">▴</button>
+          <button data-act="lh-dec" aria-label="Tighter line spacing"><svg class="ic" aria-hidden="true"><use href="#ic-minus"></use></svg></button>
+          <output id="lh-val" class="stepper__val">1.65</output>
+          <button data-act="lh-inc" aria-label="Looser line spacing"><svg class="ic" aria-hidden="true"><use href="#ic-plus"></use></svg></button>
         </div>
       </div>
       <div class="popover__row">
-        <span>Typeface</span>
-        <div class="seg" id="font-seg">
+        <span class="popover__label">Typeface</span>
+        <div class="seg" id="font-seg" role="group" aria-label="Typeface">
           <button data-font="serif">Serif</button>
           <button data-font="sans">Sans</button>
         </div>
       </div>
       <div class="popover__row">
-        <span>Layout</span>
-        <div class="seg" id="mode-seg">
+        <span class="popover__label">Layout</span>
+        <div class="seg" id="mode-seg" role="group" aria-label="Layout">
           <button data-mode-set="scroll">Scroll</button>
           <button data-mode-set="paged">Paged</button>
         </div>
       </div>
       <div class="popover__row">
-        <span>Alignment</span>
-        <div class="seg" id="align-seg">
+        <span class="popover__label">Alignment</span>
+        <div class="seg" id="align-seg" role="group" aria-label="Alignment">
           <button data-align-set="left">Ragged</button>
           <button data-align-set="justify">Justified</button>
         </div>
       </div>
       <div class="popover__row">
-        <span>Theme</span>
-        <div class="seg" id="theme-seg">
+        <span class="popover__label">Theme</span>
+        <div class="seg" id="theme-seg" role="group" aria-label="Theme">
           <button data-theme-set="light">Light</button>
           <button data-theme-set="sepia">Sepia</button>
           <button data-theme-set="dark">Dark</button>
@@ -126,26 +143,26 @@
   </section>
 
   <!-- Table of contents slide-over (left) -->
-  <aside id="toc-panel" class="notes-panel notes-panel--left" hidden>
+  <aside id="toc-panel" class="notes-panel notes-panel--left" role="dialog" aria-label="Contents" hidden>
     <header class="notes-panel__head">
       <h2>Contents</h2>
-      <button id="toc-close" class="icon-btn" aria-label="Close">✕</button>
+      <button id="toc-close" class="icon-btn" aria-label="Close contents"><svg class="ic" aria-hidden="true"><use href="#ic-x"></use></svg></button>
     </header>
     <div id="toc-list" class="notes-list toc-list"></div>
   </aside>
 
   <!-- Notes & highlights slide-over -->
-  <aside id="notes-panel" class="notes-panel" hidden>
+  <aside id="notes-panel" class="notes-panel" role="dialog" aria-label="Notes and highlights" hidden>
     <header class="notes-panel__head">
       <h2>Notes &amp; Highlights</h2>
-      <button id="notes-close" class="icon-btn" aria-label="Close">✕</button>
+      <button id="notes-close" class="icon-btn" aria-label="Close notes"><svg class="ic" aria-hidden="true"><use href="#ic-x"></use></svg></button>
     </header>
     <div id="notes-list" class="notes-list"></div>
   </aside>
   <div id="scrim" class="scrim" hidden></div>
 
   <!-- Note editor dialog -->
-  <div id="note-dialog" class="note-dialog" hidden>
+  <div id="note-dialog" class="note-dialog" role="dialog" aria-modal="true" aria-label="Note" hidden>
     <div class="note-dialog__card">
       <blockquote id="note-quote" class="note-dialog__quote"></blockquote>
       <textarea id="note-text" class="note-dialog__text" placeholder="Write a note…" rows="4"></textarea>
@@ -160,7 +177,7 @@
   </div>
 
   <!-- Add / import book dialog -->
-  <div id="import-dialog" class="note-dialog" hidden>
+  <div id="import-dialog" class="note-dialog" role="dialog" aria-modal="true" aria-label="Add a book" hidden>
     <div class="note-dialog__card import-card">
       <h2 class="import-card__title">Add a book</h2>
       <p class="import-card__hint">Open an EPUB or text file, paste a link, or paste the text. Stored on this device.</p>
