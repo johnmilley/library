@@ -25,12 +25,32 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "data" / "catalog.json"
 
 # Per-author works cap (prolific authors otherwise dominate).
-CAP = {"shakespeare": 45, "russian": 24, "english": 12, "western": 14, "bibles": 12}
+CAP = {"shakespeare": 45, "russian": 24, "english": 12, "western": 14, "bibles": 12,
+       "american": 8, "european": 7, "world": 8, "myth": 7, "history": 6,
+       "science": 6, "childrens": 7}
 
 # Sections where a work can exist in several worthwhile translations; we keep
 # up to MAX_EDITIONS distinct translators per work rather than collapsing them.
-TRANSLATED = {"russian", "western"}
+TRANSLATED = {"russian", "western", "european", "world", "myth"}
 MAX_EDITIONS = 3
+
+# Title-keyword rules for sections whose key works are anonymous/various and so
+# can't be matched by author (checked before author patterns).
+TITLE_RULES = {
+    "world": [
+        "tao te ching", "tao teh king", "analects", "bhagavad", "arabian nights",
+        "thousand and one nights", "thousand nights", "rubaiyat", "rubáiyát",
+        "art of war", "upanishad", "the koran", "the qur", "mahabharata", "ramayana",
+        "tale of genji", "kalevala", "gilgamesh", "shah nameh", "shahnameh",
+        "panchatantra", "dhammapada", "i ching", "book of tea", "bushido",
+        "hagakure", "sakoontala", "gulistan",
+    ],
+    "myth": [
+        "prose edda", "poetic edda", "the edda", "beowulf", "mabinogion",
+        "nibelung", "volsung", "heimskringla", "gesta romanorum", "bulfinch",
+        "myths of", "myths and legends", "norse myth", "book of dragons",
+    ],
+}
 
 # Primary-author match patterns. Bare surname where unambiguous; "Surname, First"
 # where a surname is shared by several authors.
@@ -75,7 +95,54 @@ AUTHORS = {
         "Hobbes", "Spinoza", "Pascal", "Locke, John", "Leibniz", "Berkeley, George",
         "Hume, David", "Rousseau", "Voltaire", "Montesquieu", "Kant", "Smith, Adam",
         "Burke, Edmund", "Paine, Thomas", "Hegel", "Schopenhauer", "Mill, John Stuart",
-        "Nietzsche", "Kierkegaard", "Darwin, Charles", "Tocqueville", "Goethe",
+        "Nietzsche", "Kierkegaard", "Tocqueville", "Goethe",
+    ],
+    "american": [
+        "Melville, Herman", "Twain, Mark", "Hawthorne, Nathaniel", "Poe, Edgar",
+        "Whitman, Walt", "Dickinson, Emily", "Emerson, Ralph", "Thoreau, Henry",
+        "James, Henry", "Wharton, Edith", "London, Jack", "Crane, Stephen",
+        "Cooper, James Fenimore", "Irving, Washington", "Stowe, Harriet",
+        "Douglass, Frederick", "Longfellow", "Bierce, Ambrose", "Chopin, Kate",
+        "Norris, Frank", "Dreiser, Theodore", "Cather, Willa", "Harte, Bret",
+        "Howells, William", "Holmes, Oliver Wendell", "Garland, Hamlin",
+        "Jewett, Sarah Orne", "Bryant, William Cullen",
+    ],
+    "european": [
+        "Cervantes", "Dumas, Alexandre", "Hugo, Victor", "Flaubert", "Balzac",
+        "Zola", "Maupassant", "Stendhal", "Molière", "Moliere", "Schiller",
+        "Daudet", "Gautier", "Mérimée", "Merimee", "France, Anatole",
+        "Verne, Jules", "Sand, George", "Manzoni", "Ibsen", "Strindberg",
+        "Rostand", "Lesage", "Rabelais", "Loti, Pierre",
+        "Hoffmann, E. T. A.", "Fouqué", "Kleist", "Pérez Galdós", "Bjørnson",
+    ],
+    "world": [
+        "Confucius", "Omar Khayyam", "Lao Tzu", "Laozi", "Sun Tzu",
+        "Tagore, Rabindranath", "Kalidasa", "Mencius", "Firdausi", "Saadi",
+        "Sadi", "Hafiz",
+    ],
+    "myth": [
+        "Bulfinch", "Grimm", "Andersen, H. C.", "Andersen, Hans", "Aesop",
+        "Snorri", "Sturluson", "Lang, Andrew", "Guerber", "Colum, Padraic",
+        "Mackenzie, Donald",
+    ],
+    "history": [
+        "Gibbon, Edward", "Carlyle, Thomas", "Macaulay", "Prescott, William",
+        "Parkman, Francis", "Froude, James", "Motley, John", "Josephus",
+        "Froissart", "Green, John Richard", "Michelet", "Mommsen",
+        "Robertson, William", "Bede",
+    ],
+    "science": [
+        "Darwin, Charles", "Huxley, Thomas", "Faraday", "Galileo", "Kepler",
+        "Newton, Isaac", "Lyell, Charles", "Humboldt, Alexander", "Wallace, Alfred",
+        "Haeckel", "Fabre, Jean-Henri", "Tyndall, John", "Euclid", "Agassiz",
+        "Audubon", "Flammarion, Camille", "Lankester",
+    ],
+    "childrens": [
+        "Barrie, J. M.", "Grahame, Kenneth", "Baum, L. Frank", "Potter, Beatrix",
+        "Collodi", "Spyri, Johanna", "Burnett, Frances", "Lofting, Hugh",
+        "Lear, Edward", "Nesbit, E.", "Montgomery, L. M.", "Sewell, Anna",
+        "Pyle, Howard", "Wiggin, Kate Douglas", "Dodge, Mary Mapes",
+        "Ewing, Juliana", "Molesworth", "Brooke, L. Leslie", "Greenaway, Kate",
     ],
 }
 
@@ -86,8 +153,13 @@ BIBLE_KEYWORDS = [
     "geneva bible", "tyndale", "bible in basic english", "emphasized bible",
 ]
 
-SKIP_TITLE = re.compile(r"index of the project gutenberg|complete project gutenberg",
-                        re.IGNORECASE)
+SKIP_TITLE = re.compile(
+    r"index of the project gutenberg|complete project gutenberg"
+    # multi-volume / multi-part splits — a single-file edition reads far better
+    r"|[—,:-]\s*vol(\.|ume)?\s*\.?\s*[0-9ivxlcdm]+\b"
+    r"|\bvolume\s+[0-9ivxlcdm]+\b|\bvol\.\s*[0-9ivxlcdm]+\b"
+    r"|\bpart\s+[0-9ivxlcdm]+\s*\(of|\(of\s+\d",
+    re.IGNORECASE)
 
 
 def norm_title(t: str) -> str:
@@ -194,6 +266,11 @@ def main() -> int:
         if "bible" in tl and any(k in tl for k in BIBLE_KEYWORDS) \
                 and not re.search(r"\bbook \d|\bpart\b|\bvolume\b|, book|: ", tl):
             section, key = "bibles", ("bibles", "bible")
+        if not section:  # anonymous/various works matched by title keyword
+            for sec, kws in TITLE_RULES.items():
+                hit = next((k for k in kws if k in tl), None)
+                if hit:
+                    section, key = sec, (sec, f"t:{hit}"); break
         if not section:
             section, key = match(prim, surname)
         if not section:
