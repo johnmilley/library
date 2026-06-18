@@ -26,6 +26,8 @@ function applySettings() {
     b.classList.toggle("active", b.dataset.themeSet === s.theme));
   document.querySelectorAll("#font-seg button").forEach((b) =>
     b.classList.toggle("active", b.dataset.font === s.font));
+  document.querySelectorAll("#sort-seg button").forEach((b) =>
+    b.classList.toggle("active", b.dataset.sortSet === s.sort));
   document.querySelectorAll("#mode-seg button").forEach((b) =>
     b.classList.toggle("active", b.dataset.modeSet === s.mode));
   document.querySelectorAll("#align-seg button").forEach((b) =>
@@ -238,6 +240,13 @@ async function main() {
   $("search").addEventListener("input", () => {
     renderLibrary($("sections"), $("search").value);
     renderImports($("search").value);
+  });
+  $("sort-seg").addEventListener("click", (e) => {
+    const v = e.target.dataset.sortSet;
+    if (!v) return;
+    settings.set({ sort: v });
+    applySettings();
+    renderLibrary($("sections"), $("search").value);
   });
   bindImportDialog();
   bindBackup();

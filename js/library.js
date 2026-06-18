@@ -1,6 +1,12 @@
 /* Library view: catalog grid, search, and a "continue reading" shelf. */
-import { progress, collapsed } from "./store.js";
+import { progress, collapsed, settings } from "./store.js";
 import { listImports } from "./imports.js";
+
+const lastName = (a) => (a || "").trim().split(/\s+/).pop().toLowerCase();
+const byTimeline = (a, b) =>
+  (a.era ?? 1e9) - (b.era ?? 1e9) || (a.year ?? 0) - (b.year ?? 0) || a.title.localeCompare(b.title);
+const byTitle = (a, b) =>
+  lastName(a.author).localeCompare(lastName(b.author)) || a.title.localeCompare(b.title);
 
 let catalog = null;
 
@@ -20,10 +26,12 @@ function pct(book) {
   return p && p.percent ? Math.round(p.percent) : 0;
 }
 
+const tidy = (s) => (s || "").replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+
 function cardHtml(book, { dismiss = false } = {}) {
   const off = !book.downloaded;
   const done = pct(book);
-  const meta = [book.year, book.translator && `tr. ${book.translator}`].filter(Boolean).join(" · ");
+  const meta = [book.year, book.translator && `tr. ${tidy(book.translator)}`].filter(Boolean).join(" · ");
   const bar = done > 0 && !off
     ? `<div class="card__bar"><i style="width:${done}%"></i></div>` : "";
   const status = off
@@ -35,7 +43,7 @@ function cardHtml(book, { dismiss = false } = {}) {
     <button class="card ${off ? "card--off" : ""}" data-id="${book.id}" ${off ? "disabled" : ""}>
       ${del}
       <span class="card__title">${book.title}</span>
-      <span class="card__author">${book.author}</span>
+      <span class="card__author">${tidy(book.author)}</span>
       <span class="card__meta">${meta}</span>
       ${status}
       ${bar}
@@ -88,8 +96,9 @@ export function renderLibrary(root, query = "") {
     contWrap.hidden = true;
   }
 
+  const cmp = settings.get().sort === "title" ? byTitle : byTimeline;
   root.innerHTML = catalog.sections.map((sec) => {
-    const books = catalog.books.filter((b) => b.section === sec.id && match(b));
+    const books = catalog.books.filter((b) => b.section === sec.id && match(b)).sort(cmp);
     if (!books.length) return "";
     // When searching, always show results expanded; otherwise honour saved state.
     const isCollapsed = !q && collapsed.get(sec.id);

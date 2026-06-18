@@ -22,6 +22,7 @@ const DEFAULT_SETTINGS = {
   lineHeight: 1.65,
   align: "left",    // "left" (ragged, easiest to read) | "justify"
   mode: "scroll",   // "scroll" | "paged"
+  sort: "timeline", // "timeline" (by era) | "title" (A–Z by author)
 };
 export const settings = {
   get: () => ({ ...DEFAULT_SETTINGS, ...read("settings", {}) }),
