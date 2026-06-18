@@ -29,13 +29,15 @@ export const settings = {
   set: (patch) => write("settings", { ...settings.get(), ...patch }),
 };
 
-/* ---- Collapsed library sections ---- */
+/* ---- Collapsed library sections (collapsed by default) ---- */
 export const collapsed = {
-  map: () => read("collapsed", {}),
-  get: (id) => !!read("collapsed", {})[id],
+  get: (id) => {
+    const c = read("collapsed", {});
+    return id in c ? c[id] : true; // default collapsed
+  },
   toggle: (id) => {
     const c = read("collapsed", {});
-    c[id] = !c[id];
+    c[id] = !collapsed.get(id);
     write("collapsed", c);
     return c[id];
   },
