@@ -196,6 +196,7 @@ export function setMode(next, restore = false) {
   const settle = () => {
     if (goStart) { page = 0; mode === "paged" ? applyPage(false) : (els.scroll.scrollTop = 0); }
     else gotoPara(anchor, false);
+    lastScroll = els.scroll.scrollTop;
     els.bar.classList.remove("hidden");
     updateStatus();
   };
@@ -340,9 +341,15 @@ function saveProgress() {
   });
 }
 
+let lastScroll = 0;
 function onScroll() {
   if (mode !== "scroll") return;
-  // The bar never auto-hides; it only toggles on a center-screen tap.
+  const top = els.scroll.scrollTop;
+  // Never auto-hide; but scrolling up reveals the bar if it was tapped away.
+  if (top < lastScroll - 4 && els.bar.classList.contains("hidden")) {
+    els.bar.classList.remove("hidden");
+  }
+  lastScroll = top;
   updateStatus();
   clearTimeout(saveTimer);
   saveTimer = setTimeout(saveProgress, 350);
